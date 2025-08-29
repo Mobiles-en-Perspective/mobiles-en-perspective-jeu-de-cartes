@@ -1,10 +1,10 @@
 - titre: "Application"
-  image: "application.webp"
+  image: "application.png"
   groupe: "Groupe 1"
   description: "**Les utilisateurs de Smartphone  utilisateurs en moyenne 9 à 10 apps par jour. 30 par mois.**\nhttps://techjury.net/blog/app-usage-statistics/"
   export: true
 - titre: "Applications plus gourmandes en ressources"
-  image: "appgourmandes.webp"
+  image: "appgourmandes.png"
   groupe: "Groupe 3"
   description: "Malgré les optimisations logicielles, on observe :\n\n- une augmentation du stockage disponible sur les téléphones\n- une augmentation du volume de données transférées (4g, 5g)\n- une augmentation de la consommation électrique pour ces nouveaux usages\n\nsource : https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d'un_smartphone"
   export: true
@@ -94,7 +94,7 @@
   description: "Le smartphone modulaire représente une alternative durable aux appareils traditionnels. Sa conception permet de remplacer facilement chaque composant (écran, batterie, appareil photo, processeur) individuellement, sans devoir changer tout le téléphone. Cette approche facilite les réparations, permet les mises à niveau matérielles ciblées et prolonge significativement la durée de vie de l'appareil. En évitant le remplacement complet du smartphone, la conception modulaire réduit la consommation de ressources et la production de déchets électroniques, tout en donnant plus de contrôle aux utilisateurs sur la maintenance de leur appareil."
   export: true
 - titre: "Usage: travail"
-  image: "usagetravail.webp"
+  image: "usagetravail.png"
   groupe: "Groupe 2"
   description: "On peut penser à plusieurs usages des smartphones dans le cadre du travail :\n- Collaboration à distance via l’envoi de contenu multimédia\n- Utilisation de téléphones durcis et d’applications mobiles spécialisées pour faire des processus métiers de manière nomade"
   export: false
@@ -164,7 +164,7 @@
   description: "Le choix d'une technologie de développement mobile (natif, hybride, web) influence l'impact écologique d'une application. Les applications natives, optimisées pour un système d'exploitation spécifique, sont souvent plus performantes et consomment moins d'énergie. Les applications hybrides, combinant code natif et web, offrent un compromis entre performance et compatibilité multiplateforme. Les applications web, accessibles via un navigateur, peuvent être moins gourmandes en ressources mais dépendent de la connexion internet.  Choisir la technologie adaptée à l'usage permet d'optimiser l'efficacité énergétique et de réduire l'empreinte carbone."
   export: true
 - titre: "Dark Patterns"
-  image: "darkpatterns.webp"
+  image: "darkpatterns.png"
   groupe: "Groupe 4"
   description: "Un dark pattern, également appelé \"interface truquée\" ou \"design trompeur\", est une technique de conception d'interface utilisateur délibérément conçue pour manipuler ou tromper les utilisateurs. Ces pratiques exploitent les biais cognitifs des utilisateurs pour les inciter à effectuer des actions qu'ils n'auraient pas nécessairement choisies autrement.\nsource : https://fr.wikipedia.org/wiki/Dark_pattern"
   export: false
