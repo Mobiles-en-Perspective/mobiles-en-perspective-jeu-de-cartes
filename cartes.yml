@@ -228,3 +228,73 @@
   groupe: "Groupe 3"
   description: "La disponibilité permanente des smartphones et la facilité d'accès aux outils numériques ont transformé les dynamiques de harcèlement en offrant souvent un sentiment d'impunité aux agresseurs. Dans le contexte scolaire, les moqueries et humiliations poursuivent désormais les victimes jusque dans leur foyer via les réseaux sociaux, effaçant tout sanctuaire et amplifiant la portée des actes par leur viralité. Parallèlement, les femmes sont particulièrement ciblées par des formes spécifiques de cyberviolences : partage non consenti d'images intimes, cyberharcèlement en meute, traque via applications de géolocalisation, ou usurpation d'identité à des fins malveillantes."
   export: true
+- titre: "Développement de logiciels"
+  image: "dev.avif"
+  groupe: "Groupe 1"
+  description: "- L’industrie de la tech et du développement de logiciel est responsable aujourd’hui d’environ 3% des émissions de carbone. C'est autant que l’aviation.\n- D’ici 2030, cela pourrait représenter 20% de la demande globale en énergie.\n- D’ici 2040, elle pourrait être responsable de 14% des émissions globales de carbone, en ayant démarré à 1,6% en 2007.\nsources :\nhttps://www.softwareimprovementgroup.com/green-software-development/\nhttps://www.bjss.com/articles/the-current-state-of-the-industry-on-green-software-development\nhttps://beetroot.co/sustainability/how-to-reduce-software-carbon-footprint-strategies-for-tech-leaders-and-developers/"
+  export: true
+- titre: "Droit à la déconnexion"
+  image: "droitdeco.png"
+  groupe: "Groupe 2"
+  description: "Le droit à la déconnexion est un principe selon lequel un salarié est en droit de ne pas être connecté aux outils numériques professionnels (téléphone portable, courriels, etc.) hors des horaires de travail (temps de transport travail-domicile, congés, temps de repos, week-end, soirée, etc.)."
+  export: true
+- titre: "Effet rebond"
+  image: "effetrebond.avif"
+  groupe: "Groupe 4"
+  description: "**L’effet rebond ou paradoxe de Jevons** énonce qu'à mesure que les améliorations technologiques augmentent l'efficacité avec laquelle une [ressource](https://fr.wikipedia.org/wiki/Ressource_naturelle) est employée, la [consommation]https://fr.wikipedia.org/wiki/Consommation totale de cette ressource peut augmenter au lieu de diminuer.\n\nhttps://fr.wikipedia.org/wiki/Paradoxe_de_Jevons\nsource : https://misterprepa.net/jevons-effet-rebond/"
+  export: true
+- titre: "Électricité"
+  image: "electricite.jpg"
+  groupe: "Groupe 1"
+  description: "L’énergie utilisée pour toute l’infrastructure réseau et les smartphones :-)"
+  export: true
+- titre: "Évolution des outils de travail"
+  image: "outilstravail.avif"
+  groupe: "Groupe 3"
+  description: "On peut profiter des terminaux mobiles pour changer notre façon de travailler : détection en temps réel de dangers via de la vidéo, visualisation 3D avec de la réalité augmentée etc."
+  export: false
+- titre: "Fabrication"
+  image: "fabrication.webp"
+  groupe: "Événements 1"
+  description: "La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents, sur plus de 70 matériaux au total.\nsources: \nhttps://blog.helios.do/metaux-differents-smartphone\nhttps://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/\nhttps://blog.recommerce.com/green-circle/reconditionne/composants/"
+  export: false
+- titre: "Loi de Moore"
+  image: "loimoore.jpg"
+  groupe: "Groupe 3"
+  description: "Plus il y a de puissance moins c'est optimisé.\n\nL’augmentation constante de la puissance disponible a conduit l’optimisation du code à être une préocuppation secondaire.\nhttps://news.mit.edu/2020/mit-csail-computing-technology-after-moores-law-0605"
+  export: true
+- titre: "Magasins d'applications"
+  image: "stores.webp"
+  groupe: "Groupe 3"
+  description: "Les magasins d’applications permettent aux utilisateurs de télécharger des applications sur leur terminal."
+  export: false
+- titre: "Manque de souveraineté"
+  image: "souverainete.png"
+  groupe: "Groupe 4"
+  description: "La France et l'Europe souffrent d'un manque de souveraineté numérique.  Elles dépendent fortement d'acteurs étrangers, notamment américains et chinois, pour la fabrication de matériel (puces électroniques, serveurs), les systèmes d'exploitation (Windows, Android), le stockage de données (cloud) et les services en ligne. Cette dépendance entraîne des risques de perte de contrôle sur les données, de vulnérabilité face à des décisions unilatérales étrangères, et un affaiblissement de l'innovation européenne."
+  export: true
+- titre: "Pollution"
+  image: "pollution.png"
+  groupe: "Groupe 3"
+  description: "De l'extraction des minerais à l'assemblage, la fabrication d'un smartphone pollue : mines détruisant les écosystèmes, usines rejetant des gaz à effet de serre, transport polluant et déchets électroniques toxiques.  Un smartphone, c'est environ 80 kg de CO2, autant qu'une voiture qui roule pendant 400 km !\n\nhttps://impactco2.fr/outils/numerique/smartphone"
+  export: true
+- titre: "Ré-emploi / Seconde main"
+  image: "reemploi.png"
+  groupe: "Groupe 3"
+  description: "Le réemploi des smartphones est une solution efficace pour réduire l'impact environnemental du numérique. En donnant une seconde vie aux appareils encore fonctionnels via la revente, le don ou le reconditionnement professionnel, on évite l'extraction de nouvelles ressources et la production de déchets électroniques. Cette pratique permet également de rendre les technologies mobiles plus accessibles à un plus grand nombre grâce à des prix plus abordables. Un smartphone reconditionné peut ainsi fonctionner plusieurs années supplémentaires, maximisant l'utilisation des ressources déjà extraites et réduisant significativement l'empreinte carbone par rapport à l'achat d'un appareil neuf."
+  export: true
+- titre: "Travail des enfants"
+  image: "enfants.png"
+  groupe: "Groupe 2"
+  description: "La fabrication des smartphones est liée au travail des enfants, particulièrement dans les mines de cobalt et de coltan. Ces enfants travaillent dans des conditions dangereuses pour extraire les minerais essentiels aux batteries et composants électroniques, risquant leur santé et sacrifiant leur éducation. Malgré les engagements des fabricants, la complexité des chaînes d'approvisionnement permet la persistance de ces pratiques."
+  export: true
+- titre: "Usage: Multimédia"
+  image: "multimedias.jpg"
+  groupe: "Groupe 1"
+  description: "La consommation de contenu vidéo a explosé notamment avec les services de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu.\n\nLes jeux sur mobile représentent en 2023 plus de 50% des revenus du secteur du jeu vidéo\nhttps://gamingcampus.fr/boite-a-outils/lessor-des-jeux-video-sur-mobile.html"
+  export: true
+- titre: "Usage: Vidéo"
+  image: "video.jpg"
+  groupe: "Groupe 1"
+  description: "La consommation de contenu vidéo a explosé notamment avec les services de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu. "
+  export: false
