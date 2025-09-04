@@ -21,7 +21,7 @@
 - titre: "Extraction de minerais"
   image: "extractionminerais.png"
   groupe: "Groupe 1"
-  description: "Les métaux nécessaires à la fabrication des téléphones proviennent de l’extraction dans des mines. On peut citer le cobalt, l’or, ou encore le nickel."
+  description: "Les métaux nécessaires à la fabrication des téléphones proviennent de l'extraction dans des mines. On peut citer le cobalt, l'or, ou encore le nickel."
   export: true
 - titre: "Obsolescence logicielle"
   image: "obsolescence.jpeg"
@@ -51,7 +51,7 @@
 - titre: "Nouveaux usages"
   image: "nouveauxusages.jpg"
   groupe: "Groupe 1"
-  description: "Les usages des smartphones évoluent. A titre d’exemple, la prise de selfies et le gaming se sont normalisés. Les utilisateurs ont désormais aussi une attente forte sur des débits de téléchargement élevés."
+  description: "Les usages des smartphones évoluent. A titre d'exemple, la prise de selfies et le gaming se sont normalisés. Les utilisateurs ont désormais aussi une attente forte sur des débits de téléchargement élevés."
   export: true
 - titre: "Suppression d'emploi"
   image: "suppressionemploi.png"
@@ -86,7 +86,7 @@
 - titre: "Beaucoup de téléphones restent dans les tiroirs"
   image: "telephonestiroirs.jpg"
   groupe: "Groupe 2"
-  description: "**Environ 46 millions de téléphones traînent dans nos placards alors qu’ils pourraient être reconditionnés ou recyclés.**\n64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage ou parce qu’ils ne savaient pas quoi en faire. Les trois quarts fonctionnent encore.\nsource: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/"
+  description: "**Environ 46 millions de téléphones traînent dans nos placards alors qu'ils pourraient être reconditionnés ou recyclés.**\n64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage ou parce qu'ils ne savaient pas quoi en faire. Les trois quarts fonctionnent encore.\nsource: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/"
   export: true
 - titre: "Réparabilité / Modularité du téléphone"
   image: "reparabilite.png"
@@ -96,7 +96,7 @@
 - titre: "Usage: travail"
   image: "usagetravail.png"
   groupe: "Groupe 2"
-  description: "On peut penser à plusieurs usages des smartphones dans le cadre du travail :\n- Collaboration à distance via l’envoi de contenu multimédia\n- Utilisation de téléphones durcis et d’applications mobiles spécialisées pour faire des processus métiers de manière nomade"
+  description: "On peut penser à plusieurs usages des smartphones dans le cadre du travail :\n- Collaboration à distance via l'envoi de contenu multimédia\n- Utilisation de téléphones durcis et d'applications mobiles spécialisées pour faire des processus métiers de manière nomade"
   export: false
 - titre: "Nouveau hardware"
   image: "hardware.jpg"
@@ -116,12 +116,12 @@
 - titre: "Accessibilité numérique"
   image: "accessibilite.png"
   groupe: "Groupe 4"
-  description: "L’accessibilité numérique vise à rendre les applications mobiles utilisables par tous, y compris les personnes en situation de handicap. Grâce à des interfaces adaptées (voix, contrastes, navigation simplifiée), elle permet à un plus grand nombre d’accéder aux services numériques.\n\nEn facilitant l’usage des applications, elle réduit la fracture numérique en incluant les personnes âgées, en situation de handicap ou peu à l’aise avec la technologie."
+  description: "L'accessibilité numérique vise à rendre les applications mobiles utilisables par tous, y compris les personnes en situation de handicap. Grâce à des interfaces adaptées (voix, contrastes, navigation simplifiée), elle permet à un plus grand nombre d'accéder aux services numériques.\n\nEn facilitant l'usage des applications, elle réduit la fracture numérique en incluant les personnes âgées, en situation de handicap ou peu à l'aise avec la technologie."
   export: true
 - titre: "Ecoconception"
   image: "ecoconception.png"
   groupe: "Groupe 2"
-  description: "L’écoconception consiste à intégrer des critères environnementaux dès la création d’un produit ou service afin de minimiser son impact écologique tout au long de son cycle de vie. Dans le numérique, cela signifie développer des applications, sites web ou équipements optimisés pour consommer moins d’énergie et de ressources, tout en restant performants. En réduisant l’empreinte carbone et la production de déchets électroniques, l’écoconception contribue à un numérique plus durable et responsable."
+  description: "L'ecoconception consiste à intégrer des critères environnementaux dès la création d'un produit ou service afin de minimiser son impact écologique tout au long de son cycle de vie. Dans le numérique, cela signifie développer des applications, sites web ou équipements optimisés pour consommer moins d'énergie et de ressources, tout en restant performants. En réduisant l'empreinte carbone et la production de déchets électroniques, l'ecoconception contribue à un numérique plus durable et responsable."
   export: true
 - titre: "Surveillance"
   image: "surveillance.png"
@@ -184,7 +184,7 @@
   description: "L'utilisation quotidienne des smartphones génère une quantité massive de données souvent superflues. Stories éphémères, photos en rafale, messages vocaux, vidéos en double, replays de streams : ces contenus s'accumulent dans le cloud sans réelle utilité à long terme. Ce stockage apparemment invisible a pourtant un coût environnemental bien réel : les centres de données qui hébergent ces contenus consomment de l'énergie en permanence et nécessitent un renouvellement constant des équipements de stockage. Le 'stockage illimité' encourage par ailleurs des comportements de conservation excessive, amplifiant le problème."
   export: true
 - titre: "Rentabilité"
-  image: ""
+  image: "rentabilite.jpg"
   groupe: "Groupe 2"
   description: "Ce qui fait tourner le monde : le gain d’argent."
   export: true
@@ -211,7 +211,7 @@
 - titre: "Cadre légal"
   image: "cadrelegal.png"
   groupe: "Groupe 3"
-  description: "Le cadre législatif numérique comme le RGPD, le DMA ou le DSA offre une protection essentielle en encadrant la collecte des données personnelles, en limitant la domination des grandes plateformes et en imposant des standards d'accessibilité. Cependant, certaines initiatives réglementaires récentes présentent des risques importants pour la protection de la vie privée, notamment les projets visant à affaiblir le chiffrement des messageries pour permettre l'accès aux communications à des fins sécuritaires. Cette tension entre sécurité publique et confidentialité des échanges illustre la complexité d'un équilibre législatif qui doit à la fois protéger les utilisateurs sans compromettre leurs libertés fondamentales.”
+  description: "Le cadre législatif numérique comme le RGPD, le DMA ou le DSA offre une protection essentielle en encadrant la collecte des données personnelles, en limitant la domination des grandes plateformes et en imposant des standards d'accessibilité. Cependant, certaines initiatives réglementaires récentes présentent des risques importants pour la protection de la vie privée, notamment les projets visant à affaiblir le chiffrement des messageries pour permettre l'accès aux communications à des fins sécuritaires. Cette tension entre sécurité publique et confidentialité des échanges illustre la complexité d'un équilibre législatif qui doit à la fois protéger les utilisateurs sans compromettre leurs libertés fondamentales."
   export: true
 - titre: "Rupture technologique"
   image: "rupturetechnologique.png"
