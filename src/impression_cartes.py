@@ -3,7 +3,7 @@
 
 import yaml
 import os
-from reportlab.lib.pagesizes import A4
+from reportlab.lib.pagesizes import A4, landscape
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.lib.utils import ImageReader
@@ -32,12 +32,12 @@ GROUP_COLORS = {
 }
 
 # Dimensions
-PAGE_WIDTH, PAGE_HEIGHT = A4
-CARD_WIDTH = (PAGE_WIDTH - 40*mm) / 2  # 2 colonnes, marges
-CARD_HEIGHT = (PAGE_HEIGHT - 40*mm) / 2  # 2 lignes, marges
-CARD_MARGIN_X = 10*mm
-CARD_MARGIN_Y = 10*mm
-IMAGE_HEIGHT = 50*mm  # Hauteur uniforme pour les images
+PAGE_WIDTH, PAGE_HEIGHT = landscape(A4)
+CARD_WIDTH = PAGE_WIDTH / 2
+CARD_HEIGHT = PAGE_HEIGHT / 2
+CARD_MARGIN_X = 0
+CARD_MARGIN_Y = 0
+IMAGE_HEIGHT = CARD_HEIGHT * 0.5  # Hauteur uniforme pour les images
 
 
 # Enregistrement des polices locales
@@ -108,44 +108,61 @@ def draw_verso(c, carte, x, y):
     c.setFont('Roboto-Bold', 16)
     c.setFillColor(color)
     c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
-    # Description centrée ligne par ligne
+    # Description centrée ligne par ligne, limitée au cadre
     c.setFont('Roboto', 12)
     c.setFillColor(colors.black)
     desc_lines = carte['description'].split('\n')
     start_y = y + CARD_HEIGHT - 50
     line_height = 15
-    for i, line in enumerate(desc_lines):
+    max_lines = int((CARD_HEIGHT - 70) // line_height)
+    for i, line in enumerate(desc_lines[:max_lines]):
+        # Tronquer la ligne si elle dépasse la largeur de la carte
+        max_chars = int(CARD_WIDTH // 7)  # estimation
+        if len(line) > max_chars:
+            line = line[:max_chars-3] + '...'
         c.drawCentredString(x + CARD_WIDTH/2, start_y - i * line_height, line)
+
+# Lignes de découpe
+
+def draw_guides(c):
+    # Ligne verticale
+    c.setStrokeColorRGB(0.5, 0.5, 0.5)
+    c.setLineWidth(1)
+    c.line(PAGE_WIDTH/2, 0, PAGE_WIDTH/2, PAGE_HEIGHT)
+    # Ligne horizontale
+    c.line(0, PAGE_HEIGHT/2, PAGE_WIDTH, PAGE_HEIGHT/2)
 
 # Générer le PDF
 
 def generate_pdf(output_path):
     setup_fonts()
     cartes = read_cartes()
-    c = canvas.Canvas(output_path, pagesize=A4)
-    # Pages recto
+    c = canvas.Canvas(output_path, pagesize=landscape(A4))
+    # Pages recto/verso enchaînées strictement
     for i in range(0, len(cartes), 4):
+        # Rectos
         for idx in range(4):
             if i + idx >= len(cartes):
                 break
             carte = cartes[i + idx]
             col = idx % 2
             row = idx // 2
-            x = CARD_MARGIN_X + col * (CARD_WIDTH + CARD_MARGIN_X)
-            y = PAGE_HEIGHT - CARD_MARGIN_Y - (row + 1) * CARD_HEIGHT - row * CARD_MARGIN_Y
+            x = col * CARD_WIDTH
+            y = PAGE_HEIGHT - (row + 1) * CARD_HEIGHT
             draw_recto(c, carte, x, y)
+        draw_guides(c)
         c.showPage()
-    # Pages verso
-    for i in range(0, len(cartes), 4):
+        # Versos
         for idx in range(4):
             if i + idx >= len(cartes):
                 break
             carte = cartes[i + idx]
             col = idx % 2
             row = idx // 2
-            x = CARD_MARGIN_X + col * (CARD_WIDTH + CARD_MARGIN_X)
-            y = PAGE_HEIGHT - CARD_MARGIN_Y - (row + 1) * CARD_HEIGHT - row * CARD_MARGIN_Y
+            x = col * CARD_WIDTH
+            y = PAGE_HEIGHT - (row + 1) * CARD_HEIGHT
             draw_verso(c, carte, x, y)
+        draw_guides(c)
         c.showPage()
     c.save()
     print(f"PDF généré : {output_path}")
