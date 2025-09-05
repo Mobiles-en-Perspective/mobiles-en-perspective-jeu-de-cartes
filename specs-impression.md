@@ -21,16 +21,57 @@
 	- etc.
 - Les cartes sont positionnées pour permettre une impression recto-verso (retournement petit côté), afin que recto et verso coïncident lors du découpage manuel.
 
+## Types de cartes
+
+Chaque carte possède un attribut `type` :
+- `type: action` (cartes classiques, par défaut)
+- `type: question` (cartes question)
+
 ## Contenu des cartes
 
-### Recto (pages impaires)
+### Cartes d'action
+
+#### Recto (pages impaires)
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
 - Au centre : l’image (centrée, retaillée pour une hauteur uniforme, aspect ratio conservé, rognage latéral possible).
 - En bas et centré : le **groupe** (gras, police Roboto, couleur selon le groupe).
 
-### Verso (pages paires)
+#### Verso (pages paires)
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
 - En dessous : la **description** (police Roboto, texte centré, gestion des retours à la ligne).
+
+#### Exemple de carte action dans cartes.yml :
+
+```yaml
+- type: action
+  titre: "Application"
+  image: "application.png"
+  groupe: "Groupe 1"
+  description: "**Les utilisateurs de Smartphone  utilisateurs en moyenne 9 à 10 apps par jour. 30 par mois.**\nhttps://techjury.net/blog/app-usage-statistics/"
+  export: true
+```
+
+### Cartes question
+
+#### Recto (pages impaires)
+- Au centre : le **titre** (gras, police Roboto, taille de police supérieure à celle des cartes d'action, texte centré, gestion des retours à la ligne).
+- En bas et centré : le **groupe** (gras, police Roboto, couleur selon le groupe).
+- Bordure extérieure de la couleur du groupe associé.
+
+#### Verso (pages paires)
+- Rien (blanc).
+
+Les cartes question sont imprimées avec les autres cartes.
+
+#### Exemple de carte question dans cartes.yml :
+
+```yaml
+- type: question
+	titre: "Quels usages du smartphone sont les plus énergivores ?"
+	groupe: "Groupe 2"
+	export: true
+```
+
 
 ## Marges et espacement
 - Marges extérieures sur chaque page pour faciliter la découpe.
@@ -41,6 +82,7 @@
 ## Données d’entrée
 - Inclure uniquement les cartes du fichier `cartes.yml` avec `export: true`.
 - Les images sont présentes dans le dossier `images/`.
+- Chaque carte doit avoir un attribut `type` (`action` ou `question`).
 
 ## Contraintes techniques
 - PDF prêt à imprimer, compatible recto-verso (retournement petit côté).
