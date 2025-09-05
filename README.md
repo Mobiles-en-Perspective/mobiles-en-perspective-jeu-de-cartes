@@ -17,7 +17,23 @@ Pour générer le PDF d'impression des cartes :
 #### Installation des dépendances
 
 ```sh
-pip install -r requirements.txt
+pip install -r src/requirements.txt
+```
+
+#### (Optionnel) Utilisation d'un environnement virtuel Python
+
+Pour isoler les dépendances du projet, vous pouvez utiliser un environnement virtuel :
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r src/requirements.txt
+```
+
+Pour quitter l'environnement virtuel :
+
+```sh
+deactivate
 ```
 
 #### Génération du PDF
