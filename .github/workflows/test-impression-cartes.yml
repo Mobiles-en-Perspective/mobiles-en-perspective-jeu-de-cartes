@@ -1,0 +1,23 @@
+name: Test impression_cartes.py
+
+on:
+  push:
+    paths:
+      - 'src/impression_cartes.py'
+      - 'requirements.txt'
+      - '.github/workflows/test-impression-cartes.yml'
+      - 'cartes.yml'
+      - 'images/**'
+  pull_request:
+    paths:
+      - 'src/impression_cartes.py'
+      - 'requirements.txt'
+      - '.github/workflows/test-impression-cartes.yml'
+      - 'cartes.yml'
+      - 'images/**'
+
+jobs:
+  test-pdf-generation:
+    uses: ./.github/workflows/_pdf-job.yml
+    with:
+      upload_artifact: false

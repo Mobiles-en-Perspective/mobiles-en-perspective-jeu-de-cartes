@@ -1,0 +1,11 @@
+name: Release impression_cartes.py
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  release-pdf-generation:
+    uses: ./.github/workflows/_pdf-job.yml
+    with:
+      upload_artifact: true
