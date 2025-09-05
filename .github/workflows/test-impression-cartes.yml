@@ -1,0 +1,48 @@
+name: Test impression_cartes.py
+
+on:
+  push:
+    paths:
+      - 'src/impression_cartes.py'
+      - 'requirements.txt'
+      - '.github/workflows/test-impression-cartes.yml'
+      - 'cartes.yml'
+      - 'images/**'
+  pull_request:
+    paths:
+      - 'src/impression_cartes.py'
+      - 'requirements.txt'
+      - '.github/workflows/test-impression-cartes.yml'
+      - 'cartes.yml'
+      - 'images/**'
+
+jobs:
+  test-pdf-generation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run PDF generation script
+        run: |
+          python src/impression_cartes.py -o cartes-impression.pdf
+
+      - name: Check PDF output
+        run: |
+          test -f cartes-impression.pdf && echo "PDF généré avec succès."
+
+      - name: Upload PDF as artifact (optionnel)
+        uses: actions/upload-artifact@v4
+        with:
+          name: cartes-impression-pdf
+          path: cartes-impression.pdf
