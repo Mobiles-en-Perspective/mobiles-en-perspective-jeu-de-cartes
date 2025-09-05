@@ -73,54 +73,88 @@ def process_image(image_path, carte_titre):
 # Dessiner une carte recto
 
 def draw_recto(c, carte, x, y):
-    color = GROUP_COLORS.get(carte['groupe'], colors.black)
-    # Fond blanc
+    color = GROUP_COLORS.get(carte.get('groupe', ''), colors.black)
     c.setFillColor(colors.white)
-    c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
-    # Titre
-    c.setFont('Roboto-Bold', 16)
-    c.setFillColor(color)
-    c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
-    # Image
-    img_path = os.path.join(IMAGES_DIR, carte.get('image', ''))
-    img = None
-    if carte.get('image') and os.path.isfile(img_path):
-        img = process_image(img_path, carte['titre'])
-    if img:
-        c.drawImage(img, x + (CARD_WIDTH - (CARD_WIDTH - 20))/2, y + CARD_HEIGHT/2 - IMAGE_HEIGHT/2, width=CARD_WIDTH-20, height=IMAGE_HEIGHT, preserveAspectRatio=True, mask='auto')
+    # Cartes question : rendu spécifique
+    if carte.get('type') == 'question':
+        # Bordure extérieure couleur du groupe
+        c.setStrokeColor(color)
+        c.setLineWidth(4)
+        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
+        # Titre centré, police plus grande
+        c.setFont('Roboto-Bold', 22)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2 + 20, carte['titre'])
+        # Texte de la question (si présent)
+        if carte.get('question'):
+            c.setFont('Roboto', 14)
+            c.setFillColor(colors.black)
+            c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2 - 10, carte['question'])
+        # Groupe en bas
+        c.setFont('Roboto-Bold', 14)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
     else:
-        print(f"[CARTE IGNORÉE] Carte '{carte['titre']}' : image manquante ou invalide.")
-        # Optionnel : dessiner un cadre vide ou une icône placeholder
-        c.setStrokeColor(colors.red)
-        c.rect(x + (CARD_WIDTH-20)/2, y + CARD_HEIGHT/2 - IMAGE_HEIGHT/2, CARD_WIDTH-20, IMAGE_HEIGHT, fill=0, stroke=1)
-    # Groupe
-    c.setFont('Roboto-Bold', 14)
-    c.setFillColor(color)
-    c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte['groupe'])
+        # Action : rendu classique
+        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
+        c.setFont('Roboto-Bold', 16)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
+        # Image
+        img_path = os.path.join(IMAGES_DIR, carte.get('image', ''))
+        img = None
+        if carte.get('image') and os.path.isfile(img_path):
+            img = process_image(img_path, carte['titre'])
+        if img:
+            c.drawImage(img, x + (CARD_WIDTH - (CARD_WIDTH - 20))/2, y + CARD_HEIGHT/2 - IMAGE_HEIGHT/2, width=CARD_WIDTH-20, height=IMAGE_HEIGHT, preserveAspectRatio=True, mask='auto')
+        else:
+            print(f"[CARTE IGNORÉE] Carte '{carte['titre']}' : image manquante ou invalide.")
+            c.setStrokeColor(colors.red)
+            c.rect(x + (CARD_WIDTH-20)/2, y + CARD_HEIGHT/2 - IMAGE_HEIGHT/2, CARD_WIDTH-20, IMAGE_HEIGHT, fill=0, stroke=1)
+        # Groupe
+        c.setFont('Roboto-Bold', 14)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
 
 # Dessiner une carte verso
 
 def draw_verso(c, carte, x, y):
-    color = GROUP_COLORS.get(carte['groupe'], colors.black)
+    color = GROUP_COLORS.get(carte.get('groupe', ''), colors.black)
     c.setFillColor(colors.white)
-    c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
-    # Titre
-    c.setFont('Roboto-Bold', 16)
-    c.setFillColor(color)
-    c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
-    # Description centrée ligne par ligne, limitée au cadre
-    c.setFont('Roboto', 12)
-    c.setFillColor(colors.black)
-    desc_lines = carte['description'].split('\n')
-    start_y = y + CARD_HEIGHT - 50
-    line_height = 15
-    max_lines = int((CARD_HEIGHT - 70) // line_height)
-    for i, line in enumerate(desc_lines[:max_lines]):
-        # Tronquer la ligne si elle dépasse la largeur de la carte
-        max_chars = int(CARD_WIDTH // 7)  # estimation
-        if len(line) > max_chars:
-            line = line[:max_chars-3] + '...'
-        c.drawCentredString(x + CARD_WIDTH/2, start_y - i * line_height, line)
+    if carte.get('type') == 'question':
+        # Bordure extérieure couleur du groupe
+        c.setStrokeColor(color)
+        c.setLineWidth(4)
+        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
+        # Titre centré, police plus grande
+        c.setFont('Roboto-Bold', 20)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 40, carte['titre'])
+        # Réponse (si présente)
+        if carte.get('reponse'):
+            c.setFont('Roboto', 14)
+            c.setFillColor(colors.black)
+            c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2, carte['reponse'])
+        # Groupe en bas
+        c.setFont('Roboto-Bold', 14)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
+    else:
+        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
+        c.setFont('Roboto-Bold', 16)
+        c.setFillColor(color)
+        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
+        c.setFont('Roboto', 12)
+        c.setFillColor(colors.black)
+        desc_lines = carte.get('description', '').split('\n')
+        start_y = y + CARD_HEIGHT - 50
+        line_height = 15
+        max_lines = int((CARD_HEIGHT - 70) // line_height)
+        for i, line in enumerate(desc_lines[:max_lines]):
+            max_chars = int(CARD_WIDTH // 7)
+            if len(line) > max_chars:
+                line = line[:max_chars-3] + '...'
+            c.drawCentredString(x + CARD_WIDTH/2, start_y - i * line_height, line)
 
 # Lignes de découpe
 
