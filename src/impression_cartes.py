@@ -187,17 +187,20 @@ def draw_verso(c, carte, x, y):
         for line in title_lines:
             c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
             title_y -= 18
-        # Description word wrap
+        # Description word wrap, centrée verticalement et alignée à gauche
         c.setFont('Roboto', 12)
         c.setFillColor(colors.black)
         desc_lines = []
         for para in carte.get('description', '').split('\n'):
             desc_lines.extend(wrap_text(para, 'Roboto', 12, CARD_WIDTH-30))
-        start_y = title_y - 10
         line_height = 15
         max_lines = int((CARD_HEIGHT - 70) // line_height)
-        for i, line in enumerate(desc_lines[:max_lines]):
-            c.drawCentredString(x + CARD_WIDTH/2, start_y - i * line_height, line)
+        desc_lines = desc_lines[:max_lines]
+        block_height = len(desc_lines) * line_height
+        # Centrage vertical
+        start_y = y + (CARD_HEIGHT - block_height) / 2 + block_height - line_height/2
+        for i, line in enumerate(desc_lines):
+            c.drawString(x + 15, start_y - i * line_height, line)
 
 # Lignes de découpe
 

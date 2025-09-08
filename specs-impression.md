@@ -47,7 +47,7 @@ Chaque carte possède un attribut `type` :
 
 #### Verso (pages paires)
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
-- En dessous : la **description** (police Roboto, texte centré, gestion des retours à la ligne).
+- En dessous : la **description** (police Roboto, texte aligné à gauche, centrée verticalement dans la carte, gestion automatique des retours à la ligne pour rester dans le cadre).
 
 #### Exemple de carte action dans cartes.yml :
 
