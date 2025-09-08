@@ -1,3 +1,20 @@
+from reportlab.pdfbase.pdfmetrics import stringWidth
+# Utilitaire pour couper le texte en lignes qui tiennent dans la largeur max
+def wrap_text(text, font_name, font_size, max_width):
+    words = text.split()
+    lines = []
+    current_line = ''
+    for word in words:
+        test_line = current_line + (' ' if current_line else '') + word
+        if stringWidth(test_line, font_name, font_size) <= max_width:
+            current_line = test_line
+        else:
+            if current_line:
+                lines.append(current_line)
+            current_line = word
+    if current_line:
+        lines.append(current_line)
+    return lines
 # Script d'impression des cartes du jeu
 # Génère un PDF prêt à imprimer selon les spécifications du projet
 
@@ -81,15 +98,23 @@ def draw_recto(c, carte, x, y):
         c.setStrokeColor(color)
         c.setLineWidth(4)
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
-        # Titre centré, police plus grande
+        # Titre centré, police plus grande, word wrap
         c.setFont('Roboto-Bold', 22)
         c.setFillColor(color)
-        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2 + 20, carte['titre'])
-        # Texte de la question (si présent)
+        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 22, CARD_WIDTH-30)
+        title_y = y + CARD_HEIGHT/2 + 30
+        for line in title_lines:
+            c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
+            title_y -= 26
+        # Texte de la question (si présent, word wrap)
         if carte.get('question'):
             c.setFont('Roboto', 14)
             c.setFillColor(colors.black)
-            c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2 - 10, carte['question'])
+            question_lines = wrap_text(carte['question'], 'Roboto', 14, CARD_WIDTH-30)
+            q_y = title_y - 10
+            for line in question_lines:
+                c.drawCentredString(x + CARD_WIDTH/2, q_y, line)
+                q_y -= 18
         # Groupe en bas
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
@@ -97,9 +122,14 @@ def draw_recto(c, carte, x, y):
     else:
         # Action : rendu classique
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
+        # Titre word wrap
         c.setFont('Roboto-Bold', 16)
         c.setFillColor(color)
-        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
+        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 16, CARD_WIDTH-30)
+        title_y = y + CARD_HEIGHT - 20
+        for line in title_lines:
+            c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
+            title_y -= 18
         # Image
         img_path = os.path.join(IMAGES_DIR, carte.get('image', ''))
         img = None
@@ -126,34 +156,47 @@ def draw_verso(c, carte, x, y):
         c.setStrokeColor(color)
         c.setLineWidth(4)
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
-        # Titre centré, police plus grande
+        # Titre centré, police plus grande, word wrap
         c.setFont('Roboto-Bold', 20)
         c.setFillColor(color)
-        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 40, carte['titre'])
-        # Réponse (si présente)
+        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 20, CARD_WIDTH-30)
+        title_y = y + CARD_HEIGHT - 40
+        for line in title_lines:
+            c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
+            title_y -= 22
+        # Réponse (si présente, word wrap)
         if carte.get('reponse'):
             c.setFont('Roboto', 14)
             c.setFillColor(colors.black)
-            c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2, carte['reponse'])
+            answer_lines = wrap_text(carte['reponse'], 'Roboto', 14, CARD_WIDTH-30)
+            a_y = y + CARD_HEIGHT/2
+            for line in answer_lines:
+                c.drawCentredString(x + CARD_WIDTH/2, a_y, line)
+                a_y -= 18
         # Groupe en bas
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
         c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
     else:
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
+        # Titre word wrap
         c.setFont('Roboto-Bold', 16)
         c.setFillColor(color)
-        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT - 20, carte['titre'])
+        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 16, CARD_WIDTH-30)
+        title_y = y + CARD_HEIGHT - 20
+        for line in title_lines:
+            c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
+            title_y -= 18
+        # Description word wrap
         c.setFont('Roboto', 12)
         c.setFillColor(colors.black)
-        desc_lines = carte.get('description', '').split('\n')
-        start_y = y + CARD_HEIGHT - 50
+        desc_lines = []
+        for para in carte.get('description', '').split('\n'):
+            desc_lines.extend(wrap_text(para, 'Roboto', 12, CARD_WIDTH-30))
+        start_y = title_y - 10
         line_height = 15
         max_lines = int((CARD_HEIGHT - 70) // line_height)
         for i, line in enumerate(desc_lines[:max_lines]):
-            max_chars = int(CARD_WIDTH // 7)
-            if len(line) > max_chars:
-                line = line[:max_chars-3] + '...'
             c.drawCentredString(x + CARD_WIDTH/2, start_y - i * line_height, line)
 
 # Lignes de découpe

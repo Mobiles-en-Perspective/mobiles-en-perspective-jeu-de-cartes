@@ -86,7 +86,8 @@ Les cartes question sont imprimées avec les autres cartes.
 - Marges extérieures sur chaque page pour faciliter la découpe.
 - Espacement entre les cartes pour éviter les chevauchements lors de la découpe.
 - Espacement entre les éléments (titre, image, groupe/description) à l’intérieur de chaque carte.
-- Les textes des descriptions doivent rester dans le cadre de leur carte et ne pas déborder ni se chevaucher.
+- Tous les textes (titre, description, question, réponse) sont automatiquement coupés en plusieurs lignes si besoin : ils restent à l'intérieur de la carte, sans débordement ni ellipsis, grâce à un retour à la ligne dynamique (word wrap).
+	- Aucun texte ne doit être tronqué ou sortir du cadre de la carte.
 
 ## Données d’entrée
 - Inclure uniquement les cartes du fichier `cartes.yml` avec `export: true`.
