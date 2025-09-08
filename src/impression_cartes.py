@@ -174,10 +174,10 @@ def generate_pdf(output_path):
     c = canvas.Canvas(output_path, pagesize=landscape(A4))
     # Pages recto/verso enchaînées strictement
     for i in range(0, len(cartes), 4):
-        # Rectos
+        # Rectos (ordre naturel)
         for idx in range(4):
             if i + idx >= len(cartes):
-                break
+                continue
             carte = cartes[i + idx]
             col = idx % 2
             row = idx // 2
@@ -186,13 +186,15 @@ def generate_pdf(output_path):
             draw_recto(c, carte, x, y)
         draw_guides(c)
         c.showPage()
-        # Versos
-        for idx in range(4):
+        # Versos (inversion des colonnes)
+        # Mapping: [0,1,2,3] -> [1,0,3,2]
+        verso_order = [1,0,3,2]
+        for pos, idx in enumerate(verso_order):
             if i + idx >= len(cartes):
-                break
+                continue
             carte = cartes[i + idx]
-            col = idx % 2
-            row = idx // 2
+            col = pos % 2
+            row = pos // 2
             x = col * CARD_WIDTH
             y = PAGE_HEIGHT - (row + 1) * CARD_HEIGHT
             draw_verso(c, carte, x, y)

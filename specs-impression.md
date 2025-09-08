@@ -13,13 +13,22 @@
 
 ## Disposition des pages
 - Les pages impaires affichent les rectos des cartes, les pages paires affichent les versos correspondants.
-- L'ordre d'enchaînement est strict : 
-	- page 1 : rectos cartes 1, 2, 3, 4
-	- page 2 : versos cartes 1, 2, 3, 4
-	- page 3 : rectos cartes 5, 6, 7, 8
-	- page 4 : versos cartes 5, 6, 7, 8
-	- etc.
-- Les cartes sont positionnées pour permettre une impression recto-verso (retournement petit côté), afin que recto et verso coïncident lors du découpage manuel.
+
+### Disposition recto-verso (pour retournement petit côté)
+
+Pour chaque groupe de 4 cartes :
+
+- **Page impaire (recto)**
+	- carte 1 recto | carte 2 recto
+	- carte 3 recto | carte 4 recto
+
+- **Page paire (verso)**
+	- carte 2 recto | carte 1 recto
+	- carte 4 recto | carte 3 recto
+
+Ensuite, on passe au groupe de 4 cartes suivant (cartes 5 à 8, etc.).
+
+Ce placement permet, lors de l'impression recto-verso avec retournement sur le petit côté, d'obtenir un alignement parfait des cartes recto et verso après découpe.
 
 ## Types de cartes
 
