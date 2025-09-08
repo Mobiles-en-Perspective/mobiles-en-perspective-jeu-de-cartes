@@ -1,7 +1,42 @@
 - type: question
-  titre: "À quoi sert l'écoconception dans le numérique ?"
+  titre: "Qu'est-ce qui entraine la fin de vie d'un téléphone ?"
+  groupe: "Groupe 1"
+  export: true
+- type: question
+  titre: "Comment prolonger la vie d'un téléphone ?"
+  groupe: "Groupe 1"
+  export: true
+- type: question
+  titre: "Que ce passe-t-il en fin vie d'un téléphone ?"
+  groupe: "Groupe 1"
+  export: true
+- type: question
+  titre: "Qu'est-ce qui peut amplifier ou atténuer la consommation en ressources dans les applications ?"
+  groupe: "Groupe 2"
+  export: true
+- type: question
+  titre: "Qu'est-ce qui peut empêcher le recyclage ?"
+  groupe: "Groupe 2"
+  export: true
+- type: question
+  titre: "Trouver des impacts professionnels."
   groupe: "Groupe 3"
-  question: "Expliquez en une phrase pourquoi l'écoconception est importante pour les applications mobiles."
+  export: true
+- type: question
+  titre: "Trouver des impacts psychologiques et humains."
+  groupe: "Groupe 3"
+  export: true
+- type: question
+  titre: "Trouver des impacts d'accessibilité."
+  groupe: "Groupe 3"
+  export: true
+- type: question
+  titre: "Trouver des impacts géopolitiques."
+  groupe: "Groupe 3"
+  export: true
+- type: question
+  titre: "Indiquer quelles sont les conséquences positives et quelles sont les conséquences négatives."
+  groupe: "Groupe 3"
   export: true
 - type: action
   titre: "Application"
