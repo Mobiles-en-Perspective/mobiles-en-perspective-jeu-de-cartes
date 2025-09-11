@@ -36,7 +36,7 @@ Concluez cette phase en proposant aux participant.e.s de poser les questions qu'
 
 ## Étape 2 : Jeu de cartes (1h10)
 
-Il existe des cartes jeu, des cartes questions et des cartes jeux et questions. Un marquage permet de reconnaître ces cartes.
+Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marquage permet de reconnaître ces cartes.
 
 ### Tour de jeu 1 : Cycle de vie du téléphone (25mn)
 
@@ -48,10 +48,10 @@ Le but de ce tour est que les partipants et participantes devinent qu'il s'agiss
 Ne leur indiquez pas que c'est le but de ce tour.
 L'ordre des cartes doit donc être chronologique : de la fabrication à la fin de vie du téléphone.
 
-#### Tour de jeu 1 - Phase 2 : cartes questions (5mn + 10mn)
+#### Tour de jeu 1 - Phase 2 : cartes questions et réponses (5mn + 10mn)
 
 Distribuez les 3 cartes questions en même temps. Veillez à ce que les cartes ne soient pas entre les mains de la même personne. Laissez les réfléchir 5 minutes.
-Mettez en commun pendant 10 minutes. Distribuez les cartes jeux et questions selon les réponses apportées.
+Mettez en commun pendant 10 minutes. Distribuez les cartes questions et réponses selon les réponses apportées.
 
 ### Tour de jeu 2 : ressources (30mn)
 
@@ -60,12 +60,12 @@ Mettez en commun pendant 10 minutes. Distribuez les cartes jeux et questions sel
 Même principe de départ que pour le tour 1 :
 
 - Distribuez toutes les cartes jeu marquées pour le tour 2.
-- Ne distribuez pas les cartes questions.
+- Ne distribuez pas les cartes questions ni réponses.
 
-#### Tour de jeu 2 - Phase 2 : cartes questions (5mn + 10mn)
+#### Tour de jeu 2 - Phase 2 : cartes questions et réponses (5mn + 10mn)
 
 Distribuez les 2 cartes questions en même temps. Laissez les réfléchir 5 minutes.
-Mettez en commun pendant 10 minutes. Distribuez les cartes jeux et questions selon les réponses apportées.
+Mettez en commun pendant 10 minutes. Distribuez les cartes questions et réponses selon les réponses apportées.
 Proposez de tracer des flèches entre les ressources et les cartes cycle de vie.
 
 ### Tour de jeu 3 : Conséquences (20mn)
