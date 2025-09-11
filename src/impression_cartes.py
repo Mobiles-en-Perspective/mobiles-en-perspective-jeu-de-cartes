@@ -93,7 +93,8 @@ def draw_recto(c, carte, x, y):
     color = GROUP_COLORS.get(carte.get('groupe', ''), colors.black)
     c.setFillColor(colors.white)
     # Cartes question : rendu spécifique
-    if carte.get('type') == 'question':
+    carte_type = carte.get('type')
+    if carte_type == 'question':
         # Bordure extérieure couleur du groupe
         c.setStrokeColor(color)
         c.setLineWidth(4)
@@ -119,8 +120,8 @@ def draw_recto(c, carte, x, y):
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
         c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
-    else:
-        # Action : rendu classique
+    elif carte_type in ('jeu', 'reponse'):
+        # Rendu classique (ex-action)
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
         # Titre word wrap
         c.setFont('Roboto-Bold', 16)
@@ -145,13 +146,22 @@ def draw_recto(c, carte, x, y):
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
         c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
+    else:
+        # Type inconnu : on affiche un cadre rouge
+        c.setStrokeColor(colors.red)
+        c.setLineWidth(2)
+        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=0, stroke=1)
+        c.setFont('Roboto-Bold', 14)
+        c.setFillColor(colors.red)
+        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2, f"Type inconnu: {carte_type}")
 
 # Dessiner une carte verso
 
 def draw_verso(c, carte, x, y):
     color = GROUP_COLORS.get(carte.get('groupe', ''), colors.black)
     c.setFillColor(colors.white)
-    if carte.get('type') == 'question':
+    carte_type = carte.get('type')
+    if carte_type == 'question':
         # Bordure extérieure couleur du groupe
         c.setStrokeColor(color)
         c.setLineWidth(4)
@@ -177,7 +187,7 @@ def draw_verso(c, carte, x, y):
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
         c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
-    else:
+    elif carte_type in ('jeu', 'reponse'):
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
         # Titre word wrap
         c.setFont('Roboto-Bold', 16)
@@ -201,6 +211,14 @@ def draw_verso(c, carte, x, y):
         start_y = y + (CARD_HEIGHT - block_height) / 2 + block_height - line_height/2
         for i, line in enumerate(desc_lines):
             c.drawString(x + 15, start_y - i * line_height, line)
+    else:
+        # Type inconnu : cadre rouge
+        c.setStrokeColor(colors.red)
+        c.setLineWidth(2)
+        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=0, stroke=1)
+        c.setFont('Roboto-Bold', 14)
+        c.setFillColor(colors.red)
+        c.drawCentredString(x + CARD_WIDTH/2, y + CARD_HEIGHT/2, f"Type inconnu: {carte_type}")
 
 # Lignes de découpe
 

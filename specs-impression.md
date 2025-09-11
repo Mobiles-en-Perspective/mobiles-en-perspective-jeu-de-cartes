@@ -33,12 +33,15 @@ Ce placement permet, lors de l'impression recto-verso avec retournement sur le p
 ## Types de cartes
 
 Chaque carte possède un attribut `type` :
-- `type: action` (cartes classiques, par défaut)
-- `type: question` (cartes question)
+- `type: jeu`
+- `type: reponse`
+- `type: question` (carte question, règles inchangées)
 
 ## Contenu des cartes
 
 ### Cartes d'action
+
+### Cartes de type `jeu` ou `reponse`
 
 #### Recto (pages impaires)
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
@@ -49,15 +52,23 @@ Chaque carte possède un attribut `type` :
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
 - En dessous : la **description** (police Roboto, texte aligné à gauche, centrée verticalement dans la carte, gestion automatique des retours à la ligne pour rester dans le cadre).
 
-#### Exemple de carte action dans cartes.yml :
+#### Exemple de carte `jeu` ou `reponse` dans cartes.yml :
 
 ```yaml
-- type: action
-  titre: "Application"
-  image: "application.png"
-  groupe: "Groupe 1"
-  description: "**Les utilisateurs de Smartphone  utilisateurs en moyenne 9 à 10 apps par jour. 30 par mois.**\nhttps://techjury.net/blog/app-usage-statistics/"
-  export: true
+- type: jeu
+	titre: "Application"
+	image: "application.png"
+	groupe: "Groupe 1"
+	description: "**Les utilisateurs de Smartphone  utilisateurs en moyenne 9 à 10 apps par jour. 30 par mois.**\nhttps://techjury.net/blog/app-usage-statistics/"
+	export: true
+```
+```yaml
+- type: reponse
+	titre: "Réponse à la question X"
+	image: "reponse.png"
+	groupe: "Groupe 2"
+	description: "Voici la réponse détaillée à la question X."
+	export: true
 ```
 
 ### Cartes question
