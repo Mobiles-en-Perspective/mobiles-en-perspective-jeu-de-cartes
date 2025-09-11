@@ -9,7 +9,7 @@
   export: true
 - type: jeu
   titre: Fabrication
-  image: fabrication.webp
+  image: fabrication.png
   groupe: Groupe 1
   description: "La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents,\
     \ sur plus de 70 matériaux au total.\nsources: \nhttps://blog.helios.do/metaux-differents-smartphone\n\
