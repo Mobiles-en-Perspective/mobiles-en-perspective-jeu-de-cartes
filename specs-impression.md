@@ -94,6 +94,7 @@ Les cartes question sont imprimées avec les autres cartes.
 
 
 ## Marges et espacement
+- Les descriptions peuvent contenir des balises **texte en gras** (syntaxe Markdown) : tout texte entouré de doubles astérisques sera affiché en gras dans le PDF, même si le texte à mettre en gras s'étale sur plusieurs lignes (le gras est propagé jusqu'à la fermeture des balises **).
 - Marges extérieures sur chaque page pour faciliter la découpe.
 - Espacement entre les cartes pour éviter les chevauchements lors de la découpe.
 - Espacement entre les éléments (titre, image, groupe/description) à l’intérieur de chaque carte.

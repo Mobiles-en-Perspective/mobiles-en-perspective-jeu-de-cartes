@@ -1,3 +1,30 @@
+# Découpe une ligne en segments (texte normal/gras) selon les balises **...**
+import re
+
+# Permet le gras sur plusieurs lignes (contexte persistant)
+def parse_bold_segments_multiline(lines):
+    # lines: liste de lignes (word-wrappées)
+    # Retourne une liste de listes de segments (texte, is_bold) pour chaque ligne
+    segments_per_line = []
+    bold_open = False
+    for line in lines:
+        segs = []
+        i = 0
+        buf = ''
+        while i < len(line):
+            if line[i:i+2] == '**':
+                if buf:
+                    segs.append((buf, bold_open))
+                    buf = ''
+                bold_open = not bold_open
+                i += 2
+            else:
+                buf += line[i]
+                i += 1
+        if buf or not segs:
+            segs.append((buf, bold_open))
+        segments_per_line.append(segs)
+    return segments_per_line
 from reportlab.pdfbase.pdfmetrics import stringWidth
 # Utilitaire pour couper le texte en lignes qui tiennent dans la largeur max
 def wrap_text(text, font_name, font_size, max_width):
@@ -200,17 +227,35 @@ def draw_verso(c, carte, x, y):
         # Description word wrap, centrée verticalement et alignée à gauche
         c.setFont('Roboto', 12)
         c.setFillColor(colors.black)
+        # Gestion multilignes et gras Markdown (**...**)
+        desc = carte.get('description', '')
+        # Découpe en paragraphes puis en lignes wrap (en gardant les **)
         desc_lines = []
-        for para in carte.get('description', '').split('\n'):
-            desc_lines.extend(wrap_text(para, 'Roboto', 12, CARD_WIDTH-30))
+        for para in desc.split('\n'):
+            para = para.strip()
+            if not para:
+                desc_lines.append('')
+                continue
+            lines = wrap_text(para, 'Roboto', 12, CARD_WIDTH-30)
+            desc_lines.extend(lines)
         line_height = 15
         max_lines = int((CARD_HEIGHT - 70) // line_height)
         desc_lines = desc_lines[:max_lines]
         block_height = len(desc_lines) * line_height
         # Centrage vertical
         start_y = y + (CARD_HEIGHT - block_height) / 2 + block_height - line_height/2
-        for i, line in enumerate(desc_lines):
-            c.drawString(x + 15, start_y - i * line_height, line)
+        # Nouveau : parsing bold multi-ligne
+        segments_per_line = parse_bold_segments_multiline(desc_lines)
+        for i, segs in enumerate(segments_per_line):
+            y_pos = start_y - i * line_height
+            x_pos = x + 15
+            for text, is_bold in segs:
+                if not text:
+                    continue
+                font = 'Roboto-Bold' if is_bold else 'Roboto'
+                c.setFont(font, 12)
+                c.drawString(x_pos, y_pos, text)
+                x_pos += stringWidth(text, font, 12)
     else:
         # Type inconnu : cadre rouge
         c.setStrokeColor(colors.red)
