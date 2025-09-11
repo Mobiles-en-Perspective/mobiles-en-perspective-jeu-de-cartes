@@ -1,5 +1,9 @@
 # Jeu de cartes Mobiles en Perspective
 
+## Règles du jeu
+
+Les règles du jeu sont détaillées dans le fichier [regles.md](regles.md)
+
 ## Base de données
 
 Les donneés des cartes sont dans le fichier [cartes.yml](cartes.yml)
