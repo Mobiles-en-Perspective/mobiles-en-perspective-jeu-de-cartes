@@ -1,400 +1,734 @@
-- type: question
-  titre: "Qu'est-ce qui entraine la fin de vie d'un téléphone ?"
-  groupe: "Groupe 1"
+- type: jeu
+  titre: Application
+  image: application.png
+  groupe: Groupe 1
+  description: '**Les utilisateurs de Smartphone utilisateurs en moyenne 9 à 10 apps
+    par jour. 30 par mois.**
+
+    https://techjury.net/blog/app-usage-statistics/'
+  export: true
+- type: jeu
+  titre: Fabrication
+  image: fabrication.webp
+  groupe: Groupe 1
+  description: "La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents,\
+    \ sur plus de 70 matériaux au total.\nsources: \nhttps://blog.helios.do/metaux-differents-smartphone\n\
+    https://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/\n\
+    https://blog.recommerce.com/green-circle/reconditionne/composants/"
+  export: true
+- type: jeu
+  titre: IA
+  image: IA.jpg
+  groupe: Groupe 1
+  description: "L’intelligence artificielle est déjà omniprésente dans nos terminaux.\
+    \ L’IA est déjà projetée comme étant un gouffre énergivore. De 2019 à 2024, elle\
+    \ a augmenté la consommation énergétique de google de +48% \nsources :\nhttps://ekwateur.fr/blog/enjeux-environnementaux/ia-impact-carbone-google/"
+  export: true
+- type: jeu
+  titre: Infrastructures telecom
+  image: infrastructurestelecom.jpg
+  groupe: Groupe 1
+  description: 'L''utilisation des smartphones repose sur un vaste réseau d''infrastructures
+    physiques : antennes-relais, câbles sous-marins, data centers et équipements réseau.
+    Ces infrastructures, constamment actives, consomment une quantité importante d''énergie
+    pour assurer la connexion permanente de nos appareils et le stockage des données
+    dans le cloud. Leur construction et maintenance nécessitent des ressources considérables
+    et leur multiplication accompagne l''augmentation du trafic mobile.'
+  export: true
+- type: jeu
+  titre: Nouveau hardware
+  image: hardware.jpg
+  groupe: Groupe 1
+  description: 'Les nouvelles générations de téléphone embarquent de nouvelles spécificités
+    hardware :
+
+    - compatibilité avec de nouvelles bandes de fréquences (3g, 4g, 5g, 6g)
+
+    - nouveaux objectifs photo
+
+    - puces dédiées à certains traitements (IA)
+
+    - radar (lidar)'
+  export: true
+- type: jeu
+  titre: Téléphone
+  image: telephone.png
+  groupe: Groupe 1
+  description: Ce que vous utilisez au quotidien pour aller sur vos apps, appeler
+    ou encore prendre des photos :-)
+  export: true
+- type: jeu
+  titre: 'Usage: Communication'
+  image: communication.jpg
+  groupe: Groupe 1
+  description: 'Les mobiles ont révolutionné notre manière de communiquer : appels
+    vidéos, messagerie instantanée, envoi de contenu multimédia. Ils démultiplient
+    les possibilités d’échanges et de rencontres.
+
+    Le terminal mobile aide aussi à garder le lien avec des personnes qui ne nous
+    sont pas géographiquement proches.'
+  export: true
+- type: jeu
+  titre: 'Usage: Multimédia'
+  image: multimedias.jpg
+  groupe: Groupe 1
+  description: 'La consommation de contenu vidéo a explosé notamment avec les services
+    de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu.
+
+
+    Les jeux sur mobile représentent en 2023 plus de 50% des revenus du secteur du
+    jeu vidéo
+
+    https://gamingcampus.fr/boite-a-outils/lessor-des-jeux-video-sur-mobile.html'
+  export: true
+- type: jeu
+  titre: 'Usage: Vidéo'
+  image: video.jpg
+  groupe: Groupe 1
+  description: 'La consommation de contenu vidéo a explosé notamment avec les services
+    de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu. '
+  export: true
+- type: jeu
+  titre: 'Usage: lien social (rencontre, famille, amis)'
+  image: liensocial.jpg
+  groupe: Groupe 1
+  description: 'La communication instantanée démultiplie les possibilités de rencontres
+    : échanges linguistiques avec des étrangers, activités avec familles et inconnus.
+
+    Le terminal mobile aide aussi à garder le lien avec des personnes qui ne nous
+    sont pas géographiquement proches.'
+  export: true
+- type: jeu
+  titre: 'Usage: travail'
+  image: usagetravail.png
+  groupe: Groupe 1
+  description: 'On peut penser à plusieurs usages des smartphones dans le cadre du
+    travail :
+
+    - Collaboration à distance via l''envoi de contenu multimédia
+
+    - Utilisation de téléphones durcis et d''applications mobiles spécialisées pour
+    faire des processus métiers de manière nomade'
   export: true
 - type: question
-  titre: "Comment prolonger la vie d'un téléphone ?"
-  groupe: "Groupe 1"
+  titre: Comment prolonger la vie d'un téléphone ?
+  groupe: Groupe 1
   export: true
 - type: question
-  titre: "Que ce passe-t-il en fin vie d'un téléphone ?"
-  groupe: "Groupe 1"
+  titre: Qu'est-ce qui entraine la fin de vie d'un téléphone ?
+  groupe: Groupe 1
   export: true
 - type: question
-  titre: "Qu'est-ce qui peut amplifier ou atténuer la consommation en ressources dans les applications ?"
-  groupe: "Groupe 2"
+  titre: Que ce passe-t-il en fin vie d'un téléphone ?
+  groupe: Groupe 1
+  export: true
+- type: reponse
+  titre: Fin de vie du téléphone
+  image: findevietelephone.png
+  groupe: Groupe 1
+  description: La fin de vie d'un smartphone suit plusieurs voies possibles. La majorité
+    des appareils sont d'abord stockés dans nos tiroirs pendant des mois voire des
+    années. Ensuite, une partie est collectée via des points de dépôt pour être soit
+    reconditionnée quand l'état le permet, soit orientée vers le recyclage. Le processus
+    de recyclage comprend le démantèlement, le broyage et la séparation des différents
+    matériaux. Malheureusement, une proportion importante finit dans des décharges
+    ordinaires, tandis qu'une autre partie est exportée illégalement vers des pays
+    aux réglementations moins strictes, où elle est traitée dans des conditions dangereuses
+    pour la santé humaine et l'environnement.
+  export: true
+- type: reponse
+  titre: Nouveaux usages
+  image: nouveauxusages.jpg
+  groupe: Groupe 1
+  description: Les usages des smartphones évoluent. A titre d'exemple, la prise de
+    selfies et le gaming se sont normalisés. Les utilisateurs ont désormais aussi
+    une attente forte sur des débits de téléchargement élevés.
+  export: true
+- type: reponse
+  titre: Obsolescence logicielle
+  image: obsolescence.jpeg
+  groupe: Groupe 1
+  description: 'L''obsolescence logicielle survient lorsqu''un smartphone, encore
+    fonctionnel physiquement, devient inutilisable à cause des mises à jour du système
+    d''exploitation ou des applications. Cette obsolescence se manifeste de deux façons
+    : soit les nouveaux logiciels, toujours plus exigeants en ressources, ralentissent
+    les anciens modèles, soit les fabricants cessent de fournir les mises à jour du
+    système d''exploitation, empêchant l''installation des dernières versions des
+    applications - et ce même lorsque les capacités matérielles du téléphone le permettraient.
+    Cette double contrainte pousse au renouvellement prématuré des appareils, alors
+    même que leur matériel pourrait encore servir plusieurs années.'
+  export: true
+- type: reponse
+  titre: Recyclage
+  image: recyclage.jpeg
+  groupe: Groupe 1
+  description: 'Le recyclage des smartphones est un processus complexe visant à récupérer
+    les matériaux précieux qu''ils contiennent. Après démontage, les différents composants
+    sont triés : métaux précieux (or, argent, palladium), terres rares, cuivre des
+    circuits imprimés, plastiques et verres. Ces matériaux sont ensuite extraits par
+    des procédés mécaniques et chimiques. Cependant, les techniques actuelles ne permettent
+    de récupérer qu''une partie des matériaux, certains étant perdus ou dégradés durant
+    le processus. La miniaturisation et la complexité des composants rendent ce recyclage
+    particulièrement difficile et énergivore.'
+  export: true
+- type: reponse
+  titre: Rupture technologique
+  image: rupturetechnologique.png
+  groupe: Groupe 1
+  description: Une rupture technologique est une innovation qui transforme radicalement
+    les usages et marchés existants. L'iPhone de 2007 a constitué une telle rupture
+    en remplaçant les téléphones classiques par des mini-ordinateurs tactiles connectés.
+    D'autres ruptures dans ce domaine incluent l'écosystème d'applications tierces,
+    les appareils photo intégrés de haute qualité qui ont supplanté les appareils
+    dédiés, et récemment l'intégration de l'IA sur l'appareil, transformant fondamentalement
+    notre façon d'interagir avec ces technologies.
+  export: true
+- type: reponse
+  titre: Réparabilité / Modularité du téléphone
+  image: reparabilite.png
+  groupe: Groupe 1
+  description: Le smartphone modulaire représente une alternative durable aux appareils
+    traditionnels. Sa conception permet de remplacer facilement chaque composant (écran,
+    batterie, appareil photo, processeur) individuellement, sans devoir changer tout
+    le téléphone. Cette approche facilite les réparations, permet les mises à niveau
+    matérielles ciblées et prolonge significativement la durée de vie de l'appareil.
+    En évitant le remplacement complet du smartphone, la conception modulaire réduit
+    la consommation de ressources et la production de déchets électroniques, tout
+    en donnant plus de contrôle aux utilisateurs sur la maintenance de leur appareil.
+  export: true
+- type: reponse
+  titre: Traitement des déchets
+  image: traitementdesdechets.png
+  groupe: Groupe 1
+  description: Les déchets électroniques non-recyclables des smartphones sont souvent
+    exportés vers des pays aux réglementations moins strictes en Afrique et Asie du
+    Sud-Est. Là-bas, leur traitement rudimentaire (brûlage à ciel ouvert, bains acides
+    sans protection, mise en décharge) libère des substances toxiques comme le mercure,
+    le plomb et les retardateurs de flamme bromés. Ces pratiques contaminent l'environnement
+    local et provoquent de graves problèmes de santé chez les populations environnantes,
+    notamment des troubles respiratoires, neurologiques et reproductifs.
+  export: true
+- type: reponse
+  titre: Téléphone cassé
+  image: telephonecasse.jpeg
+  groupe: Groupe 1
+  description: '38% of respondents who damaged their smartphones replaced their device
+
+    https://www.claimsjournal.com/news/national/2024/03/15/322486.htm'
+  export: true
+- type: jeu
+  titre: Consommation d’eau
+  image: consommationeau.png
+  groupe: Groupe 2
+  description: La fabrication d'un seul smartphone nécessite en moyenne 10 000 à 20
+    000 litres d'eau.  Cette eau est essentielle pour extraire les minéraux, nettoyer
+    les composants, refroidir les équipements et fabriquer les produits chimiques
+    nécessaires à sa production.
+  export: true
+- type: jeu
+  titre: Emissions carbone
+  image: emissionscarbone.png
+  groupe: Groupe 2
+  description: La fabrication et l'utilisation des smartphones génèrent une empreinte
+    carbone considérable. Lors de la production, l'extraction des matières premières,
+    la fabrication des composants et l'assemblage sont particulièrement énergivores
+    et émetteurs de CO2. Une fois entre nos mains, chaque recherche web, chaque vidéo
+    visionnée, chaque message envoyé sollicite des infrastructures réseau et des data
+    centers fonctionnant 24h/24. Le renouvellement fréquent des appareils, souvent
+    tous les 2-3 ans, multiplie cet impact. Contrairement aux idées reçues, la phase
+    de fabrication représente généralement 80% de l'empreinte carbone totale d'un
+    smartphone sur son cycle de vie.
+  export: true
+- type: jeu
+  titre: Energies fossiles
+  image: energiesfossiles.png
+  groupe: Groupe 2
+  description: La dépendance aux énergies fossiles marque chaque étape du cycle de
+    vie d'un smartphone. L'extraction minière des matières premières repose sur des
+    équipements lourds alimentés au diesel. La fabrication des composants nécessite
+    des températures extrêmes obtenues principalement par combustion de charbon ou
+    de gaz. Le transport intercontinental des pièces et produits finis s'effectue
+    via des navires et avions consommant du pétrole. Enfin, l'électricité alimentant
+    nos réseaux mobiles et data centers provient encore majoritairement de centrales
+    à énergies fossiles dans de nombreux pays.
+  export: true
+- type: jeu
+  titre: Extraction de minerais
+  image: extractionminerais.png
+  groupe: Groupe 2
+  description: Les métaux nécessaires à la fabrication des téléphones proviennent
+    de l'extraction dans des mines. On peut citer le cobalt, l'or, ou encore le nickel.
+  export: true
+- type: jeu
+  titre: Loi de Moore
+  image: loimoore.jpg
+  groupe: Groupe 2
+  description: 'Plus il y a de puissance moins c''est optimisé.
+
+
+    L’augmentation constante de la puissance disponible a conduit l’optimisation du
+    code à être une préocuppation secondaire.
+
+    https://news.mit.edu/2020/mit-csail-computing-technology-after-moores-law-0605'
+  export: true
+- type: jeu
+  titre: Pollution
+  image: pollution.png
+  groupe: Groupe 2
+  description: 'De l''extraction des minerais à l''assemblage, la fabrication d''un
+    smartphone pollue : mines détruisant les écosystèmes, usines rejetant des gaz
+    à effet de serre, transport polluant et déchets électroniques toxiques.  Un smartphone,
+    c''est environ 80 kg de CO2, autant qu''une voiture qui roule pendant 400 km !
+
+
+    https://impactco2.fr/outils/numerique/smartphone'
+  export: true
+- type: jeu
+  titre: Rentabilité
+  image: rentabilite.jpg
+  groupe: Groupe 2
+  description: 'Ce qui fait tourner le monde : le gain d’argent.'
+  export: true
+- type: jeu
+  titre: Sac à dos écologique
+  image: sacados.png
+  groupe: Groupe 2
+  description: 'Le sac à dos écologique du smartphone représente l''ensemble des ressources
+    et impacts environnementaux invisibles mais nécessaires à sa fabrication, son
+    utilisation et sa fin de vie. Bien que l''appareil tienne dans la poche, son empreinte
+    réelle est considérable : extraction de dizaines de matériaux différents, consommation
+    d''eau et d''énergie pour la production, émissions de gaz à effet de serre liées
+    aux infrastructures réseaux, et déchets électroniques générés. Ce concept permet
+    de visualiser que chaque smartphone s''accompagne d''un "sac à dos" environnemental
+    pesant plusieurs centaines de fois son propre poids.'
+  export: true
+- type: jeu
+  titre: Stockage de données
+  image: stockagededonnées.png
+  groupe: Groupe 2
+  description: 'L''utilisation quotidienne des smartphones génère une quantité massive
+    de données souvent superflues. Stories éphémères, photos en rafale, messages vocaux,
+    vidéos en double, replays de streams : ces contenus s''accumulent dans le cloud
+    sans réelle utilité à long terme. Ce stockage apparemment invisible a pourtant
+    un coût environnemental bien réel : les centres de données qui hébergent ces contenus
+    consomment de l''énergie en permanence et nécessitent un renouvellement constant
+    des équipements de stockage. Le ''stockage illimité'' encourage par ailleurs des
+    comportements de conservation excessive, amplifiant le problème.'
+  export: true
+- type: jeu
+  titre: Travail des enfants
+  image: enfants.png
+  groupe: Groupe 2
+  description: La fabrication des smartphones est liée au travail des enfants, particulièrement
+    dans les mines de cobalt et de coltan. Ces enfants travaillent dans des conditions
+    dangereuses pour extraire les minerais essentiels aux batteries et composants
+    électroniques, risquant leur santé et sacrifiant leur éducation. Malgré les engagements
+    des fabricants, la complexité des chaînes d'approvisionnement permet la persistance
+    de ces pratiques.
+  export: true
+- type: jeu
+  titre: Électricité
+  image: electricite.jpg
+  groupe: Groupe 2
+  description: L’énergie utilisée pour toute l’infrastructure réseau et les smartphones
+    :-)
   export: true
 - type: question
-  titre: "Qu'est-ce qui peut empêcher le recyclage ?"
-  groupe: "Groupe 2"
+  titre: Qu'est-ce qui peut amplifier ou atténuer la consommation en ressources dans
+    les applications ?
+  groupe: Groupe 2
   export: true
 - type: question
-  titre: "Trouver des impacts professionnels."
-  groupe: "Groupe 3"
+  titre: Qu'est-ce qui peut empêcher le recyclage ?
+  groupe: Groupe 2
   export: true
-- type: question
-  titre: "Trouver des impacts psychologiques et humains."
-  groupe: "Groupe 3"
+- type: reponse
+  titre: Applications plus gourmandes en ressources
+  image: appgourmandes.png
+  groupe: Groupe 2
+  description: 'Malgré les optimisations logicielles, on observe :
+
+
+    - une augmentation du stockage disponible sur les téléphones
+
+    - une augmentation du volume de données transférées (4g, 5g)
+
+    - une augmentation de la consommation électrique pour ces nouveaux usages
+
+
+    source : https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d''un_smartphone'
   export: true
-- type: question
-  titre: "Trouver des impacts d'accessibilité."
-  groupe: "Groupe 3"
+- type: reponse
+  titre: 'Batterie: Chargez moins, durez plus'
+  image: batterie.png
+  groupe: Groupe 2
+  description: Laisser votre téléphone branché même lorsqu'il est complètement chargé
+    peut entraîner une surchauffe et une usure prématurée de la batterie. Cela peut
+    également perturber le cycle de charge optimal de la batterie et réduire sa capacité
+    à long terme. En général, il est recommandé de maintenir la charge de la batterie
+    entre 20 % et 80 % pour optimiser sa durée de vie.
   export: true
-- type: question
-  titre: "Trouver des impacts géopolitiques."
-  groupe: "Groupe 3"
+- type: reponse
+  titre: Beaucoup de téléphones restent dans les tiroirs
+  image: telephonestiroirs.jpg
+  groupe: Groupe 2
+  description: '**Environ 46 millions de téléphones traînent dans nos placards alors
+    qu''ils pourraient être reconditionnés ou recyclés.**
+
+    64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage
+    ou parce qu''ils ne savaient pas quoi en faire. Les trois quarts fonctionnent
+    encore.
+
+    source: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/'
   export: true
-- type: question
-  titre: "Indiquer quelles sont les conséquences positives et quelles sont les conséquences négatives."
-  groupe: "Groupe 3"
+- type: reponse
+  titre: Choix de la techno (Natif vs Hybride)
+  image: choixdelatechno.png
+  groupe: Groupe 2
+  description: Le choix d'une technologie de développement mobile (natif, hybride,
+    web) influence l'impact écologique d'une application. Les applications natives,
+    optimisées pour un système d'exploitation spécifique, sont souvent plus performantes
+    et consomment moins d'énergie. Les applications hybrides, combinant code natif
+    et web, offrent un compromis entre performance et compatibilité multiplateforme.
+    Les applications web, accessibles via un navigateur, peuvent être moins gourmandes
+    en ressources mais dépendent de la connexion internet.  Choisir la technologie
+    adaptée à l'usage permet d'optimiser l'efficacité énergétique et de réduire l'empreinte
+    carbone.
   export: true
-- type: action
-  titre: "Application"
-  image: "application.png"
-  groupe: "Groupe 1"
-  description: "**Les utilisateurs de Smartphone  utilisateurs en moyenne 9 à 10 apps par jour. 30 par mois.**\nhttps://techjury.net/blog/app-usage-statistics/"
+- type: reponse
+  titre: Cibler un large panel d’APIs
+  image: ciblerlargepanel.png
+  groupe: Groupe 2
+  description: En ciblant un large panel d'APIs, les développeurs garantissent la
+    compatibilité de leurs applications avec un plus grand nombre d'appareils, même
+    anciens.  Ainsi, les utilisateurs peuvent continuer à profiter des applications
+    sans être obligés de changer de smartphone pour des raisons de compatibilité.
+    Cela prolonge la durée de vie des appareils et réduit le besoin de renouvellement,
+    limitant ainsi la production de déchets électroniques et l'impact environnemental
+    associé.
   export: true
-- type: action
-  titre: "Applications plus gourmandes en ressources"
-  image: "appgourmandes.png"
-  groupe: "Groupe 3"
-  description: "Malgré les optimisations logicielles, on observe :\n\n- une augmentation du stockage disponible sur les téléphones\n- une augmentation du volume de données transférées (4g, 5g)\n- une augmentation de la consommation électrique pour ces nouveaux usages\n\nsource : https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d'un_smartphone"
+- type: reponse
+  titre: Décyclage
+  image: decyclage.jpeg
+  groupe: Groupe 2
+  description: Le décyclage, ou 'downcycling', désigne la perte de qualité et de valeur
+    des matériaux lors du processus de recyclage. Pour les smartphones, les matériaux
+    récupérés sont souvent dégradés et ne peuvent plus être utilisés pour fabriquer
+    de nouveaux téléphones. Ils sont alors employés dans des applications moins exigeantes,
+    créant ainsi une chaîne de dévalorisation progressive jusqu'à ce que le matériau
+    devienne inutilisable.
   export: true
-- type: action
-  titre: "Téléphone"
-  image: "telephone.png"
-  groupe: "Groupe 1"
-  description: "Ce que vous utilisez au quotidien pour aller sur vos apps, appeler ou encore prendre des photos :-)"
+- type: reponse
+  titre: Ecoconception
+  image: ecoconception.png
+  groupe: Groupe 2
+  description: L'ecoconception consiste à intégrer des critères environnementaux dès
+    la création d'un produit ou service afin de minimiser son impact écologique tout
+    au long de son cycle de vie. Dans le numérique, cela signifie développer des applications,
+    sites web ou équipements optimisés pour consommer moins d'énergie et de ressources,
+    tout en restant performants. En réduisant l'empreinte carbone et la production
+    de déchets électroniques, l'ecoconception contribue à un numérique plus durable
+    et responsable.
   export: true
-- type: action
-  titre: "Téléphone cassé"
-  image: "telephonecasse.jpeg"
-  groupe: "Événements 2"
-  description: "38% of respondents who damaged their smartphones replaced their device\nhttps://www.claimsjournal.com/news/national/2024/03/15/322486.htm"
+- type: reponse
+  titre: Observabilité
+  image: observabilite.png
+  groupe: Groupe 2
+  description: Les outils d'observabilité offrent une vision approfondie du fonctionnement
+    des applications, permettant d'identifier les points faibles et les consommations
+    excessives de ressources (énergie, CPU, mémoire). En optimisant le code, les requêtes
+    et l'infrastructure, on réduit l'empreinte environnementale des applications.
+    Une meilleure gestion des ressources se traduit par une diminution de la consommation
+    d'énergie des serveurs et une utilisation plus efficace du matériel.
+  export: true
+- type: reponse
+  titre: Poids de l’application
+  image: poidsdelapplication.jpg
+  groupe: Groupe 2
+  description: 'Entre 2013 et 2017, le poids du top 10 des applications de l’App Store
+    a augmenté en moyenne de plus de 1000%.
+
+    Une application pouvant être distribuée à des millions d’utilisateurs et ce plusieurs
+    fois par semaine, un changement de son poids, via les effets d''échelle, peut
+    avoir des impacts majeurs.
+
+    source : https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html'
+  export: true
+- type: jeu
+  titre: Accessibilité numérique
+  image: accessibilite.png
+  groupe: Groupe 3
+  description: 'L''accessibilité numérique vise à rendre les applications mobiles
+    utilisables par tous, y compris les personnes en situation de handicap. Grâce
+    à des interfaces adaptées (voix, contrastes, navigation simplifiée), elle permet
+    à un plus grand nombre d''accéder aux services numériques.
+
+
+    En facilitant l''usage des applications, elle réduit la fracture numérique en
+    incluant les personnes âgées, en situation de handicap ou peu à l''aise avec la
+    technologie.'
+  export: true
+- type: jeu
+  titre: Cadre légal
+  image: cadrelegal.png
+  groupe: Groupe 3
+  description: Le cadre législatif numérique comme le RGPD, le DMA ou le DSA offre
+    une protection essentielle en encadrant la collecte des données personnelles,
+    en limitant la domination des grandes plateformes et en imposant des standards
+    d'accessibilité. Cependant, certaines initiatives réglementaires récentes présentent
+    des risques importants pour la protection de la vie privée, notamment les projets
+    visant à affaiblir le chiffrement des messageries pour permettre l'accès aux communications
+    à des fins sécuritaires. Cette tension entre sécurité publique et confidentialité
+    des échanges illustre la complexité d'un équilibre législatif qui doit à la fois
+    protéger les utilisateurs sans compromettre leurs libertés fondamentales.
+  export: true
+- type: jeu
+  titre: Chambre d’écho
+  image: chambreecho.png
+  groupe: Groupe 3
+  description: Les chambres d'écho et les bulles sociales sont des phénomènes numériques
+    où l'on est exposé uniquement à des informations confirmant nos opinions, créant
+    ainsi un environnement clos et biaisé. Les algorithmes des réseaux sociaux et
+    des moteurs de recherche renforcent ces bulles en filtrant le contenu selon nos
+    préférences.  Cela entraîne une polarisation des opinions et une difficulté à
+    envisager d'autres perspectives.
+  export: true
+- type: jeu
+  titre: Compétitivité
+  image: competitivite.jpg
+  groupe: Groupe 3
+  description: La dématérialisation est un enjeu de compétitivité que ce soit en termes
+    d’augmentation de la productivité ou de résilience des processus métiers transformés.
+  export: true
+- type: jeu
+  titre: Cyberviolences
+  image: cyberviolences.png
+  groupe: Groupe 3
+  description: 'La disponibilité permanente des smartphones et la facilité d''accès
+    aux outils numériques ont transformé les dynamiques de harcèlement en offrant
+    souvent un sentiment d''impunité aux agresseurs. Dans le contexte scolaire, les
+    moqueries et humiliations poursuivent désormais les victimes jusque dans leur
+    foyer via les réseaux sociaux, effaçant tout sanctuaire et amplifiant la portée
+    des actes par leur viralité. Parallèlement, les femmes sont particulièrement ciblées
+    par des formes spécifiques de cyberviolences : partage non consenti d''images
+    intimes, cyberharcèlement en meute, traque via applications de géolocalisation,
+    ou usurpation d''identité à des fins malveillantes.'
+  export: true
+- type: jeu
+  titre: Dark Patterns
+  image: darkpatterns.png
+  groupe: Groupe 3
+  description: 'Un dark pattern, également appelé "interface truquée" ou "design trompeur",
+    est une technique de conception d''interface utilisateur délibérément conçue pour
+    manipuler ou tromper les utilisateurs. Ces pratiques exploitent les biais cognitifs
+    des utilisateurs pour les inciter à effectuer des actions qu''ils n''auraient
+    pas nécessairement choisies autrement.
+
+    source : https://fr.wikipedia.org/wiki/Dark_pattern'
+  export: true
+- type: jeu
+  titre: Droit à la déconnexion
+  image: droitdeco.png
+  groupe: Groupe 3
+  description: Le droit à la déconnexion est un principe selon lequel un salarié est
+    en droit de ne pas être connecté aux outils numériques professionnels (téléphone
+    portable, courriels, etc.) hors des horaires de travail (temps de transport travail-domicile,
+    congés, temps de repos, week-end, soirée, etc.).
+  export: true
+- type: jeu
+  titre: Fracture numérique
+  image: fracturenumerique.png
+  groupe: Groupe 3
+  description: 'La fracture numérique décrit les inégalités dans l’accès aux technologies
+    de l’information et de la communication (TIC), leur utilisation et leur impact.
+    Sont généralement admis au moins deux niveaux de fracture numérique : l’accès
+    (fracture de premier degré) et l''usage (fracture de second degré). Elle résulte
+    de disparités sociales, générationnelles ou de situations de handicap.'
+  export: true
+- type: jeu
+  titre: Impact sur la santé mentale
+  image: santementale.png
+  groupe: Groupe 3
+  description: L'usage intensif du smartphone peut affecter significativement la santé
+    mentale. La sur-sollicitation par les notifications, la comparaison sociale permanente
+    sur les réseaux sociaux et la quête de validation par les 'likes' peuvent générer
+    anxiété et dépression. Le scroll infini et les mécanismes de récompense aléatoire
+    créent une forme d'addiction, perturbant le sommeil et la concentration. La peur
+    de manquer quelque chose (FOMO) et le besoin constant de vérifier son téléphone
+    augmentent le stress et diminuent la capacité à être présent dans l'instant.
+  export: true
+- type: jeu
+  titre: Isolement
+  image: isolement.png
+  groupe: Groupe 3
+  description: 'L''usage intensif du smartphone peut paradoxalement mener à l''isolement
+    social. Bien que conçu pour nous connecter, il peut créer une déconnexion avec
+    notre environnement immédiat : repli sur les réseaux sociaux au détriment des
+    interactions réelles, substitution des rencontres physiques par des échanges numériques,
+    développement d''une dépendance aux notifications et validations virtuelles. Les
+    moments de socialisation spontanée diminuent alors que les personnes sont de plus
+    en plus absorbées par leurs écrans, même en présence d''autres.'
+  export: true
+- type: jeu
+  titre: Magasins d'applications
+  image: stores.webp
+  groupe: Groupe 5
+  description: Les magasins d’applications permettent aux utilisateurs de télécharger
+    des applications sur leur terminal.
   export: false
-- type: action
-  titre: "Extraction de minerais"
-  image: "extractionminerais.png"
-  groupe: "Groupe 1"
-  description: "Les métaux nécessaires à la fabrication des téléphones proviennent de l'extraction dans des mines. On peut citer le cobalt, l'or, ou encore le nickel."
+- type: jeu
+  titre: Manque de souveraineté
+  image: souverainete.png
+  groupe: Groupe 3
+  description: La France et l'Europe souffrent d'un manque de souveraineté numérique.  Elles
+    dépendent fortement d'acteurs étrangers, notamment américains et chinois, pour
+    la fabrication de matériel (puces électroniques, serveurs), les systèmes d'exploitation
+    (Windows, Android), le stockage de données (cloud) et les services en ligne. Cette
+    dépendance entraîne des risques de perte de contrôle sur les données, de vulnérabilité
+    face à des décisions unilatérales étrangères, et un affaiblissement de l'innovation
+    européenne.
   export: true
-- type: action
-  titre: "Obsolescence logicielle"
-  image: "obsolescence.jpeg"
-  groupe: "Groupe 2"
-  description: "L'obsolescence logicielle survient lorsqu'un smartphone, encore fonctionnel physiquement, devient inutilisable à cause des mises à jour du système d'exploitation ou des applications. Cette obsolescence se manifeste de deux façons : soit les nouveaux logiciels, toujours plus exigeants en ressources, ralentissent les anciens modèles, soit les fabricants cessent de fournir les mises à jour du système d'exploitation, empêchant l'installation des dernières versions des applications - et ce même lorsque les capacités matérielles du téléphone le permettraient. Cette double contrainte pousse au renouvellement prématuré des appareils, alors même que leur matériel pourrait encore servir plusieurs années."
+- type: jeu
+  titre: Performance au travail
+  image: performancetravail.jpg
+  groupe: Groupe 3
+  description: L’utilisation de terminaux mobiles et d’applications dédiées simplifie
+    certains usages et augmentent la performance des utilisateurs.
   export: true
-- type: action
-  titre: "Pollution de l’eau"
-  image: "pollutioneau.avif"
-  groupe: "Groupe 4"
-  description: "Les mines nécessitent de grandes quantités d'eau pour leur fonctionnement, notamment pour le traitement du minerai. Par exemple, une mine d'or de taille moyenne peut consommer l'équivalent de 7 piscines olympiques d'eau par jour pendant un an.\n- Le drainage minier acide est un problème majeur, résultant de l'oxydation des minéraux sulfurés exposés à l'air et à l'eau, ce qui acidifie les eaux et libère des métaux toxiques.\n- Les eaux de ruissellement lessivant les résidus miniers peuvent contaminer les cours d'eau avoisinants avec des métaux lourds et autres polluants.\n- Des fuites accidentelles de produits chimiques utilisés dans le traitement du minerai peuvent causer une pollution aiguë des eaux de surface et souterraines.\nsources :\nhttps://www.pseau.org/outils/ouvrages/isf_presentation_thematique_comite_scientifique_impact_des_activites_minieres_sur_les_services_d_eau_en_afrique_subsaharienne_2018.pdf"
+- type: jeu
+  titre: Profiling / ciblage commercial
+  image: profiling.png
+  groupe: Groupe 3
+  description: 'Les applications mobiles intègrent de nombreux traceurs qui collectent
+    en permanence nos données : localisation, habitudes de navigation, centres d''intérêt,
+    contacts, temps passé sur chaque contenu. Ces informations permettent de créer
+    des profils détaillés des utilisateurs, revendus à des fins publicitaires. Au-delà
+    du ciblage commercial, ces profils peuvent conduire à des dérives inquiétantes
+    : manipulation comportementale, discrimination tarifaire, notation sociale, ou
+    encore influence sur les opinions politiques.'
+  export: true
+- type: jeu
+  titre: Ré-emploi / Seconde main
+  image: reemploi.png
+  groupe: Groupe 3
+  description: Le réemploi des smartphones est une solution efficace pour réduire
+    l'impact environnemental du numérique. En donnant une seconde vie aux appareils
+    encore fonctionnels via la revente, le don ou le reconditionnement professionnel,
+    on évite l'extraction de nouvelles ressources et la production de déchets électroniques.
+    Cette pratique permet également de rendre les technologies mobiles plus accessibles
+    à un plus grand nombre grâce à des prix plus abordables. Un smartphone reconditionné
+    peut ainsi fonctionner plusieurs années supplémentaires, maximisant l'utilisation
+    des ressources déjà extraites et réduisant significativement l'empreinte carbone
+    par rapport à l'achat d'un appareil neuf.
+  export: true
+- type: jeu
+  titre: Suppression d'emploi
+  image: suppressionemploi.png
+  groupe: Groupe 3
+  description: Avec leurs fonctionnalités toujours plus riches et leur puissance grandissante,
+    les applications mobiles empiètent sur des tâches autrefois dévolues à des humains.
+    De la commande de repas à la réservation de billets, en passant par la gestion
+    de comptes bancaires, les applications automatisent de nombreux services. Cette
+    automatisation entraîne une réduction du besoin de personnel dans certains secteurs,
+    comme la restauration, le tourisme ou la vente. Si cette évolution offre des gains
+    de productivité et de confort pour les consommateurs, elle soulève des questions
+    sur l'avenir de l'emploi et la nécessité de requalifier la main-d'œuvre.
+  export: true
+- type: jeu
+  titre: Surveillance
+  image: surveillance.png
+  groupe: Groupe 3
+  description: Les smartphones collectent une immense quantité de données personnelles,
+    souvent à l’insu des utilisateurs. Cette surveillance individuelle permet aux
+    entreprises et gouvernements de suivre nos déplacements, habitudes et communications.
+    À grande échelle, la surveillance de masse menace les libertés fondamentales en
+    créant une société où chaque action peut être analysée et exploitée. Sans régulation
+    et protection des données, ces pratiques ouvrent la porte aux abus, au profilage
+    et à la perte de vie privée.
+  export: true
+- type: jeu
+  titre: Évolution des outils de travail
+  image: outilstravail.avif
+  groupe: Groupe 3
+  description: 'On peut profiter des terminaux mobiles pour changer notre façon de
+    travailler : détection en temps réel de dangers via de la vidéo, visualisation
+    3D avec de la réalité augmentée etc.'
+  export: true
+- type: question # carte ?
+  titre: Indiquer quelles sont les conséquences positives et quelles sont les conséquences 
+    négatives.
+  groupe: Groupe 3
+  export: true
+- type: question # carte ?
+  titre: Trouver des impacts d'accessibilité.
+  groupe: Groupe 3
+  export: true
+- type: question # carte ?
+  titre: Trouver des impacts géopolitiques.
+  groupe: Groupe 3
+  export: true
+- type: question # carte ?
+  titre: Trouver des impacts professionnels.
+  groupe: Groupe 3
+  export: true
+- type: question # carte ?
+  titre: Trouver des impacts psychologiques et humains.
+  groupe: Groupe 3
+  export: true
+- type: jeu # on en fait quoi ?
+  titre: Effet rebond
+  image: effetrebond.avif
+  groupe: Groupe 4
+  description: '**L’effet rebond ou paradoxe de Jevons** énonce qu''à mesure que les
+    améliorations technologiques augmentent l''efficacité avec laquelle une [ressource](https://fr.wikipedia.org/wiki/Ressource_naturelle) est
+    employée, la [consommation]https://fr.wikipedia.org/wiki/Consommation totale de
+    cette ressource peut augmenter au lieu de diminuer.
+
+
+    https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons
+
+    source : https://misterprepa.net/jevons-effet-rebond/'
+  export: true
+- type: jeu
+  titre: Pollution de l’eau
+  image: pollutioneau.avif
+  groupe: Groupe 4
+  description: 'Les mines nécessitent de grandes quantités d''eau pour leur fonctionnement,
+    notamment pour le traitement du minerai. Par exemple, une mine d''or de taille
+    moyenne peut consommer l''équivalent de 7 piscines olympiques d''eau par jour
+    pendant un an.
+
+    - Le drainage minier acide est un problème majeur, résultant de l''oxydation des
+    minéraux sulfurés exposés à l''air et à l''eau, ce qui acidifie les eaux et libère
+    des métaux toxiques.
+
+    - Les eaux de ruissellement lessivant les résidus miniers peuvent contaminer les
+    cours d''eau avoisinants avec des métaux lourds et autres polluants.
+
+    - Des fuites accidentelles de produits chimiques utilisés dans le traitement du
+    minerai peuvent causer une pollution aiguë des eaux de surface et souterraines.
+
+    sources :
+
+    https://www.pseau.org/outils/ouvrages/isf_presentation_thematique_comite_scientifique_impact_des_activites_minieres_sur_les_services_d_eau_en_afrique_subsaharienne_2018.pdf'
   export: false
-- type: action
-  titre: "Recyclage"
-  image: "recyclage.jpeg"
-  groupe: "Groupe 2"
-  description: "Le recyclage des smartphones est un processus complexe visant à récupérer les matériaux précieux qu'ils contiennent. Après démontage, les différents composants sont triés : métaux précieux (or, argent, palladium), terres rares, cuivre des circuits imprimés, plastiques et verres. Ces matériaux sont ensuite extraits par des procédés mécaniques et chimiques. Cependant, les techniques actuelles ne permettent de récupérer qu'une partie des matériaux, certains étant perdus ou dégradés durant le processus. La miniaturisation et la complexité des composants rendent ce recyclage particulièrement difficile et énergivore."
+- type: jeu
+  titre: Développement de logiciels
+  image: dev.avif
+  groupe: Groupe 5
+  description: '- L’industrie de la tech et du développement de logiciel est responsable
+    aujourd’hui d’environ 3% des émissions de carbone. C''est autant que l’aviation.
+
+    - D’ici 2030, cela pourrait représenter 20% de la demande globale en énergie.
+
+    - D’ici 2040, elle pourrait être responsable de 14% des émissions globales de
+    carbone, en ayant démarré à 1,6% en 2007.
+
+    sources :
+
+    https://www.softwareimprovementgroup.com/green-software-development/
+
+    https://www.bjss.com/articles/the-current-state-of-the-industry-on-green-software-development
+
+    https://beetroot.co/sustainability/how-to-reduce-software-carbon-footprint-strategies-for-tech-leaders-and-developers/'
   export: true
-- type: action
-  titre: "Décyclage"
-  image: "decyclage.jpeg"
-  groupe: "Groupe 4"
-  description: "Le décyclage, ou 'downcycling', désigne la perte de qualité et de valeur des matériaux lors du processus de recyclage. Pour les smartphones, les matériaux récupérés sont souvent dégradés et ne peuvent plus être utilisés pour fabriquer de nouveaux téléphones. Ils sont alors employés dans des applications moins exigeantes, créant ainsi une chaîne de dévalorisation progressive jusqu'à ce que le matériau devienne inutilisable."
-  export: true
-- type: action
-  titre: "Infrastructures telecom"
-  image: "infrastructurestelecom.jpg"
-  groupe: "Groupe 1"
-  description: "L'utilisation des smartphones repose sur un vaste réseau d'infrastructures physiques : antennes-relais, câbles sous-marins, data centers et équipements réseau. Ces infrastructures, constamment actives, consomment une quantité importante d'énergie pour assurer la connexion permanente de nos appareils et le stockage des données dans le cloud. Leur construction et maintenance nécessitent des ressources considérables et leur multiplication accompagne l'augmentation du trafic mobile."
-  export: true
-- type: action
-  titre: "Nouveaux usages"
-  image: "nouveauxusages.jpg"
-  groupe: "Groupe 1"
-  description: "Les usages des smartphones évoluent. A titre d'exemple, la prise de selfies et le gaming se sont normalisés. Les utilisateurs ont désormais aussi une attente forte sur des débits de téléchargement élevés."
-  export: true
-- type: action
-  titre: "Suppression d'emploi"
-  image: "suppressionemploi.png"
-  groupe: "Groupe 4"
-  description: "Avec leurs fonctionnalités toujours plus riches et leur puissance grandissante, les applications mobiles empiètent sur des tâches autrefois dévolues à des humains. De la commande de repas à la réservation de billets, en passant par la gestion de comptes bancaires, les applications automatisent de nombreux services. Cette automatisation entraîne une réduction du besoin de personnel dans certains secteurs, comme la restauration, le tourisme ou la vente. Si cette évolution offre des gains de productivité et de confort pour les consommateurs, elle soulève des questions sur l'avenir de l'emploi et la nécessité de requalifier la main-d'œuvre."
-  export: true
-- type: action
-  titre: "Compétitivité"
-  image: "competitivite.jpg"
-  groupe: "Groupe 4"
-  description: "La dématérialisation est un enjeu de compétitivité que ce soit en termes d’augmentation de la productivité ou de résilience des processus métiers transformés."
-  export: false
-- type: action
-  titre: "Performance au travail"
-  image: "performancetravail.jpg"
-  groupe: "Groupe 3"
-  description: "L’utilisation de terminaux mobiles et d’applications dédiées simplifie certains usages et augmentent la performance des utilisateurs."
-  export: true
-- type: action
-  titre: "Usage: Communication"
-  image: "communication.jpg"
-  groupe: "Groupe 1"
-  description: "Les mobiles ont révolutionné notre manière de communiquer : appels vidéos, messagerie instantanée, envoi de contenu multimédia. Ils démultiplient les possibilités d’échanges et de rencontres.\nLe terminal mobile aide aussi à garder le lien avec des personnes qui ne nous sont pas géographiquement proches."
-  export: true
-- type: action
-  titre: "Impact sur la santé mentale"
-  image: "santementale.png"
-  groupe: "Groupe 2"
-  description: "L'usage intensif du smartphone peut affecter significativement la santé mentale. La sur-sollicitation par les notifications, la comparaison sociale permanente sur les réseaux sociaux et la quête de validation par les 'likes' peuvent générer anxiété et dépression. Le scroll infini et les mécanismes de récompense aléatoire créent une forme d'addiction, perturbant le sommeil et la concentration. La peur de manquer quelque chose (FOMO) et le besoin constant de vérifier son téléphone augmentent le stress et diminuent la capacité à être présent dans l'instant."
-  export: true
-- type: action
-  titre: "Usage: lien social (rencontre, famille, amis)"
-  image: "liensocial.jpg"
-  groupe: "Groupe 3"
-  description: "La communication instantanée démultiplie les possibilités de rencontres : échanges linguistiques avec des étrangers, activités avec familles et inconnus.\nLe terminal mobile aide aussi à garder le lien avec des personnes qui ne nous sont pas géographiquement proches."
-  export: false
-- type: action
-  titre: "Beaucoup de téléphones restent dans les tiroirs"
-  image: "telephonestiroirs.jpg"
-  groupe: "Groupe 2"
-  description: "**Environ 46 millions de téléphones traînent dans nos placards alors qu'ils pourraient être reconditionnés ou recyclés.**\n64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage ou parce qu'ils ne savaient pas quoi en faire. Les trois quarts fonctionnent encore.\nsource: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/"
-  export: true
-- type: action
-  titre: "Réparabilité / Modularité du téléphone"
-  image: "reparabilite.png"
-  groupe: "Groupe 4"
-  description: "Le smartphone modulaire représente une alternative durable aux appareils traditionnels. Sa conception permet de remplacer facilement chaque composant (écran, batterie, appareil photo, processeur) individuellement, sans devoir changer tout le téléphone. Cette approche facilite les réparations, permet les mises à niveau matérielles ciblées et prolonge significativement la durée de vie de l'appareil. En évitant le remplacement complet du smartphone, la conception modulaire réduit la consommation de ressources et la production de déchets électroniques, tout en donnant plus de contrôle aux utilisateurs sur la maintenance de leur appareil."
-  export: true
-- type: action
-  titre: "Usage: travail"
-  image: "usagetravail.png"
-  groupe: "Groupe 2"
-  description: "On peut penser à plusieurs usages des smartphones dans le cadre du travail :\n- Collaboration à distance via l'envoi de contenu multimédia\n- Utilisation de téléphones durcis et d'applications mobiles spécialisées pour faire des processus métiers de manière nomade"
-  export: false
-- type: action
-  titre: "Nouveau hardware"
-  image: "hardware.jpg"
-  groupe: "Événements 3"
-  description: "Les nouvelles générations de téléphone embarquent de nouvelles spécificités hardware :\n- compatibilité avec de nouvelles bandes de fréquences (3g, 4g, 5g, 6g)\n- nouveaux objectifs photo\n- puces dédiées à certains traitements (IA)\n- radar (lidar)"
-  export: false
-- type: action
-  titre: "Profiling / ciblage commercial"
-  image: "profiling.png"
-  groupe: "Groupe 4"
-  description: "Les applications mobiles intègrent de nombreux traceurs qui collectent en permanence nos données : localisation, habitudes de navigation, centres d'intérêt, contacts, temps passé sur chaque contenu. Ces informations permettent de créer des profils détaillés des utilisateurs, revendus à des fins publicitaires. Au-delà du ciblage commercial, ces profils peuvent conduire à des dérives inquiétantes : manipulation comportementale, discrimination tarifaire, notation sociale, ou encore influence sur les opinions politiques."
-  export: true
-- type: action
-  titre: "Isolement"
-  image: "isolement.png"
-  groupe: "Groupe 3"
-  description: "L'usage intensif du smartphone peut paradoxalement mener à l'isolement social. Bien que conçu pour nous connecter, il peut créer une déconnexion avec notre environnement immédiat : repli sur les réseaux sociaux au détriment des interactions réelles, substitution des rencontres physiques par des échanges numériques, développement d'une dépendance aux notifications et validations virtuelles. Les moments de socialisation spontanée diminuent alors que les personnes sont de plus en plus absorbées par leurs écrans, même en présence d'autres."
-  export: true
-- type: action
-  titre: "Accessibilité numérique"
-  image: "accessibilite.png"
-  groupe: "Groupe 4"
-  description: "L'accessibilité numérique vise à rendre les applications mobiles utilisables par tous, y compris les personnes en situation de handicap. Grâce à des interfaces adaptées (voix, contrastes, navigation simplifiée), elle permet à un plus grand nombre d'accéder aux services numériques.\n\nEn facilitant l'usage des applications, elle réduit la fracture numérique en incluant les personnes âgées, en situation de handicap ou peu à l'aise avec la technologie."
-  export: true
-- type: action
-  titre: "Ecoconception"
-  image: "ecoconception.png"
-  groupe: "Groupe 2"
-  description: "L'ecoconception consiste à intégrer des critères environnementaux dès la création d'un produit ou service afin de minimiser son impact écologique tout au long de son cycle de vie. Dans le numérique, cela signifie développer des applications, sites web ou équipements optimisés pour consommer moins d'énergie et de ressources, tout en restant performants. En réduisant l'empreinte carbone et la production de déchets électroniques, l'ecoconception contribue à un numérique plus durable et responsable."
-  export: true
-- type: action
-  titre: "Surveillance"
-  image: "surveillance.png"
-  groupe: "Groupe 4"
-  description: "Les smartphones collectent une immense quantité de données personnelles, souvent à l’insu des utilisateurs. Cette surveillance individuelle permet aux entreprises et gouvernements de suivre nos déplacements, habitudes et communications. À grande échelle, la surveillance de masse menace les libertés fondamentales en créant une société où chaque action peut être analysée et exploitée. Sans régulation et protection des données, ces pratiques ouvrent la porte aux abus, au profilage et à la perte de vie privée."
-  export: true
-- type: action
-  titre: "Fracture numérique"
-  image: "fracturenumerique.png"
-  groupe: "Groupe 3"
-  description: "La fracture numérique décrit les inégalités dans l’accès aux technologies de l’information et de la communication (TIC), leur utilisation et leur impact. Sont généralement admis au moins deux niveaux de fracture numérique : l’accès (fracture de premier degré) et l'usage (fracture de second degré). Elle résulte de disparités sociales, générationnelles ou de situations de handicap."
-  export: true
-- type: action
-  titre: "Chambre d’écho"
-  image: "chambreecho.png"
-  groupe: "Groupe 2"
-  description: "Les chambres d'écho et les bulles sociales sont des phénomènes numériques où l'on est exposé uniquement à des informations confirmant nos opinions, créant ainsi un environnement clos et biaisé. Les algorithmes des réseaux sociaux et des moteurs de recherche renforcent ces bulles en filtrant le contenu selon nos préférences.  Cela entraîne une polarisation des opinions et une difficulté à envisager d'autres perspectives."
-  export: true
-- type: action
-  titre: "Consommation d’eau"
-  image: "consommationeau.png"
-  groupe: "Groupe 2"
-  description: "La fabrication d'un seul smartphone nécessite en moyenne 10 000 à 20 000 litres d'eau.  Cette eau est essentielle pour extraire les minéraux, nettoyer les composants, refroidir les équipements et fabriquer les produits chimiques nécessaires à sa production."
-  export: true
-- type: action
-  titre: "Batterie: Chargez moins, durez plus"
-  image: "batterie.png"
-  groupe: "Groupe 1"
-  description: "Laisser votre téléphone branché même lorsqu'il est complètement chargé peut entraîner une surchauffe et une usure prématurée de la batterie. Cela peut également perturber le cycle de charge optimal de la batterie et réduire sa capacité à long terme. En général, il est recommandé de maintenir la charge de la batterie entre 20 % et 80 % pour optimiser sa durée de vie."
-  export: true
-- type: action
-  titre: "Observabilité"
-  image: "observabilite.png"
-  groupe: "Groupe 4"
-  description: "Les outils d'observabilité offrent une vision approfondie du fonctionnement des applications, permettant d'identifier les points faibles et les consommations excessives de ressources (énergie, CPU, mémoire). En optimisant le code, les requêtes et l'infrastructure, on réduit l'empreinte environnementale des applications. Une meilleure gestion des ressources se traduit par une diminution de la consommation d'énergie des serveurs et une utilisation plus efficace du matériel."
-  export: true
-- type: action
-  titre: "Cibler un large panel d’APIs"
-  image: "ciblerlargepanel.png"
-  groupe: "Groupe 4"
-  description: "En ciblant un large panel d'APIs, les développeurs garantissent la compatibilité de leurs applications avec un plus grand nombre d'appareils, même anciens.  Ainsi, les utilisateurs peuvent continuer à profiter des applications sans être obligés de changer de smartphone pour des raisons de compatibilité. Cela prolonge la durée de vie des appareils et réduit le besoin de renouvellement, limitant ainsi la production de déchets électroniques et l'impact environnemental associé."
-  export: true
-- type: action
-  titre: "Choix de la techno (Natif vs Hybride)"
-  image: "choixdelatechno.png"
-  groupe: "Groupe 2"
-  description: "Le choix d'une technologie de développement mobile (natif, hybride, web) influence l'impact écologique d'une application. Les applications natives, optimisées pour un système d'exploitation spécifique, sont souvent plus performantes et consomment moins d'énergie. Les applications hybrides, combinant code natif et web, offrent un compromis entre performance et compatibilité multiplateforme. Les applications web, accessibles via un navigateur, peuvent être moins gourmandes en ressources mais dépendent de la connexion internet.  Choisir la technologie adaptée à l'usage permet d'optimiser l'efficacité énergétique et de réduire l'empreinte carbone."
-  export: true
-- type: action
-  titre: "Dark Patterns"
-  image: "darkpatterns.png"
-  groupe: "Groupe 4"
-  description: "Un dark pattern, également appelé \"interface truquée\" ou \"design trompeur\", est une technique de conception d'interface utilisateur délibérément conçue pour manipuler ou tromper les utilisateurs. Ces pratiques exploitent les biais cognitifs des utilisateurs pour les inciter à effectuer des actions qu'ils n'auraient pas nécessairement choisies autrement.\nsource : https://fr.wikipedia.org/wiki/Dark_pattern"
-  export: false
-- type: action
-  titre: "Poids de l’application"
-  image: "poidsdelapplication.jpg"
-  groupe: "Groupe 3"
-  description: "Entre 2013 et 2017, le poids du top 10 des applications de l’App Store a augmenté en moyenne de plus de 1000%.\nUne application pouvant être distribuée à des millions d’utilisateurs et ce plusieurs fois par semaine, un changement de son poids, via les effets d'échelle, peut avoir des impacts majeurs.\nsource : https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html"
-  export: true
-- type: action
-  titre: "IA"
-  image: "IA.jpg"
-  groupe: "Groupe 2"
-  description: "L’intelligence artificielle est déjà omniprésente dans nos terminaux. L’IA est déjà projetée comme étant un gouffre énergivore. De 2019 à 2024, elle a augmenté la consommation énergétique de google de +48% \nsources :\nhttps://ekwateur.fr/blog/enjeux-environnementaux/ia-impact-carbone-google/"
-  export: true
-- type: action
-  titre: "Stockage de données"
-  image: "stockagededonnées.png"
-  groupe: "Groupe 2"
-  description: "L'utilisation quotidienne des smartphones génère une quantité massive de données souvent superflues. Stories éphémères, photos en rafale, messages vocaux, vidéos en double, replays de streams : ces contenus s'accumulent dans le cloud sans réelle utilité à long terme. Ce stockage apparemment invisible a pourtant un coût environnemental bien réel : les centres de données qui hébergent ces contenus consomment de l'énergie en permanence et nécessitent un renouvellement constant des équipements de stockage. Le 'stockage illimité' encourage par ailleurs des comportements de conservation excessive, amplifiant le problème."
-  export: true
-- type: action
-  titre: "Rentabilité"
-  image: "rentabilite.jpg"
-  groupe: "Groupe 2"
-  description: "Ce qui fait tourner le monde : le gain d’argent."
-  export: true
-- type: action
-  titre: "Energies fossiles"
-  image: "energiesfossiles.png"
-  groupe: "Groupe 3"
-  description: "La dépendance aux énergies fossiles marque chaque étape du cycle de vie d'un smartphone. L'extraction minière des matières premières repose sur des équipements lourds alimentés au diesel. La fabrication des composants nécessite des températures extrêmes obtenues principalement par combustion de charbon ou de gaz. Le transport intercontinental des pièces et produits finis s'effectue via des navires et avions consommant du pétrole. Enfin, l'électricité alimentant nos réseaux mobiles et data centers provient encore majoritairement de centrales à énergies fossiles dans de nombreux pays."
-  export: true
-- type: action
-  titre: "Emissions carbone"
-  image: "emissionscarbone.png"
-  groupe: "Groupe 3"
-  description: "La fabrication et l'utilisation des smartphones génèrent une empreinte carbone considérable. Lors de la production, l'extraction des matières premières, la fabrication des composants et l'assemblage sont particulièrement énergivores et émetteurs de CO2. Une fois entre nos mains, chaque recherche web, chaque vidéo visionnée, chaque message envoyé sollicite des infrastructures réseau et des data centers fonctionnant 24h/24. Le renouvellement fréquent des appareils, souvent tous les 2-3 ans, multiplie cet impact. Contrairement aux idées reçues, la phase de fabrication représente généralement 80% de l'empreinte carbone totale d'un smartphone sur son cycle de vie."
-  export: true
-- type: action
-  titre: "Sac à dos écologique"
-  image: "sacados.png"
-  groupe: "Groupe 3"
-  description: "Le sac à dos écologique du smartphone représente l'ensemble des ressources et impacts environnementaux invisibles mais nécessaires à sa fabrication, son utilisation et sa fin de vie. Bien que l'appareil tienne dans la poche, son empreinte réelle est considérable : extraction de dizaines de matériaux différents, consommation d'eau et d'énergie pour la production, émissions de gaz à effet de serre liées aux infrastructures réseaux, et déchets électroniques générés. Ce concept permet de visualiser que chaque smartphone s'accompagne d'un \"sac à dos\" environnemental pesant plusieurs centaines de fois son propre poids."
-  export: false
-- type: action
-  titre: "Traitement des déchets"
-  image: "traitementdesdechets.png"
-  groupe: "Groupe 1"
-  description: "Les déchets électroniques non-recyclables des smartphones sont souvent exportés vers des pays aux réglementations moins strictes en Afrique et Asie du Sud-Est. Là-bas, leur traitement rudimentaire (brûlage à ciel ouvert, bains acides sans protection, mise en décharge) libère des substances toxiques comme le mercure, le plomb et les retardateurs de flamme bromés. Ces pratiques contaminent l'environnement local et provoquent de graves problèmes de santé chez les populations environnantes, notamment des troubles respiratoires, neurologiques et reproductifs."
-  export: true
-- type: action
-  titre: "Cadre légal"
-  image: "cadrelegal.png"
-  groupe: "Groupe 3"
-  description: "Le cadre législatif numérique comme le RGPD, le DMA ou le DSA offre une protection essentielle en encadrant la collecte des données personnelles, en limitant la domination des grandes plateformes et en imposant des standards d'accessibilité. Cependant, certaines initiatives réglementaires récentes présentent des risques importants pour la protection de la vie privée, notamment les projets visant à affaiblir le chiffrement des messageries pour permettre l'accès aux communications à des fins sécuritaires. Cette tension entre sécurité publique et confidentialité des échanges illustre la complexité d'un équilibre législatif qui doit à la fois protéger les utilisateurs sans compromettre leurs libertés fondamentales."
-  export: true
-- type: action
-  titre: "Rupture technologique"
-  image: "rupturetechnologique.png"
-  groupe: "Groupe 4"
-  description: "Une rupture technologique est une innovation qui transforme radicalement les usages et marchés existants. L'iPhone de 2007 a constitué une telle rupture en remplaçant les téléphones classiques par des mini-ordinateurs tactiles connectés. D'autres ruptures dans ce domaine incluent l'écosystème d'applications tierces, les appareils photo intégrés de haute qualité qui ont supplanté les appareils dédiés, et récemment l'intégration de l'IA sur l'appareil, transformant fondamentalement notre façon d'interagir avec ces technologies."
-  export: true
-- type: action
-  titre: "Fin de vie du téléphone"
-  image: "findevietelephone.png"
-  groupe: "Événements 4"
-  description: "La fin de vie d'un smartphone suit plusieurs voies possibles. La majorité des appareils sont d'abord stockés dans nos tiroirs pendant des mois voire des années. Ensuite, une partie est collectée via des points de dépôt pour être soit reconditionnée quand l'état le permet, soit orientée vers le recyclage. Le processus de recyclage comprend le démantèlement, le broyage et la séparation des différents matériaux. Malheureusement, une proportion importante finit dans des décharges ordinaires, tandis qu'une autre partie est exportée illégalement vers des pays aux réglementations moins strictes, où elle est traitée dans des conditions dangereuses pour la santé humaine et l'environnement."
-  export: false
-- type: action
-  titre: "Cyberviolences"
-  image: "cyberviolences.png"
-  groupe: "Groupe 3"
-  description: "La disponibilité permanente des smartphones et la facilité d'accès aux outils numériques ont transformé les dynamiques de harcèlement en offrant souvent un sentiment d'impunité aux agresseurs. Dans le contexte scolaire, les moqueries et humiliations poursuivent désormais les victimes jusque dans leur foyer via les réseaux sociaux, effaçant tout sanctuaire et amplifiant la portée des actes par leur viralité. Parallèlement, les femmes sont particulièrement ciblées par des formes spécifiques de cyberviolences : partage non consenti d'images intimes, cyberharcèlement en meute, traque via applications de géolocalisation, ou usurpation d'identité à des fins malveillantes."
-  export: true
-- type: action
-  titre: "Développement de logiciels"
-  image: "dev.avif"
-  groupe: "Groupe 1"
-  description: "- L’industrie de la tech et du développement de logiciel est responsable aujourd’hui d’environ 3% des émissions de carbone. C'est autant que l’aviation.\n- D’ici 2030, cela pourrait représenter 20% de la demande globale en énergie.\n- D’ici 2040, elle pourrait être responsable de 14% des émissions globales de carbone, en ayant démarré à 1,6% en 2007.\nsources :\nhttps://www.softwareimprovementgroup.com/green-software-development/\nhttps://www.bjss.com/articles/the-current-state-of-the-industry-on-green-software-development\nhttps://beetroot.co/sustainability/how-to-reduce-software-carbon-footprint-strategies-for-tech-leaders-and-developers/"
-  export: true
-- type: action
-  titre: "Droit à la déconnexion"
-  image: "droitdeco.png"
-  groupe: "Groupe 2"
-  description: "Le droit à la déconnexion est un principe selon lequel un salarié est en droit de ne pas être connecté aux outils numériques professionnels (téléphone portable, courriels, etc.) hors des horaires de travail (temps de transport travail-domicile, congés, temps de repos, week-end, soirée, etc.)."
-  export: true
-- type: action
-  titre: "Effet rebond"
-  image: "effetrebond.avif"
-  groupe: "Groupe 4"
-  description: "**L’effet rebond ou paradoxe de Jevons** énonce qu'à mesure que les améliorations technologiques augmentent l'efficacité avec laquelle une [ressource](https://fr.wikipedia.org/wiki/Ressource_naturelle) est employée, la [consommation]https://fr.wikipedia.org/wiki/Consommation totale de cette ressource peut augmenter au lieu de diminuer.\n\nhttps://fr.wikipedia.org/wiki/Paradoxe_de_Jevons\nsource : https://misterprepa.net/jevons-effet-rebond/"
-  export: true
-- type: action
-  titre: "Électricité"
-  image: "electricite.jpg"
-  groupe: "Groupe 1"
-  description: "L’énergie utilisée pour toute l’infrastructure réseau et les smartphones :-)"
-  export: true
-- type: action
-  titre: "Évolution des outils de travail"
-  image: "outilstravail.avif"
-  groupe: "Groupe 3"
-  description: "On peut profiter des terminaux mobiles pour changer notre façon de travailler : détection en temps réel de dangers via de la vidéo, visualisation 3D avec de la réalité augmentée etc."
-  export: false
-- type: action
-  titre: "Fabrication"
-  image: "fabrication.webp"
-  groupe: "Événements 1"
-  description: "La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents, sur plus de 70 matériaux au total.\nsources: \nhttps://blog.helios.do/metaux-differents-smartphone\nhttps://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/\nhttps://blog.recommerce.com/green-circle/reconditionne/composants/"
-  export: false
-- type: action
-  titre: "Loi de Moore"
-  image: "loimoore.jpg"
-  groupe: "Groupe 3"
-  description: "Plus il y a de puissance moins c'est optimisé.\n\nL’augmentation constante de la puissance disponible a conduit l’optimisation du code à être une préocuppation secondaire.\nhttps://news.mit.edu/2020/mit-csail-computing-technology-after-moores-law-0605"
-  export: true
-- type: action
-  titre: "Magasins d'applications"
-  image: "stores.webp"
-  groupe: "Groupe 3"
-  description: "Les magasins d’applications permettent aux utilisateurs de télécharger des applications sur leur terminal."
-  export: false
-- type: action
-  titre: "Manque de souveraineté"
-  image: "souverainete.png"
-  groupe: "Groupe 4"
-  description: "La France et l'Europe souffrent d'un manque de souveraineté numérique.  Elles dépendent fortement d'acteurs étrangers, notamment américains et chinois, pour la fabrication de matériel (puces électroniques, serveurs), les systèmes d'exploitation (Windows, Android), le stockage de données (cloud) et les services en ligne. Cette dépendance entraîne des risques de perte de contrôle sur les données, de vulnérabilité face à des décisions unilatérales étrangères, et un affaiblissement de l'innovation européenne."
-  export: true
-- type: action
-  titre: "Pollution"
-  image: "pollution.png"
-  groupe: "Groupe 3"
-  description: "De l'extraction des minerais à l'assemblage, la fabrication d'un smartphone pollue : mines détruisant les écosystèmes, usines rejetant des gaz à effet de serre, transport polluant et déchets électroniques toxiques.  Un smartphone, c'est environ 80 kg de CO2, autant qu'une voiture qui roule pendant 400 km !\n\nhttps://impactco2.fr/outils/numerique/smartphone"
-  export: true
-- type: action
-  titre: "Ré-emploi / Seconde main"
-  image: "reemploi.png"
-  groupe: "Groupe 3"
-  description: "Le réemploi des smartphones est une solution efficace pour réduire l'impact environnemental du numérique. En donnant une seconde vie aux appareils encore fonctionnels via la revente, le don ou le reconditionnement professionnel, on évite l'extraction de nouvelles ressources et la production de déchets électroniques. Cette pratique permet également de rendre les technologies mobiles plus accessibles à un plus grand nombre grâce à des prix plus abordables. Un smartphone reconditionné peut ainsi fonctionner plusieurs années supplémentaires, maximisant l'utilisation des ressources déjà extraites et réduisant significativement l'empreinte carbone par rapport à l'achat d'un appareil neuf."
-  export: true
-- type: action
-  titre: "Travail des enfants"
-  image: "enfants.png"
-  groupe: "Groupe 2"
-  description: "La fabrication des smartphones est liée au travail des enfants, particulièrement dans les mines de cobalt et de coltan. Ces enfants travaillent dans des conditions dangereuses pour extraire les minerais essentiels aux batteries et composants électroniques, risquant leur santé et sacrifiant leur éducation. Malgré les engagements des fabricants, la complexité des chaînes d'approvisionnement permet la persistance de ces pratiques."
-  export: true
-- type: action
-  titre: "Usage: Multimédia"
-  image: "multimedias.jpg"
-  groupe: "Groupe 1"
-  description: "La consommation de contenu vidéo a explosé notamment avec les services de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu.\n\nLes jeux sur mobile représentent en 2023 plus de 50% des revenus du secteur du jeu vidéo\nhttps://gamingcampus.fr/boite-a-outils/lessor-des-jeux-video-sur-mobile.html"
-  export: true
-- type: action
-  titre: "Usage: Vidéo"
-  image: "video.jpg"
-  groupe: "Groupe 1"
-  description: "La consommation de contenu vidéo a explosé notamment avec les services de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu. "
-  export: false
