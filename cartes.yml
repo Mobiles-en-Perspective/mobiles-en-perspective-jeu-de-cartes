@@ -454,6 +454,18 @@
 
     source : https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html'
   export: true
+- type: reponse
+  titre: Recyclage difficile et peu rentable
+  image: recyclage_difficile.jpeg
+  groupe: Groupe 2
+  description: 'Les techniques actuelles ne permettent
+    de récupérer qu''une partie des matériaux, certains étant perdus ou dégradés durant
+    le processus. La miniaturisation et la complexité des composants rendent ce recyclage
+    particulièrement difficile et énergivore. **Les usines de recyclage ne récupèrent qu''une
+    quinzaine de matériaux sur les 45 de départ. Il est possible de faire mieux mais le coût
+    de travail humain et l''énergie nécessaire est trop élevé pour que ce soit rentable.**
+    Dans un smartphone, il y a moins de 5 euros de matières premières.'
+  export: true
 - type: jeu
   titre: Accessibilité numérique
   image: accessibilite.png
@@ -653,18 +665,6 @@
   description: 'On peut profiter des terminaux mobiles pour changer notre façon de
     travailler : détection en temps réel de dangers via de la vidéo, visualisation
     3D avec de la réalité augmentée etc.'
-  export: true
-- type: reponse
-  titre: Recyclage difficile et peu rentable
-  image: recyclage_difficile.jpeg
-  groupe: Groupe 3
-  description: 'Les techniques actuelles ne permettent
-    de récupérer qu''une partie des matériaux, certains étant perdus ou dégradés durant
-    le processus. La miniaturisation et la complexité des composants rendent ce recyclage
-    particulièrement difficile et énergivore. **Les usines de recyclage ne récupèrent qu''une
-    quinzaine de matériaux sur les 45 de départ. Il est possible de faire mieux mais le coût
-    de travail humain et l''énergie nécessaire est trop élevé pour que ce soit rentable.**
-    Dans un smartphone, il y a moins de 5 euros de matières premières.'
   export: true
 - type: question # carte ?
   titre: Indiquer quelles sont les conséquences positives et quelles sont les conséquences 
