@@ -3,38 +3,42 @@
   image: application.png
   groupe: Groupe 1
   description: '**Les utilisateurs de Smartphone utilisateurs en moyenne 9 à 10 apps
-    par jour. 30 par mois.**
-
-    https://techjury.net/blog/app-usage-statistics/'
+    par jour. 30 par mois.**'
   export: true
+  sources:
+  - https://techjury.net/blog/app-usage-statistics/
 - type: jeu
   titre: Fabrication
   image: fabrication.png
   groupe: Groupe 1
-  description: "La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents,\
-    \ sur plus de 70 matériaux au total.\nsources: \nhttps://blog.helios.do/metaux-differents-smartphone\n\
-    https://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/\n\
-    https://blog.recommerce.com/green-circle/reconditionne/composants/"
+  description: La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents,
+    sur plus de 70 matériaux au total.
   export: true
+  sources:
+  - https://blog.helios.do/metaux-differents-smartphone
+  - https://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/
+  - https://blog.recommerce.com/green-circle/reconditionne/composants/
 - type: jeu
   titre: IA
   image: IA.jpg
   groupe: Groupe 1
-  description: "L’intelligence artificielle est déjà omniprésente dans nos terminaux.\
-    \ L’IA est déjà projetée comme étant un gouffre énergivore. De 2019 à 2024, elle\
-    \ a augmenté la consommation énergétique de google de +48% \nsources :\nhttps://ekwateur.fr/blog/enjeux-environnementaux/ia-impact-carbone-google/"
+  description: L’intelligence artificielle est déjà omniprésente dans nos terminaux.
+    L’IA est déjà projetée comme étant un gouffre énergivore. De 2019 à 2024, elle
+    a augmenté la consommation énergétique de google de +48%
   export: true
+  sources:
+  - https://ekwateur.fr/blog/enjeux-environnementaux/ia-impact-carbone-google/
 - type: jeu
   titre: Infrastructures telecom
   image: infrastructurestelecom.jpg
   groupe: Groupe 1
-  description: 'L''utilisation des smartphones repose sur un vaste réseau d''infrastructures
+  description: "L'utilisation des smartphones repose sur un vaste réseau d'infrastructures
     physiques : antennes-relais, câbles sous-marins, data centers et équipements réseau.
-    Ces infrastructures, constamment actives, consomment une quantité importante d''énergie
+    Ces infrastructures, constamment actives, consomment une quantité importante d'énergie
     pour assurer la connexion permanente de nos appareils et le stockage des données
     dans le cloud. Leur construction et maintenance nécessitent des ressources considérables
-    et leur multiplication accompagne l''augmentation du trafic mobile.'
-  export: true
+    et leur multiplication accompagne l'augmentation du trafic mobile."
+  export: true"
 - type: jeu
   titre: Nouveau hardware
   image: hardware.jpeg
@@ -65,6 +69,7 @@
     vidéos, messagerie instantanée, envoi de contenu multimédia. Ils démultiplient
     les possibilités d’échanges et de rencontres.
 
+
     Le terminal mobile aide aussi à garder le lien avec des personnes qui ne nous
     sont pas géographiquement proches.'
   export: true
@@ -77,10 +82,10 @@
 
 
     Les jeux sur mobile représentent en 2023 plus de 50% des revenus du secteur du
-    jeu vidéo
-
-    https://gamingcampus.fr/boite-a-outils/lessor-des-jeux-video-sur-mobile.html'
+    jeu vidéo'
   export: true
+  sources:
+  - https://gamingcampus.fr/boite-a-outils/lessor-des-jeux-video-sur-mobile.html
 - type: jeu
   titre: 'Usage: Vidéo'
   image: video.jpg
@@ -94,6 +99,7 @@
   groupe: Groupe 1
   description: 'La communication instantanée démultiplie les possibilités de rencontres
     : échanges linguistiques avec des étrangers, activités avec familles et inconnus.
+
 
     Le terminal mobile aide aussi à garder le lien avec des personnes qui ne nous
     sont pas géographiquement proches.'
@@ -212,10 +218,10 @@
   titre: Téléphone cassé
   image: telephonecasse.jpeg
   groupe: Groupe 1
-  description: '38% of respondents who damaged their smartphones replaced their device
-
-    https://www.claimsjournal.com/news/national/2024/03/15/322486.htm'
+  description: 38% of respondents who damaged their smartphones replaced their device
   export: true
+  sources:
+  - https://www.claimsjournal.com/news/national/2024/03/15/322486.htm
 - type: jeu
   titre: Consommation d’eau
   image: consommationeau.png
@@ -267,10 +273,10 @@
 
 
     L’augmentation constante de la puissance disponible a conduit l’optimisation du
-    code à être une préocuppation secondaire.
-
-    https://news.mit.edu/2020/mit-csail-computing-technology-after-moores-law-0605'
+    code à être une préocuppation secondaire.'
   export: true
+  sources:
+  - https://news.mit.edu/2020/mit-csail-computing-technology-after-moores-law-0605
 - type: jeu
   titre: Pollution
   image: pollution.png
@@ -278,11 +284,10 @@
   description: 'De l''extraction des minerais à l''assemblage, la fabrication d''un
     smartphone pollue : mines détruisant les écosystèmes, usines rejetant des gaz
     à effet de serre, transport polluant et déchets électroniques toxiques.  Un smartphone,
-    c''est environ 80 kg de CO2, autant qu''une voiture qui roule pendant 400 km !
-
-
-    https://impactco2.fr/outils/numerique/smartphone'
+    c''est environ 80 kg de CO2, autant qu''une voiture qui roule pendant 400 km !'
   export: true
+  sources:
+  - https://impactco2.fr/outils/numerique/smartphone
 - type: jeu
   titre: Rentabilité
   image: rentabilite.jpg
@@ -351,13 +356,14 @@
 
     - une augmentation du stockage disponible sur les téléphones
 
+
     - une augmentation du volume de données transférées (4g, 5g)
 
-    - une augmentation de la consommation électrique pour ces nouveaux usages
 
-
-    source : https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d''un_smartphone'
+    - une augmentation de la consommation électrique pour ces nouveaux usages'
   export: true
+  sources:
+  - https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d'un_smartphone
 - type: reponse
   titre: 'Batterie: Chargez moins, durez plus'
   image: batterie.png
@@ -375,12 +381,13 @@
   description: '**Environ 46 millions de téléphones traînent dans nos placards alors
     qu''ils pourraient être reconditionnés ou recyclés.**
 
+
     64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage
     ou parce qu''ils ne savaient pas quoi en faire. Les trois quarts fonctionnent
-    encore.
-
-    source: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/'
+    encore.'
   export: true
+  sources:
+  - https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/
 - type: reponse
   titre: Choix de la techno (Natif vs Hybride)
   image: choixdelatechno.png
@@ -448,23 +455,24 @@
   description: 'Entre 2013 et 2017, le poids du top 10 des applications de l’App Store
     a augmenté en moyenne de plus de 1000%.
 
+
     Une application pouvant être distribuée à des millions d’utilisateurs et ce plusieurs
     fois par semaine, un changement de son poids, via les effets d''échelle, peut
-    avoir des impacts majeurs.
-
-    source : https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html'
+    avoir des impacts majeurs.'
   export: true
+  sources:
+  - https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html
 - type: reponse
   titre: Recyclage difficile et peu rentable
   image: recyclage_difficile.jpeg
   groupe: Groupe 2
-  description: 'Les techniques actuelles ne permettent
-    de récupérer qu''une partie des matériaux, certains étant perdus ou dégradés durant
-    le processus. La miniaturisation et la complexité des composants rendent ce recyclage
-    particulièrement difficile et énergivore. **Les usines de recyclage ne récupèrent qu''une
-    quinzaine de matériaux sur les 45 de départ. Il est possible de faire mieux mais le coût
-    de travail humain et l''énergie nécessaire est trop élevé pour que ce soit rentable.**
-    Dans un smartphone, il y a moins de 5 euros de matières premières.'
+  description: 'Les techniques actuelles ne permettent de récupérer qu''une partie
+    des matériaux, certains étant perdus ou dégradés durant le processus. La miniaturisation
+    et la complexité des composants rendent ce recyclage particulièrement difficile
+    et énergivore. **Les usines de recyclage ne récupèrent qu''une quinzaine de matériaux
+    sur les 45 de départ. Il est possible de faire mieux mais le coût de travail humain
+    et l''énergie nécessaire est trop élevé pour que ce soit rentable.** Dans un smartphone,
+    il y a moins de 5 euros de matières premières.'
   export: true
 - type: jeu
   titre: Accessibilité numérique
@@ -534,10 +542,10 @@
     est une technique de conception d''interface utilisateur délibérément conçue pour
     manipuler ou tromper les utilisateurs. Ces pratiques exploitent les biais cognitifs
     des utilisateurs pour les inciter à effectuer des actions qu''ils n''auraient
-    pas nécessairement choisies autrement.
-
-    source : https://fr.wikipedia.org/wiki/Dark_pattern'
+    pas nécessairement choisies autrement.'
   export: true
+  sources:
+  - https://fr.wikipedia.org/wiki/Dark_pattern
 - type: jeu
   titre: Droit à la déconnexion
   image: droitdeco.png
@@ -694,13 +702,11 @@
   description: '**L’effet rebond ou paradoxe de Jevons** énonce qu''à mesure que les
     améliorations technologiques augmentent l''efficacité avec laquelle une [ressource](https://fr.wikipedia.org/wiki/Ressource_naturelle) est
     employée, la [consommation]https://fr.wikipedia.org/wiki/Consommation totale de
-    cette ressource peut augmenter au lieu de diminuer.
-
-
-    https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons
-
-    source : https://misterprepa.net/jevons-effet-rebond/'
+    cette ressource peut augmenter au lieu de diminuer.'
   export: true
+  sources:
+  - https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons
+  - https://misterprepa.net/jevons-effet-rebond/
 - type: jeu
   titre: Pollution de l’eau
   image: pollutioneau.avif
@@ -710,20 +716,21 @@
     moyenne peut consommer l''équivalent de 7 piscines olympiques d''eau par jour
     pendant un an.
 
+
     - Le drainage minier acide est un problème majeur, résultant de l''oxydation des
     minéraux sulfurés exposés à l''air et à l''eau, ce qui acidifie les eaux et libère
     des métaux toxiques.
 
+
     - Les eaux de ruissellement lessivant les résidus miniers peuvent contaminer les
     cours d''eau avoisinants avec des métaux lourds et autres polluants.
 
+
     - Des fuites accidentelles de produits chimiques utilisés dans le traitement du
-    minerai peuvent causer une pollution aiguë des eaux de surface et souterraines.
-
-    sources :
-
-    https://www.pseau.org/outils/ouvrages/isf_presentation_thematique_comite_scientifique_impact_des_activites_minieres_sur_les_services_d_eau_en_afrique_subsaharienne_2018.pdf'
+    minerai peuvent causer une pollution aiguë des eaux de surface et souterraines.'
   export: false
+  sources:
+  - https://www.pseau.org/outils/ouvrages/isf_presentation_thematique_comite_scientifique_impact_des_activites_minieres_sur_les_services_d_eau_en_afrique_subsaharienne_2018.pdf
 - type: jeu
   titre: Développement de logiciels
   image: dev.avif
@@ -731,16 +738,14 @@
   description: '- L’industrie de la tech et du développement de logiciel est responsable
     aujourd’hui d’environ 3% des émissions de carbone. C''est autant que l’aviation.
 
+
     - D’ici 2030, cela pourrait représenter 20% de la demande globale en énergie.
 
+
     - D’ici 2040, elle pourrait être responsable de 14% des émissions globales de
-    carbone, en ayant démarré à 1,6% en 2007.
-
-    sources :
-
-    https://www.softwareimprovementgroup.com/green-software-development/
-
-    https://www.bjss.com/articles/the-current-state-of-the-industry-on-green-software-development
-
-    https://beetroot.co/sustainability/how-to-reduce-software-carbon-footprint-strategies-for-tech-leaders-and-developers/'
+    carbone, en ayant démarré à 1,6% en 2007.'
   export: true
+  sources:
+  - https://www.softwareimprovementgroup.com/green-software-development/
+  - https://www.bjss.com/articles/the-current-state-of-the-industry-on-green-software-development
+  - https://beetroot.co/sustainability/how-to-reduce-software-carbon-footprint-strategies-for-tech-leaders-and-developers/
