@@ -78,8 +78,8 @@ Chaque carte possède un attribut `type` :
 - En bas et centré : le **groupe** (gras, police Roboto, couleur selon le groupe).
 - Bordure extérieure de la couleur du groupe associé.
 
-#### Verso (pages paires)
-- Rien (blanc).
+#### Verso (pages impaires)
+- Un large point d'interrogation `?` est affiché en gras, au centre de la carte et de la couleur du groupe associé.
 
 Les cartes question sont imprimées avec les autres cartes.
 

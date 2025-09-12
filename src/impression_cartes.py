@@ -193,23 +193,17 @@ def draw_verso(c, carte, x, y):
         c.setStrokeColor(color)
         c.setLineWidth(4)
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
-        # Titre centré, police plus grande, word wrap
-        c.setFont('Roboto-Bold', 20)
+        # Grand point d'interrogation centré, couleur du groupe
+        question_mark = "?"
+        # Taille dynamique : occupe ~60% de la hauteur de la carte
+        font_size = int(CARD_HEIGHT * 0.6)
+        c.setFont('Roboto-Bold', font_size)
         c.setFillColor(color)
-        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 20, CARD_WIDTH-30)
-        title_y = y + CARD_HEIGHT - 40
-        for line in title_lines:
-            c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
-            title_y -= 22
-        # Réponse (si présente, word wrap)
-        if carte.get('reponse'):
-            c.setFont('Roboto', 14)
-            c.setFillColor(colors.black)
-            answer_lines = wrap_text(carte['reponse'], 'Roboto', 14, CARD_WIDTH-30)
-            a_y = y + CARD_HEIGHT/2
-            for line in answer_lines:
-                c.drawCentredString(x + CARD_WIDTH/2, a_y, line)
-                a_y -= 18
+        # Mesure la largeur du ? pour centrage
+        qm_width = stringWidth(question_mark, 'Roboto-Bold', font_size)
+        qm_x = x + (CARD_WIDTH - qm_width) / 2
+        qm_y = y + (CARD_HEIGHT - font_size) / 2 + font_size * 0.15  # ajustement vertical
+        c.drawString(qm_x, qm_y, question_mark)
         # Groupe en bas
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
