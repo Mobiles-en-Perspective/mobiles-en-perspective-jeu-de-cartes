@@ -126,7 +126,6 @@ Les cartes question sont imprimées avec les autres cartes.
 - Groupe 2 : Vert
 - Groupe 3 : Orange
 - Groupe 4 : Violet
-- Événements : Gris
 
 **Remarque** : Adapter la palette selon les besoins ou la charte graphique.
 

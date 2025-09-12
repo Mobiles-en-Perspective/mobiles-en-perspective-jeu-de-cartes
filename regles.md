@@ -71,11 +71,10 @@ Proposez de tracer des flèches entre les ressources et les cartes cycle de vie.
 
 ### Tour de jeu 3 : Conséquences (20mn)
 
-Distribuez toutes les cartes du tour 3.
-Demandez aux participants et participantes de les regrouper par thème. Les thèmes sont à deviner, mais ne sont pas figés.
-Demandez ensuite de placer les cartes sur la fresque.
-Proposez aussi de tracer des flèches pour matérialiser les relations de cause / conséquence.
-Demandez enfin d'indiquer parmi toutes les cartes du jeu quelles cartes sont des solutions et quelles cartes sont des problèmes. Pour ce faire, vous pouvez utiliser des gommettes de couleur. Note: Certaintes cartes sont à la fois des problèmes et à la fois des solutions.
+  1. Distribuez toutes les cartes du tour 3.
+  2. Demandez aux participants et participantes de les regrouper par thème. Les thèmes sont à deviner, mais ne sont pas figés.
+  3. Demandez ensuite de placer les cartes sur la fresque. Proposez aussi de tracer des flèches pour matérialiser les relations de cause / conséquence.
+  4. Demandez enfin d'indiquer parmi toutes les cartes du jeu quelles cartes sont des solutions et quelles cartes sont des problèmes. Pour ce faire, vous pouvez utiliser des gommettes de couleur. Note: Certaintes cartes sont à la fois des problèmes et à la fois des solutions.
 
 ## Étape 3 : Actions (30 minutes)
 

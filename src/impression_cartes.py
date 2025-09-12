@@ -72,7 +72,6 @@ GROUP_COLORS = {
     "Groupe 2": colors.HexColor("#388e3c"),   # Vert
     "Groupe 3": colors.HexColor("#f57c00"),   # Orange
     "Groupe 4": colors.HexColor("#7b1fa2"),   # Violet
-    "Événements": colors.HexColor("#757575"),  # Gris
 }
 
 # Dimensions

@@ -584,7 +584,7 @@
 - type: jeu
   titre: Magasins d'applications
   image: stores.webp
-  groupe: Groupe 5
+  groupe: Groupe 4
   description: Les magasins d’applications permettent aux utilisateurs de télécharger
     des applications sur leur terminal.
   export: false
@@ -666,28 +666,28 @@
     travailler : détection en temps réel de dangers via de la vidéo, visualisation
     3D avec de la réalité augmentée etc.'
   export: true
-- type: question # carte ?
+- type: question
   titre: Indiquer quelles sont les conséquences positives et quelles sont les conséquences 
     négatives.
   groupe: Groupe 3
   export: true
-- type: question # carte ?
+- type: question
   titre: Trouver des impacts d'accessibilité.
   groupe: Groupe 3
   export: true
-- type: question # carte ?
+- type: question
   titre: Trouver des impacts géopolitiques.
   groupe: Groupe 3
   export: true
-- type: question # carte ?
+- type: question
   titre: Trouver des impacts professionnels.
   groupe: Groupe 3
   export: true
-- type: question # carte ?
+- type: question
   titre: Trouver des impacts psychologiques et humains.
   groupe: Groupe 3
   export: true
-- type: jeu # on en fait quoi ?
+- type: jeu
   titre: Effet rebond
   image: effetrebond.avif
   groupe: Groupe 4
@@ -727,7 +727,7 @@
 - type: jeu
   titre: Développement de logiciels
   image: dev.avif
-  groupe: Groupe 5
+  groupe: Groupe 4
   description: '- L’industrie de la tech et du développement de logiciel est responsable
     aujourd’hui d’environ 3% des émissions de carbone. C''est autant que l’aviation.
 
