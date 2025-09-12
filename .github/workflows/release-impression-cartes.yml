@@ -4,8 +4,27 @@ on:
   release:
     types: [published]
 
+
 jobs:
   release-pdf-generation:
     uses: ./.github/workflows/_pdf-job.yml
     with:
       upload_artifact: true
+
+  upload-release-assets:
+    needs: release-pdf-generation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: cartes-impression-pdf
+          path: ./pdfs
+      - name: Upload cartes-impression.pdf to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./pdfs/cartes-impression.pdf
+      - name: Upload cartes-impression_sources.pdf to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./pdfs/cartes-impression_sources.pdf

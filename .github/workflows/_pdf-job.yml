@@ -31,10 +31,13 @@ jobs:
       - name: Check PDF output
         run: |
           test -f cartes-impression.pdf && echo "PDF généré avec succès."
+          test -f cartes-impression_sources.pdf && echo "PDF des sources généré avec succès."
 
       - name: Upload PDF as artifact
         if: ${{ inputs.upload_artifact }}
         uses: actions/upload-artifact@v4
         with:
           name: cartes-impression-pdf
-          path: cartes-impression.pdf
+          path: |
+            cartes-impression.pdf
+            cartes-impression_sources.pdf
