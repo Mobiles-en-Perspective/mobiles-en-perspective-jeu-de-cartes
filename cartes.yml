@@ -11,8 +11,11 @@
   titre: Fabrication
   image: fabrication.png
   groupe: Groupe 1
-  description: La fabrication d’un terminal mobile mobilise 40 à 60 métaux différents,
-    sur plus de 70 matériaux au total.
+  description: "La fabrication d'un terminal mobile mobilise 40 à 60 métaux différents, sur plus de 70 matériaux au total."
+  sources:
+    - https://blog.helios.do/metaux-differents-smartphone
+    - https://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/
+    - https://blog.recommerce.com/green-circle/reconditionne/composants/
   export: true
   sources:
   - https://blog.helios.do/metaux-differents-smartphone
@@ -22,9 +25,10 @@
   titre: IA
   image: IA.jpg
   groupe: Groupe 1
-  description: L’intelligence artificielle est déjà omniprésente dans nos terminaux.
-    L’IA est déjà projetée comme étant un gouffre énergivore. De 2019 à 2024, elle
-    a augmenté la consommation énergétique de google de +48%
+  description: |
+    L’intelligence artificielle est déjà omniprésente dans nos terminaux. L’IA est déjà projetée comme étant un gouffre énergivore. De 2019 à 2024, elle a augmenté la consommation énergétique de google de +48%
+  sources:
+    - https://ekwateur.fr/blog/enjeux-environnementaux/ia-impact-carbone-google/
   export: true
   sources:
   - https://ekwateur.fr/blog/enjeux-environnementaux/ia-impact-carbone-google/
@@ -353,14 +357,13 @@
   groupe: Groupe 2
   description: 'Malgré les optimisations logicielles, on observe :
 
-
     - une augmentation du stockage disponible sur les téléphones
 
 
     - une augmentation du volume de données transférées (4g, 5g)
 
-
     - une augmentation de la consommation électrique pour ces nouveaux usages'
+  sources : https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d%27un_smartphone
   export: true
   sources:
   - https://fr.wikipedia.org/wiki/Consommation_%C3%A9nerg%C3%A9tique_d'un_smartphone
@@ -385,6 +388,7 @@
     64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage
     ou parce qu''ils ne savaient pas quoi en faire. Les trois quarts fonctionnent
     encore.'
+  sources: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/
   export: true
   sources:
   - https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/
@@ -459,6 +463,7 @@
     Une application pouvant être distribuée à des millions d’utilisateurs et ce plusieurs
     fois par semaine, un changement de son poids, via les effets d''échelle, peut
     avoir des impacts majeurs.'
+  sources : https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html
   export: true
   sources:
   - https://www.insideapp.fr/publications/faites-perdre-du-poids-a-vos-apps-mobiles.html
@@ -540,9 +545,10 @@
   groupe: Groupe 3
   description: 'Un dark pattern, également appelé "interface truquée" ou "design trompeur",
     est une technique de conception d''interface utilisateur délibérément conçue pour
-    manipuler ou tromper les utilisateurs. Ces pratiques exploitent les biais cognitifs
+    manipuler ou tromper les utilisateurs. Ces pratiques exploitent les biais cognitifs
     des utilisateurs pour les inciter à effectuer des actions qu''ils n''auraient
     pas nécessairement choisies autrement.'
+  sources : https://fr.wikipedia.org/wiki/Dark_pattern
   export: true
   sources:
   - https://fr.wikipedia.org/wiki/Dark_pattern
@@ -699,10 +705,12 @@
   titre: Effet rebond
   image: effetrebond.avif
   groupe: Groupe 4
-  description: '**L’effet rebond ou paradoxe de Jevons** énonce qu''à mesure que les
-    améliorations technologiques augmentent l''efficacité avec laquelle une [ressource](https://fr.wikipedia.org/wiki/Ressource_naturelle) est
-    employée, la [consommation]https://fr.wikipedia.org/wiki/Consommation totale de
-    cette ressource peut augmenter au lieu de diminuer.'
+  description: '**L''effet rebond ou paradoxe de Jevons** énonce qu''à mesure que les
+    améliorations technologiques augmentent l''efficacité avec laquelle une ressource est
+    employée, la consommation totale de cette ressource peut augmenter au lieu de diminuer.'
+  sources : 
+    https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons
+    https://misterprepa.net/jevons-effet-rebond/
   export: true
   sources:
   - https://fr.wikipedia.org/wiki/Paradoxe_de_Jevons
@@ -728,6 +736,7 @@
 
     - Des fuites accidentelles de produits chimiques utilisés dans le traitement du
     minerai peuvent causer une pollution aiguë des eaux de surface et souterraines.'
+  sources : https://www.pseau.org/outils/ouvrages/isf_presentation_thematique_comite_scientifique_impact_des_activites_minieres_sur_les_services_d_eau_en_afrique_subsaharienne_2018.pdf
   export: false
   sources:
   - https://www.pseau.org/outils/ouvrages/isf_presentation_thematique_comite_scientifique_impact_des_activites_minieres_sur_les_services_d_eau_en_afrique_subsaharienne_2018.pdf
@@ -744,6 +753,10 @@
 
     - D’ici 2040, elle pourrait être responsable de 14% des émissions globales de
     carbone, en ayant démarré à 1,6% en 2007.'
+  sources :
+    https://www.softwareimprovementgroup.com/green-software-development/
+    https://www.bjss.com/articles/the-current-state-of-the-industry-on-green-software-development
+    https://beetroot.co/sustainability/how-to-reduce-software-carbon-footprint-strategies-for-tech-leaders-and-developers/
   export: true
   sources:
   - https://www.softwareimprovementgroup.com/green-software-development/
