@@ -47,7 +47,7 @@ def wrap_text(text, font_name, font_size, max_width):
 
 import yaml
 import os
-from reportlab.lib.pagesizes import A4, landscape
+from reportlab.lib.pagesizes import A4, landscape, portrait
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.lib.utils import ImageReader
@@ -270,6 +270,7 @@ def draw_guides(c):
 
 # Générer le PDF
 
+
 def generate_pdf(output_path):
     setup_fonts()
     cartes = read_cartes()
@@ -305,10 +306,130 @@ def generate_pdf(output_path):
     c.save()
     print(f"PDF généré : {output_path}")
 
+# Génération du PDF des sources
+import re
+def wrap_text_pdf(text, font_name, font_size, max_width):
+    # Découpe le texte en lignes qui tiennent dans la largeur max, en respectant les retours à la ligne explicites
+    # et force chaque URL (http/https) sur une nouvelle ligne
+    from reportlab.pdfbase.pdfmetrics import stringWidth
+    lines = []
+    url_pattern = re.compile(r'(https?://\S+)')
+    for paragraph in text.split('\n'):
+        # Découpe le paragraphe pour isoler les URLs
+        parts = []
+        last = 0
+        for m in url_pattern.finditer(paragraph):
+            if m.start() > last:
+                parts.append(paragraph[last:m.start()])
+            parts.append(m.group(0))
+            last = m.end()
+        if last < len(paragraph):
+            parts.append(paragraph[last:])
+        # Pour chaque morceau (texte ou URL)
+        for part in parts:
+            part = part.strip()
+            if not part:
+                continue
+            if url_pattern.match(part):
+                # URL seule sur la ligne, word wrap si trop longue
+                url = part
+                # On coupe l'URL si elle dépasse la largeur max
+                while url:
+                    # Cherche le plus long préfixe qui tient
+                    for i in range(len(url), 0, -1):
+                        if stringWidth(url[:i], font_name, font_size) <= max_width:
+                            lines.append(url[:i])
+                            url = url[i:]
+                            break
+                    else:
+                        # Si même un caractère ne tient pas, on évite la boucle infinie
+                        lines.append(url)
+                        url = ''
+            else:
+                # Texte normal, word wrap
+                words = part.split()
+                current_line = ''
+                for word in words:
+                    test_line = current_line + (' ' if current_line else '') + word
+                    if stringWidth(test_line, font_name, font_size) <= max_width:
+                        current_line = test_line
+                    else:
+                        if current_line:
+                            lines.append(current_line)
+                        current_line = word
+                if current_line or not words:
+                    lines.append(current_line)
+    return lines
+
+def generate_sources_pdf(output_path, cartes):
+    setup_fonts()
+    c = canvas.Canvas(output_path, pagesize=portrait(A4))
+    width, height = portrait(A4)
+    margin_x = 40
+    margin_y = 40
+    y = height - margin_y
+    line_height = 16
+    block_spacing = 12
+    sep = "---------------------------"
+    max_text_width = width - 2 * margin_x - 20
+    # Titre principal
+    c.setFont('Roboto-Bold', 18)
+    c.drawString(margin_x, y, "Jeu de cartes Mobiles en Perspective - Sources")
+    y -= 2 * line_height
+    c.setFont('Roboto', 12)
+    for carte in cartes:
+        sources = carte.get('sources')
+        if not sources:
+            continue
+        # Normalise sources en liste
+        if isinstance(sources, str):
+            sources_list = [s for s in sources.split('\n') if s.strip()]
+        elif isinstance(sources, list):
+            # Si la source est une liste, chaque élément peut contenir des retours à la ligne
+            sources_list = []
+            for s in sources:
+                sources_list.extend([ss for ss in str(s).split('\n') if ss.strip()])
+        else:
+            continue
+        # Affiche titre (word wrap)
+        c.setFont('Roboto-Bold', 13)
+        for line in wrap_text_pdf(f"Titre : {carte.get('titre','')}", 'Roboto-Bold', 13, max_text_width):
+            c.drawString(margin_x, y, line)
+            y -= line_height
+        c.setFont('Roboto', 12)
+        for line in wrap_text_pdf(f"Type : {carte.get('type','')}", 'Roboto', 12, max_text_width):
+            c.drawString(margin_x, y, line)
+            y -= line_height
+        for line in wrap_text_pdf(f"Groupe : {carte.get('groupe','')}", 'Roboto', 12, max_text_width):
+            c.drawString(margin_x, y, line)
+            y -= line_height
+        c.drawString(margin_x, y, "Sources :")
+        y -= line_height
+        for src in sources_list:
+            for line in wrap_text_pdf(src, 'Roboto', 12, max_text_width):
+                c.drawString(margin_x + 20, y, line)
+                y -= line_height
+        # Séparateur
+        y -= block_spacing
+        c.setFont('Roboto', 12)
+        c.drawString(margin_x, y, sep)
+        y -= (line_height + block_spacing)
+        # Nouvelle page si plus de place
+        if y < margin_y + 6 * line_height:
+            c.showPage()
+            y = height - margin_y
+            c.setFont('Roboto', 12)
+    c.save()
+    print(f"PDF des sources généré : {output_path}")
+
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="Génère le PDF d'impression des cartes du jeu.")
+    parser = argparse.ArgumentParser(description="Génère le PDF d'impression des cartes du jeu et le PDF des sources.")
     parser.add_argument("-o", "--output", default="cartes-impression.pdf", help="Chemin du PDF de sortie")
     args = parser.parse_args()
     output_path = os.path.abspath(args.output)
     generate_pdf(output_path)
+    # Génère le PDF des sources
+    cartes = read_cartes()
+    sources_path = os.path.splitext(output_path)[0] + "_sources.pdf"
+    generate_sources_pdf(sources_path, cartes)

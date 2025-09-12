@@ -37,11 +37,17 @@ Chaque carte possède un attribut `type` :
 - `type: reponse`
 - `type: question` (carte question, règles inchangées)
 
+
 ## Contenu des cartes
 
 ### Cartes d'action
 
+
 ### Cartes de type `jeu` ou `reponse`
+
+#### Attributs spécifiques
+
+- Les cartes de type `jeu` ou `reponse` peuvent avoir un attribut optionnel `sources` (chaîne ou liste de chaînes). Cet attribut permet de documenter les sources d'une carte, mais **son contenu n'est jamais affiché sur les cartes du PDF**.
 
 #### Recto (pages impaires)
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
@@ -118,6 +124,26 @@ Les cartes question sont imprimées avec les autres cartes.
 ## Exclusions
 - Pas de page de garde ni de page spéciale.
 - Pas de numérotation.
+
+## Génération d'un PDF des sources
+
+- Le script doit générer un second PDF listant toutes les cartes disposant d'un attribut `sources`.
+- Ce PDF est au format A4, orientation portrait.
+- Le nom du PDF est le même que le PDF principal, suffixé par `_sources` (ex: `cartes-impression_sources.pdf`).
+- En haut du PDF, afficher le titre : "Jeu de cartes Mobiles en Perspective - Sources".
+- Pour chaque carte ayant un attribut `sources`, afficher :
+	- le titre de la carte (avec retour à la ligne automatique si trop long)
+	- le type (avec retour à la ligne automatique si trop long)
+	- le groupe (avec retour à la ligne automatique si trop long)
+	- la liste des sources, chaque source sur une ou plusieurs lignes selon la longueur
+	- **Spécificité pour les URLs** :
+		- Toute URL (débutant par http:// ou https://) est automatiquement affichée sur une nouvelle ligne, même si elle est collée à du texte.
+		- Les URLs trop longues sont coupées automatiquement (word wrap) pour ne pas dépasser la largeur de la page.
+	- Les retours à la ligne présents dans le YAML sont respectés dans le PDF.
+- Séparer chaque bloc de carte par une ligne de tirets : `---------------------------`.
+- Sauter une ligne entre chaque bloc pour l'aération.
+
+Ce PDF sert uniquement à la documentation des sources et n'est pas destiné à l'impression des cartes.
 
 ---
 
