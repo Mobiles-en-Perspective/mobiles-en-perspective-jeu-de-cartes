@@ -37,7 +37,7 @@
   export: true
 - type: jeu
   titre: Nouveau hardware
-  image: hardware.jpg
+  image: hardware.jpeg
   groupe: Groupe 1
   description: 'Les nouvelles générations de téléphone embarquent de nouvelles spécificités
     hardware :
