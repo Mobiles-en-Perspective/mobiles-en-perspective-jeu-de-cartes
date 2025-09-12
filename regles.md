@@ -28,7 +28,7 @@ Ce que vous vivrez :
 
 ### Rappel des principes d'animation
 
-Pensez à rappeler qu'il est important que tout le monde participe. Il n'y a pas de bonne ou de mauvaise réponse mais le format du jeu appel au débat constructif. L'écoute est essentielle et nécessaire pour que tout le monde ressorte heureux de l'atelier.
+**Pensez à rappeler qu'il est important que tout le monde participe. Il n'y a pas de bonne ou de mauvaise réponse mais le format du jeu appel au débat constructif. L'écoute est essentielle et nécessaire pour que tout le monde ressorte heureux de l'atelier.**
 
 Gardez un oeil vigilant sur la distribution de parole puisque vous aurez sûrement des personnalités plus locaces que d'autres. Veillez aussi à ce que les cartes soient entre les mains de plusieurs personnes. Ce même fichier de règles le rappela dans les explications de chaque phase.
 
@@ -42,9 +42,10 @@ Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marqu
 
 #### Tour de jeu 1 - Phase 1 : cartes jeux (10mn)
 
-Distribuez toutes les cartes jeu marquées pour le tour 1.
-Ne distribuez pas les cartes questions.
-Le but de ce tour est que les partipants et participantes devinent qu'il s'agisse du cycle de vie du téléphone.
+- Distribuez toutes les cartes jeu marquées pour le tour 1.
+- Ne distribuez pas les cartes questions ni réponses.
+
+Le but de ce tour est que les partipants et participantes devinent qu'il s'agit du cycle de vie du téléphone.
 Ne leur indiquez pas que c'est le but de ce tour.
 L'ordre des cartes doit donc être chronologique : de la fabrication à la fin de vie du téléphone.
 
@@ -74,7 +75,7 @@ Distribuez toutes les cartes du tour 3.
 Demandez aux participants et participantes de les regrouper par thème. Les thèmes sont à deviner, mais ne sont pas figés.
 Demandez ensuite de placer les cartes sur la fresque.
 Proposez aussi de tracer des flèches pour matérialiser les relations de cause / conséquence.
-Demandez enfin d'indiquer parmi toutes les cartes du jeu quelles cartes sont des solutions et quelles cartes sont des problèmes.
+Demandez enfin d'indiquer parmi toutes les cartes du jeu quelles cartes sont des solutions et quelles cartes sont des problèmes. Pour ce faire, vous pouvez utiliser des gommettes de couleur. Note: Certaintes cartes sont à la fois des problèmes et à la fois des solutions.
 
 ## Étape 3 : Actions (30 minutes)
 
