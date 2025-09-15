@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussion générale
+    url: https://github.com/Mobiles-en-Perspective/jeu-de-cartes/discussions
+    about: Pour poser des questions générales ou discuter du projet
+  - name: 📖 Guide de contribution
+    url: https://github.com/Mobiles-en-Perspective/jeu-de-cartes/blob/main/CONTRIBUTING.md
+    about: Consultez le guide pour savoir comment contribuer

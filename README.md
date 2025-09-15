@@ -50,6 +50,16 @@ python src/impression_cartes.py -o cartes-impression.pdf
 - Les cartes sont disposées pour une impression recto-verso et un découpage manuel.
 - Les polices et couleurs sont gérées automatiquement.
 
+## Contribuer au projet
+
+Vous souhaitez améliorer le jeu en ajoutant de nouvelles cartes, en corrigeant des données ou en proposant des améliorations ? Consultez notre [guide de contribution](CONTRIBUTING.md) pour savoir comment procéder.
+
+Toutes les contributions sont les bienvenues :
+- 🃏 Ajout de nouvelles cartes dans `cartes.yml`
+- 📊 Amélioration des ordres de grandeur dans `ordres-de-grandeur.md`
+- 📋 Amélioration des règles du jeu
+- 🛠️ Améliorations techniques du script d'impression
+
 # License
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
