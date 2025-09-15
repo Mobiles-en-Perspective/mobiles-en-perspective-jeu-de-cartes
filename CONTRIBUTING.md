@@ -2,11 +2,15 @@
 
 Merci de votre intérêt pour le projet "Mobiles en Perspective" ! Ce guide vous explique comment contribuer efficacement au jeu de cartes.
 
-## 🚀 Première contribution : Ouvrir une issue
+## 🚀 Première contribution : Signaler ou proposer
 
-**La façon la plus simple de contribuer est d'ouvrir une issue !** Pas besoin de connaissances techniques avancées en Git ou GitHub.
+**Vous avez plusieurs options pour contribuer, selon votre niveau de confort avec GitHub :**
 
-### Quand ouvrir une issue ?
+### Option 1 : Ouvrir une issue sur GitHub (recommandé)
+
+**La façon la plus simple pour les utilisateurs GitHub.** Pas besoin de connaissances techniques avancées.
+
+#### Quand ouvrir une issue ?
 
 - 🐛 **Vous avez trouvé une erreur** dans une carte ou une donnée
 - 💡 **Vous avez une idée** de nouvelle carte ou fonctionnalité
@@ -15,7 +19,7 @@ Merci de votre intérêt pour le projet "Mobiles en Perspective" ! Ce guide vous
 - 🔗 **Une source ne fonctionne plus** ou est incorrecte
 - ✨ **Vous proposez une amélioration** générale
 
-### Comment ouvrir une issue ?
+#### Comment ouvrir une issue ?
 
 1. Allez sur la [page des issues](https://github.com/Mobiles-en-Perspective/jeu-de-cartes/issues)
 2. Cliquez sur "New issue"
@@ -27,7 +31,20 @@ Merci de votre intérêt pour le projet "Mobiles en Perspective" ! Ce guide vous
 4. Remplissez le template avec vos informations
 5. Cliquez sur "Submit new issue"
 
-**C'est tout !** L'équipe du projet pourra alors discuter avec vous et éventuellement implémenter votre suggestion.
+### Option 2 : Remplir le formulaire de contribution
+
+**Pour ceux qui n'ont pas de compte GitHub ou préfèrent un formulaire simple.**
+
+👉 **[Accéder au formulaire de contribution](https://framaforms.org/contribuer-au-jeu-de-cartes-mobiles-en-perspective-1757966394)**
+
+Ce formulaire vous permet de :
+- 🃏 Proposer de nouvelles cartes
+- 📊 Partager des ordres de grandeur
+- 🐛 Signaler des erreurs
+- 💡 Suggérer des améliorations
+- 🔗 Signaler des sources qui ne fonctionnent plus
+
+**Les contributions via le formulaire seront ensuite étudiées en vue d'une intégration par l'équipe du projet.**
 
 ## 🛠️ Contribution avancée : Pull Request
 
@@ -139,9 +156,10 @@ git push origin nom-de-votre-branche
 ## 💬 Vous préférez discuter d'abord ?
 
 Si vous n'êtes pas sûr de votre idée ou voulez en discuter avant de l'implémenter :
-- Ouvrez une issue pour en parler
-- Utilisez les [Discussions GitHub](https://github.com/Mobiles-en-Perspective/jeu-de-cartes/discussions) pour les questions générales
-- Contactez l'équipe dans votre issue ou Pull Request
+- **Issues GitHub** : Ouvrez une issue pour en parler
+- **Discussions GitHub** : Utilisez les [Discussions](https://github.com/Mobiles-en-Perspective/jeu-de-cartes/discussions) pour les questions générales
+- **Formulaire** : Utilisez le [formulaire de contribution](https://framaforms.org/contribuer-au-jeu-de-cartes-mobiles-en-perspective-1757966394) pour toute question ou suggestion
+- **Dans vos contributions** : Contactez l'équipe dans votre issue ou Pull Request
 
 ## Critères de qualité
 
@@ -178,9 +196,10 @@ Si vous n'êtes pas sûr de votre idée ou voulez en discuter avant de l'implém
 
 N'hésitez pas à :
 - 🐛 **Ouvrir une issue** pour poser des questions ou signaler un problème
-- 💬 **Participer aux discussions** pour les questions générales
+- 💬 **Participer aux discussions** pour les questions générales  
+- � **Utiliser le formulaire** si vous n'avez pas de compte GitHub
 - 🤝 **Demander de l'aide** dans votre issue ou Pull Request
 
-**Rappel : Ouvrir une issue est souvent le meilleur premier pas !** Même si vous pensez savoir comment résoudre un problème, une issue permet de discuter de la meilleure approche avant de se lancer dans le code.
+**Rappel : Toute contribution compte !** Que ce soit par GitHub ou par formulaire, votre aide est précieuse pour améliorer ce projet éducatif.
 
 Merci pour votre contribution ! 🚀
