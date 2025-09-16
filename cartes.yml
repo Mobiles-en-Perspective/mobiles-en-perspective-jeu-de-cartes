@@ -11,7 +11,10 @@
   titre: Fabrication
   image: fabrication.png
   groupe: Groupe 1
-  description: "La fabrication d'un terminal mobile mobilise 40 à 60 métaux différents, sur plus de 70 matériaux au total."
+  description: "La fabrication d'un terminal mobile mobilise 40 à 60 métaux différents, sur plus de 70 matériaux au total.
+  
+
+    La phase de fabrication représente généralement 80% de l'empreinte carbone totale d'un smartphone sur son cycle de vie."
   sources:
     - https://blog.helios.do/metaux-differents-smartphone
     - https://www.caminteresse.fr/sciences/combien-de-metaux-differents-y-a-t-il-dans-un-smartphone-11191920/
@@ -69,7 +72,7 @@
   titre: 'Usage: Communication'
   image: communication.jpg
   groupe: Groupe 1
-  description: 'Les mobiles ont révolutionné notre manière de communiquer : appels
+  description: '**Les mobiles ont révolutionné notre manière de communiquer** : appels
     vidéos, messagerie instantanée, envoi de contenu multimédia. Ils démultiplient
     les possibilités d’échanges et de rencontres.
 
@@ -85,8 +88,8 @@
     de SVOD et l’apparition de réseaux sociaux centrés sur ce type de contenu.
 
 
-    Les jeux sur mobile représentent en 2023 plus de 50% des revenus du secteur du
-    jeu vidéo'
+    **Les jeux sur mobile représentent en 2023 plus de 50% des revenus du secteur du
+    jeu vidéo**'
   export: true
   sources:
   - https://gamingcampus.fr/boite-a-outils/lessor-des-jeux-video-sur-mobile.html
@@ -141,7 +144,9 @@
     années. Ensuite, une partie est collectée via des points de dépôt pour être soit
     reconditionnée quand l'état le permet, soit orientée vers le recyclage. Le processus
     de recyclage comprend le démantèlement, le broyage et la séparation des différents
-    matériaux. Malheureusement, une proportion importante finit dans des décharges
+    matériaux.
+
+    Malheureusement, une proportion importante finit dans des décharges
     ordinaires, tandis qu'une autre partie est exportée illégalement vers des pays
     aux réglementations moins strictes, où elle est traitée dans des conditions dangereuses
     pour la santé humaine et l'environnement.
@@ -176,17 +181,14 @@
     les matériaux précieux qu''ils contiennent. Après démontage, les différents composants
     sont triés : métaux précieux (or, argent, palladium), terres rares, cuivre des
     circuits imprimés, plastiques et verres. Ces matériaux sont ensuite extraits par
-    des procédés mécaniques et chimiques. Cependant, les techniques actuelles ne permettent
-    de récupérer qu''une partie des matériaux, certains étant perdus ou dégradés durant
-    le processus. La miniaturisation et la complexité des composants rendent ce recyclage
-    particulièrement difficile et énergivore.'
+    des procédés mécaniques et chimiques.'
   export: true
 - type: reponse
   titre: Rupture technologique
   image: rupturetechnologique.png
   groupe: Groupe 1
   description: Une rupture technologique est une innovation qui transforme radicalement
-    les usages et marchés existants. L'iPhone de 2007 a constitué une telle rupture
+    les usages et marchés existants. L'iPhone de 2007 a constitué une forte rupture
     en remplaçant les téléphones classiques par des mini-ordinateurs tactiles connectés.
     D'autres ruptures dans ce domaine incluent l'écosystème d'applications tierces,
     les appareils photo intégrés de haute qualité qui ont supplanté les appareils
@@ -222,10 +224,14 @@
   titre: Téléphone cassé
   image: telephonecasse.jpeg
   groupe: Groupe 1
-  description: 38% of respondents who damaged their smartphones replaced their device
+  description: "Les écrans cassés représentent 67% des dommages de smartphones, principalement dus aux chutes. Les autres problèmes fréquents sont les dysfonctionnements de connectivité (28%) et les écrans tactiles défaillants (24%).
+
+
+    L'ADEME (Agence de l'environnement et de la maîtrise de l'énergie) estime qu'une réparation mobile coûte en moyenne 110€."
   export: true
   sources:
   - https://www.claimsjournal.com/news/national/2024/03/15/322486.htm
+  - https://www.statista.com/statistics/959513/us-common-smartphone-damages/
 - type: jeu
   titre: Consommation d’eau
   image: consommationeau.png
@@ -245,9 +251,7 @@
     et émetteurs de CO2. Une fois entre nos mains, chaque recherche web, chaque vidéo
     visionnée, chaque message envoyé sollicite des infrastructures réseau et des data
     centers fonctionnant 24h/24. Le renouvellement fréquent des appareils, souvent
-    tous les 2-3 ans, multiplie cet impact. Contrairement aux idées reçues, la phase
-    de fabrication représente généralement 80% de l'empreinte carbone totale d'un
-    smartphone sur son cycle de vie.
+    tous les 2-3 ans, multiplie cet impact.
   export: true
 - type: jeu
   titre: Energies fossiles
@@ -287,8 +291,10 @@
   groupe: Groupe 2
   description: 'De l''extraction des minerais à l''assemblage, la fabrication d''un
     smartphone pollue : mines détruisant les écosystèmes, usines rejetant des gaz
-    à effet de serre, transport polluant et déchets électroniques toxiques.  Un smartphone,
-    c''est environ 80 kg de CO2, autant qu''une voiture qui roule pendant 400 km !'
+    à effet de serre, transport polluant et déchets électroniques toxiques.  
+    
+
+    **Un smartphone, c''est environ 80 kg de CO2, autant qu''une voiture qui roule pendant 400 km !**'
   export: true
   sources:
   - https://impactco2.fr/outils/numerique/smartphone
@@ -311,6 +317,8 @@
     de visualiser que chaque smartphone s''accompagne d''un "sac à dos" environnemental
     pesant plusieurs centaines de fois son propre poids.'
   export: true
+  sources:
+  - https://www.ekopedia.fr/wiki/Sac_%C3%A0_dos_%C3%A9cologique
 - type: jeu
   titre: Stockage de données
   image: stockagededonnées.png
@@ -339,8 +347,10 @@
   titre: Électricité
   image: electricite.jpg
   groupe: Groupe 2
-  description: L’énergie utilisée pour toute l’infrastructure réseau et les smartphones
-    :-)
+  description: "**L'utilisation d'un smartphone consomme de l'électricité bien au-delà de sa simple charge quotidienne.** 
+    
+
+    Les réseaux de télécommunication, les centres de données qui stockent nos données, ainsi que la fabrication des composants et le recyclage en fin de vie représentent une consommation énergétique considérable à chaque étape du cycle de vie de l'appareil."
   export: true
 - type: question
   titre: Qu'est-ce qui peut amplifier ou atténuer la consommation en ressources dans
@@ -357,8 +367,8 @@
   groupe: Groupe 2
   description: 'Malgré les optimisations logicielles, on observe :
 
-    - une augmentation du stockage disponible sur les téléphones
 
+    - une augmentation du stockage disponible sur les téléphones
 
     - une augmentation du volume de données transférées (4g, 5g)
 
@@ -374,8 +384,10 @@
   description: Laisser votre téléphone branché même lorsqu'il est complètement chargé
     peut entraîner une surchauffe et une usure prématurée de la batterie. Cela peut
     également perturber le cycle de charge optimal de la batterie et réduire sa capacité
-    à long terme. En général, il est recommandé de maintenir la charge de la batterie
-    entre 20 % et 80 % pour optimiser sa durée de vie.
+    à long terme. 
+
+    **En général, il est recommandé de maintenir la charge de la batterie
+    entre 20 % et 80 % pour optimiser sa durée de vie.**
   export: true
 - type: reponse
   titre: Beaucoup de téléphones restent dans les tiroirs
@@ -447,8 +459,11 @@
   groupe: Groupe 2
   description: Les outils d'observabilité offrent une vision approfondie du fonctionnement
     des applications, permettant d'identifier les points faibles et les consommations
-    excessives de ressources (énergie, CPU, mémoire). En optimisant le code, les requêtes
+    excessives de ressources (énergie, CPU, mémoire). 
+    
+    En optimisant le code, les requêtes
     et l'infrastructure, on réduit l'empreinte environnementale des applications.
+    
     Une meilleure gestion des ressources se traduit par une diminution de la consommation
     d'énergie des serveurs et une utilisation plus efficace du matériel.
   export: true
@@ -456,8 +471,8 @@
   titre: Poids de l’application
   image: poidsdelapplication.jpg
   groupe: Groupe 2
-  description: 'Entre 2013 et 2017, le poids du top 10 des applications de l’App Store
-    a augmenté en moyenne de plus de 1000%.
+  description: '**Entre 2013 et 2017, le poids du top 10 des applications de l’App Store
+    a augmenté en moyenne de plus de 1000%.**
 
 
     Une application pouvant être distribuée à des millions d’utilisateurs et ce plusieurs
@@ -489,9 +504,9 @@
     à un plus grand nombre d''accéder aux services numériques.
 
 
-    En facilitant l''usage des applications, elle réduit la fracture numérique en
+    **En facilitant l''usage des applications, elle réduit la fracture numérique en
     incluant les personnes âgées, en situation de handicap ou peu à l''aise avec la
-    technologie.'
+    technologie.**'
   export: true
 - type: jeu
   titre: Cadre légal
@@ -534,7 +549,9 @@
     souvent un sentiment d''impunité aux agresseurs. Dans le contexte scolaire, les
     moqueries et humiliations poursuivent désormais les victimes jusque dans leur
     foyer via les réseaux sociaux, effaçant tout sanctuaire et amplifiant la portée
-    des actes par leur viralité. Parallèlement, les femmes sont particulièrement ciblées
+    des actes par leur viralité. 
+    
+    Parallèlement, les femmes sont particulièrement ciblées
     par des formes spécifiques de cyberviolences : partage non consenti d''images
     intimes, cyberharcèlement en meute, traque via applications de géolocalisation,
     ou usurpation d''identité à des fins malveillantes.'
@@ -609,7 +626,7 @@
   description: La France et l'Europe souffrent d'un manque de souveraineté numérique.  Elles
     dépendent fortement d'acteurs étrangers, notamment américains et chinois, pour
     la fabrication de matériel (puces électroniques, serveurs), les systèmes d'exploitation
-    (Windows, Android), le stockage de données (cloud) et les services en ligne. Cette
+    (iOS, Android), le stockage de données (cloud) et les services en ligne. Cette
     dépendance entraîne des risques de perte de contrôle sur les données, de vulnérabilité
     face à des décisions unilatérales étrangères, et un affaiblissement de l'innovation
     européenne.
