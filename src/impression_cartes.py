@@ -121,15 +121,16 @@ def draw_recto(c, carte, x, y):
     # Cartes question : rendu spécifique
     carte_type = carte.get('type')
     if carte_type == 'question':
-        # Bordure extérieure couleur du groupe
+        # Bordure extérieure couleur du groupe avec marge interne pour éviter le débordement
+        margin = 6  # Marge pour éviter le débordement de la bordure de 12 points
         c.setStrokeColor(color)
-        c.setLineWidth(4)
-        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
+        c.setLineWidth(12)
+        c.rect(x + margin, y + margin, CARD_WIDTH - 2*margin, CARD_HEIGHT - 2*margin, fill=1, stroke=1)
         # Titre centré, police plus grande, word wrap
         c.setFont('Roboto-Bold', 22)
         c.setFillColor(color)
-        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 22, CARD_WIDTH-30)
-        title_y = y + CARD_HEIGHT/2 + 30
+        title_lines = wrap_text(carte['titre'], 'Roboto-Bold', 22, CARD_WIDTH-30-2*margin)
+        title_y = y + (CARD_HEIGHT - 2*margin)/2 + 30 + margin
         for line in title_lines:
             c.drawCentredString(x + CARD_WIDTH/2, title_y, line)
             title_y -= 26
@@ -137,7 +138,7 @@ def draw_recto(c, carte, x, y):
         if carte.get('question'):
             c.setFont('Roboto', 14)
             c.setFillColor(colors.black)
-            question_lines = wrap_text(carte['question'], 'Roboto', 14, CARD_WIDTH-30)
+            question_lines = wrap_text(carte['question'], 'Roboto', 14, CARD_WIDTH-30-2*margin)
             q_y = title_y - 10
             for line in question_lines:
                 c.drawCentredString(x + CARD_WIDTH/2, q_y, line)
@@ -145,7 +146,7 @@ def draw_recto(c, carte, x, y):
         # Groupe en bas
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
-        c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
+        c.drawCentredString(x + CARD_WIDTH/2, y + 25 + margin, carte.get('groupe', ''))
     elif carte_type in ('jeu', 'reponse'):
         # Rendu classique (ex-action)
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
@@ -188,10 +189,11 @@ def draw_verso(c, carte, x, y):
     c.setFillColor(colors.white)
     carte_type = carte.get('type')
     if carte_type == 'question':
-        # Bordure extérieure couleur du groupe
+        # Bordure extérieure couleur du groupe avec marge interne pour éviter le débordement
+        margin = 6  # Marge pour éviter le débordement de la bordure de 12 points
         c.setStrokeColor(color)
-        c.setLineWidth(4)
-        c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=1)
+        c.setLineWidth(12)
+        c.rect(x + margin, y + margin, CARD_WIDTH - 2*margin, CARD_HEIGHT - 2*margin, fill=1, stroke=1)
         # Grand point d'interrogation centré, couleur du groupe
         question_mark = "?"
         # Taille dynamique : occupe ~60% de la hauteur de la carte
@@ -201,12 +203,12 @@ def draw_verso(c, carte, x, y):
         # Mesure la largeur du ? pour centrage
         qm_width = stringWidth(question_mark, 'Roboto-Bold', font_size)
         qm_x = x + (CARD_WIDTH - qm_width) / 2
-        qm_y = y + (CARD_HEIGHT - font_size) / 2 + font_size * 0.15  # ajustement vertical
+        qm_y = y + (CARD_HEIGHT - font_size) / 2 + font_size * 0.15 + margin  # ajustement vertical avec marge
         c.drawString(qm_x, qm_y, question_mark)
         # Groupe en bas
         c.setFont('Roboto-Bold', 14)
         c.setFillColor(color)
-        c.drawCentredString(x + CARD_WIDTH/2, y + 25, carte.get('groupe', ''))
+        c.drawCentredString(x + CARD_WIDTH/2, y + 25 + margin, carte.get('groupe', ''))
     elif carte_type in ('jeu', 'reponse'):
         c.rect(x, y, CARD_WIDTH, CARD_HEIGHT, fill=1, stroke=0)
         # Titre word wrap

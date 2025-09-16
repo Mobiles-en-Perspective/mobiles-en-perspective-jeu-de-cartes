@@ -82,10 +82,13 @@ Chaque carte possède un attribut `type` :
 #### Recto (pages impaires)
 - Au centre : le **titre** (gras, police Roboto, taille de police supérieure à celle des cartes d'action, texte centré, gestion des retours à la ligne).
 - En bas et centré : le **groupe** (gras, police Roboto, couleur selon le groupe).
-- Bordure extérieure de la couleur du groupe associé.
+- Bordure extérieure épaisse de la couleur du groupe associé (largeur 12 points).
+- Marge interne de 6 points pour éviter le débordement de la bordure sur les cartes adjacentes.
 
-#### Verso (pages impaires)
+#### Verso (pages paires)
 - Un large point d'interrogation `?` est affiché en gras, au centre de la carte et de la couleur du groupe associé.
+- Bordure extérieure épaisse de la couleur du groupe associé (largeur 12 points).
+- Marge interne de 6 points pour éviter le débordement de la bordure sur les cartes adjacentes.
 
 Les cartes question sont imprimées avec les autres cartes.
 
