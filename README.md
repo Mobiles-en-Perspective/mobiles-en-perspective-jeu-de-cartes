@@ -1,4 +1,20 @@
-# Jeu de cartes Mobiles en Perspective
+# Mobiles en Perspective: quels impacts sociaux et environnementaux ont nos smartphones ? - Jeu de cartes
+
+## Présentation du jeu
+
+Il était une fois, en 2007, une révolution qui a changé nos vies : l'arrivée du smartphone. Mais comme dans tous les contes, cette innovation cache des faces moins reluisantes...
+
+Cet atelier collaboratif et ludique vous invite à explorer ensemble l'écosystème complexe des technologies mobiles et leurs impacts sur notre société et notre environnement. Inspiré de la Fresque du Climat, ce jeu de cartes vous permettra de découvrir les enjeux cachés derrière nos appareils du quotidien.
+
+Ce que vous vivrez :
+
+  * Un moment d'échange détendu et enrichissant (aucun prérequis technique !)
+  * Une approche ludique pour comprendre des enjeux complexes
+  * Des discussions stimulantes avec d'autres participant·e·s
+  * Une réflexion collective sur les solutions à notre portée
+  * Déroulé : Réparti·e·s en petites tables de 4 à 8 personnes, vous manipulerez des cartes pour construire une vision partagée de l'impact des smartphones, des mines de cobalt jusqu'aux data centers, en passant par nos usages quotidiens.
+
+Venez découvrir comment, nous pouvons contribuer à un numérique plus responsable !
 
 ## Règles du jeu
 
