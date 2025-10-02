@@ -276,7 +276,7 @@
 - type: jeu
   titre: Loi de Moore
   image: loimoore.jpg
-  groupe: Groupe 4
+  groupe: Groupe 2
   description: 'Plus il y a de puissance moins c''est optimisé.
 
 
@@ -698,26 +698,25 @@
     3D avec de la réalité augmentée etc.'
   export: true
 - type: question
-  titre: Indiquer quelles sont les conséquences positives et quelles sont les conséquences 
-    négatives.
+  titre: Quels sont selon vous les impacts humains des smartphones ? Citant-en quelques-uns.
   groupe: Groupe 3
   export: true
 - type: question
   titre: Trouver des impacts d'accessibilité.
   groupe: Groupe 3
-  export: true
+  export: false
 - type: question
   titre: Trouver des impacts géopolitiques.
   groupe: Groupe 3
-  export: true
+  export: false
 - type: question
   titre: Trouver des impacts professionnels.
   groupe: Groupe 3
-  export: true
+  export: false
 - type: question
   titre: Trouver des impacts psychologiques et humains.
   groupe: Groupe 3
-  export: true
+  export: false
 - type: jeu
   titre: Effet rebond
   image: effetrebond.avif
