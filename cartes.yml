@@ -276,7 +276,7 @@
 - type: jeu
   titre: Loi de Moore
   image: loimoore.jpg
-  groupe: Groupe 2
+  groupe: Groupe 4
   description: 'Plus il y a de puissance moins c''est optimisé.
 
 
@@ -307,7 +307,7 @@
 - type: jeu
   titre: Sac à dos écologique
   image: sacados.png
-  groupe: Groupe 2
+  groupe: Groupe 4
   description: 'Le sac à dos écologique du smartphone représente l''ensemble des ressources
     et impacts environnementaux invisibles mais nécessaires à sa fabrication, son
     utilisation et sa fin de vie. Bien que l''appareil tienne dans la poche, son empreinte
