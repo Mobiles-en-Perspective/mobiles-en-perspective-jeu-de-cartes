@@ -132,7 +132,7 @@
   groupe: Groupe 1
   export: true
 - type: question
-  titre: Que ce passe-t-il en fin vie d'un téléphone ?
+  titre: Que se passe-t-il en fin vie d'un téléphone ?
   groupe: Groupe 1
   export: true
 - type: reponse
@@ -150,7 +150,7 @@
     ordinaires, tandis qu'une autre partie est exportée illégalement vers des pays
     aux réglementations moins strictes, où elle est traitée dans des conditions dangereuses
     pour la santé humaine et l'environnement.
-  export: true
+  export: false
 - type: reponse
   titre: Nouveaux usages
   image: nouveauxusages.jpg
@@ -301,9 +301,9 @@
 - type: jeu
   titre: Rentabilité
   image: rentabilite.jpg
-  groupe: Groupe 2
+  groupe: Groupe 3
   description: 'Ce qui fait tourner le monde : le gain d’argent.'
-  export: true
+  export: false
 - type: jeu
   titre: Sac à dos écologique
   image: sacados.png
@@ -322,7 +322,7 @@
 - type: jeu
   titre: Stockage de données
   image: stockagededonnées.png
-  groupe: Groupe 2
+  groupe: Groupe 1
   description: 'L''utilisation quotidienne des smartphones génère une quantité massive
     de données souvent superflues. Stories éphémères, photos en rafale, messages vocaux,
     vidéos en double, replays de streams : ces contenus s''accumulent dans le cloud
@@ -335,7 +335,7 @@
 - type: jeu
   titre: Travail des enfants
   image: enfants.png
-  groupe: Groupe 2
+  groupe: Groupe 3
   description: La fabrication des smartphones est liée au travail des enfants, particulièrement
     dans les mines de cobalt et de coltan. Ces enfants travaillent dans des conditions
     dangereuses pour extraire les minerais essentiels aux batteries et composants
@@ -393,13 +393,7 @@
   titre: Beaucoup de téléphones restent dans les tiroirs
   image: telephonestiroirs.jpg
   groupe: Groupe 2
-  description: '**Environ 46 millions de téléphones traînent dans nos placards alors
-    qu''ils pourraient être reconditionnés ou recyclés.**
-
-
-    64 % des ménages français gardaient au moins un téléphone chez eux, en dépannage
-    ou parce qu''ils ne savaient pas quoi en faire. Les trois quarts fonctionnent
-    encore.'
+  description: '**Près de 46 millions de téléphones dorment dans les tiroirs français**, alors qu''ils pourraient être reconditionnés ou recyclés. Pourtant, les trois quarts fonctionnent encore et 64 % des ménages en conservent au moins un, faute de savoir qu''en faire.'
   sources: https://www.quechoisir.org/conseils-telephonie-mobile-vidons-nos-tiroirs-n114394/
   export: true
   sources:
@@ -653,7 +647,7 @@
 - type: jeu
   titre: Ré-emploi / Seconde main
   image: reemploi.png
-  groupe: Groupe 3
+  groupe: Groupe 1
   description: Le réemploi des smartphones est une solution efficace pour réduire
     l'impact environnemental du numérique. En donnant une seconde vie aux appareils
     encore fonctionnels via la revente, le don ou le reconditionnement professionnel,
