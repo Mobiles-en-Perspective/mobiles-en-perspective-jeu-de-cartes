@@ -38,56 +38,45 @@ Concluez cette phase en proposant aux participant.e.s de poser les questions qu'
 
 Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marquage permet de reconnaître ces cartes.
 
-### Tour de jeu 1 : Cycle de vie du téléphone (25mn)
+### Tour de jeu 1 : Cycle de vie du téléphone (25mn - 10mn jeu + 5mn correction, 5mn jeu + 5mn correction)
 
-#### Tour de jeu 1 - Phase 1 : cartes jeux (10mn)
+  1. Distribuez les cartes de la phase 1
+  2. Elles soivent être classées par ordre chronologique
+  3. Demandez quel est le thème (de la fabrication à l'usage) et ce qui manque (la fin de vie)
+  4. Donnez les 3 rubriques fin de vie (Qu'est-ce qui amène la fin de vie du téléphone ? Comment prolonger la vie du téléphone ? Qu'est-ce qui se passe en fin vie du téléphone ?)
+  5. Distribuez les cartes réponses et demandez de les classer
+  6. Corriger
 
-- Distribuez toutes les cartes jeu marquées pour le tour 1.
-- Ne distribuez pas les cartes questions ni réponses.
+### Tour de jeu 2 : conséquences écologiques (15mn jeu + 10mn débat)
 
-Le but de ce tour est que les partipants et participantes devinent qu'il s'agit du cycle de vie du téléphone.
-Ne leur indiquez pas que c'est le but de ce tour.
-L'ordre des cartes doit donc être chronologique : de la fabrication à la fin de vie du téléphone.
+  1. Faire 3 colonnes : impacts avant la fabrication, pendant et après. Les cartes peuvent correspondre à plusieurs colonnes.
+  2. Distribuez toutes les cartes
+  3. Le but est de classer chaque carte dans les colonnes
+  4. Corriger
 
-#### Tour de jeu 1 - Phase 2 : cartes questions et réponses (5mn + 10mn)
+### Tour de jeu 3 : Conséquences sociales (20mn - 15mn jeu + 5mn correction)
 
-Distribuez les 3 cartes questions en même temps. Veillez à ce que les cartes ne soient pas entre les mains de la même personne. Laissez les réfléchir 5 minutes.
-Mettez en commun pendant 10 minutes. Distribuez les cartes questions et réponses selon les réponses apportées.
-
-### Tour de jeu 2 : ressources (30mn)
-
-#### Tour de jeu 2 - Phase 1 : cartes jeux (10mn)
-
-Même principe de départ que pour le tour 1 :
-
-- Distribuez toutes les cartes jeu marquées pour le tour 2.
-- Ne distribuez pas les cartes questions ni réponses.
-
-#### Tour de jeu 2 - Phase 2 : cartes questions et réponses (5mn + 10mn)
-
-Distribuez les 2 cartes questions en même temps. Laissez les réfléchir 5 minutes.
-Mettez en commun pendant 10 minutes. Distribuez les cartes questions et réponses selon les réponses apportées.
-Proposez de tracer des flèches entre les ressources et les cartes cycle de vie.
-
-### Tour de jeu 3 : Conséquences (20mn)
-
-  1. Distribuez toutes les cartes du tour 3.
-  2. Demandez aux participants et participantes de les regrouper par thème. Les thèmes sont à deviner, mais ne sont pas figés.
-  3. Demandez ensuite de placer les cartes sur la fresque. Proposez aussi de tracer des flèches pour matérialiser les relations de cause / conséquence.
-  4. Demandez enfin d'indiquer parmi toutes les cartes du jeu quelles cartes sont des solutions et quelles cartes sont des problèmes. Pour ce faire, vous pouvez utiliser des gommettes de couleur. Note: Certaintes cartes sont à la fois des problèmes et à la fois des solutions.
-
+  1. Donnez les 4 thèmes (impacts professionnels, géopolitiques / politiques, accessibilité, et psychologiques / humains)
+  2. Distribuez toutes les cartes
+  3. Le but est de classer chaque carte dans les thèmes énoncés
+  4. Corriger
+     
 ## Étape 3 : Actions (30 minutes)
 
-Demandez à placer les cartes solutions sur un graphique d'impact :
+Distribuer des post-its aux participants. Commencencez par leur demander de saisir un fait marquant sur les impacts écologiques et un autre sur les impacts sociétaux.
+Demandez-leur ensuite de réfléchir à une solution pour chaque.
+
+Demandez enfin à placer ces deux actions dans une matrice impact / difficulté :
 
 - En haut à gauche : peu d'impact et facile
 - En haut à droite : beaucoup d'impact et facile
 - En bas à gauche : peu d'impact et difficile
 - En bas à droite : beaucoup d'impact et difficile
 
-Distribuer aussi des post-its pour que les participants et participantes puissent proposer leurs propres solutions.
 Basez-vous sur la fiche ordre de grandeur pour alimenter le débat.
 
 ## Étape 4 : Conclusion (10 minutes)
 
 Débriefez ensemble et demandez comment faire évoluer dans le bon sens l'atelier.
+Proposez, si vous l'avez, de remplir votre formulaire de satisfaction.
+Si vous êtes à deux tables, envisagez de faire le débriefing ensemble.
