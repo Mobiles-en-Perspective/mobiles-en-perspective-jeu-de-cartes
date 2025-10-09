@@ -23,7 +23,7 @@ Ce que vous vivrez :
 
 - Un moment d'échange détendu et enrichissant (aucun prérequis technique !)
 - Une approche ludique pour comprendre des enjeux complexes
-- De s discussions stimulantes avec d'autres participant·e·s
+- Des discussions stimulantes avec d'autres participant·e·s
 - Une réflexion collective sur les solutions à notre portée.
 
 ### Rappel des principes d'animation
