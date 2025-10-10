@@ -58,11 +58,12 @@ Séparer dès le départ la table en deux.
 
 ### Tour de jeu 3 : Conséquences sociales (20mn - 15mn jeu + 5mn correction)
 
-  1. Faire aparaître une nouvelle cellule dans la dernière colonne
-  2. Donnez les 4 thèmes (impacts professionnels, géopolitiques / politiques, accessibilité, et psychologiques / humains)
-  3. Distribuez toutes les cartes
-  4. Le but est de classer chaque carte dans les thèmes énoncés
-  5. Corriger
+  1. Ouvrir le tour de jeu avec la carte question. La discussion ne doit durer que 1-2 minutes max.
+  2. Faire aparaître une nouvelle cellule dans la dernière colonne
+  3. Donnez les 4 thèmes (impacts professionnels, géopolitiques / politiques, accessibilité, et psychologiques / humains)
+  4. Distribuez toutes les cartes
+  5. Le but est de classer chaque carte dans les thèmes énoncés
+  6. Corriger
      
 ## Étape 3 : Actions (30 minutes - 10mn pour faits et solution + 20mn de debrief en plénière)
 
