@@ -61,7 +61,7 @@ Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marqu
   3. Le but est de classer chaque carte dans les thèmes énoncés
   4. Corriger
      
-## Étape 3 : Actions (30 minutes - 10mn pour faits et solution + 20mn de debrief à deux tables)
+## Étape 3 : Actions (30 minutes - 10mn pour faits et solution + 20mn de debrief en plénière)
 
 Distribuer des post-its aux participants. Commencencez par leur demander de saisir un fait marquant sur les impacts écologiques et un autre sur les impacts sociétaux.
 Demandez-leur ensuite de réfléchir à une solution pour chaque.
@@ -74,6 +74,7 @@ Demandez enfin à placer ces deux actions dans une matrice impact / difficulté 
 - En bas à droite : beaucoup d'impact et difficile
 
 Basez-vous sur la fiche ordre de grandeur pour alimenter le débat.
+Débriefez en plénière (maximum 2 tables).
 
 ## Étape 4 : Conclusion (10 minutes)
 
