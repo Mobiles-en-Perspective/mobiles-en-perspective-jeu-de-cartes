@@ -692,7 +692,7 @@
     3D avec de la réalité augmentée etc.'
   export: true
 - type: question
-  titre: Quels sont selon vous les impacts humains des smartphones ? Citant-en quelques-uns.
+  titre: Quels sont selon vous les impacts humains des smartphones ?
   groupe: Groupe 3
   export: true
 - type: question
