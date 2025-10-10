@@ -7,6 +7,7 @@ Ce document s'adresse aux animateurs et animatrices du jeu.
 L'atelier se déroule en 4 étapes, pour une durée totale de 2h :
 
 - Une étape d'introduction, où le jeu est présenté par un.e ou plusieurs animateurs.trices
+- 8 personnes max par table
 - Plusieurs phases de jeu avec des cartes
 - Une phase action, portée sur ce que nous pouvons faire
 - Un debriefing
