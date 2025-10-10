@@ -38,16 +38,16 @@ Concluez cette phase en proposant aux participant.e.s de poser les questions qu'
 
 Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marquage permet de reconnaître ces cartes.
 
-### Tour de jeu 1 : Cycle de vie du téléphone (25mn - 10mn jeu + 5mn correction, 5mn jeu + 5mn correction)
+### Tour de jeu 1 : Cycle de vie du téléphone (30mn - 10mn jeu + 5mn correction, 10mn jeu + 5mn correction)
 
   1. Distribuez les cartes de la phase 1
-  2. Elles soivent être classées par ordre chronologique
+  2. Demandez aux participants de les classer. Ils doivent normalement les classer par ordre chronologique. Si jamais le thème est différent, expliquer pourquoi on attendait autre chose.
   3. Demandez quel est le thème (de la fabrication à l'usage) et ce qui manque (la fin de vie)
   4. Donnez les 3 rubriques fin de vie (Qu'est-ce qui amène la fin de vie du téléphone ? Comment prolonger la vie du téléphone ? Qu'est-ce qui se passe en fin vie du téléphone ?)
   5. Distribuez les cartes réponses et demandez de les classer
   6. Corriger
 
-### Tour de jeu 2 : conséquences écologiques (15mn jeu + 10mn débat)
+### Tour de jeu 2 : conséquences écologiques (20mn - 15mn jeu + 5mn débat)
 
   1. Faire 3 colonnes : impacts avant la fabrication, pendant et après. Les cartes peuvent correspondre à plusieurs colonnes.
   2. Distribuez toutes les cartes
@@ -61,7 +61,7 @@ Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marqu
   3. Le but est de classer chaque carte dans les thèmes énoncés
   4. Corriger
      
-## Étape 3 : Actions (30 minutes)
+## Étape 3 : Actions (30 minutes - 10mn pour faits et solution + 20mn de debrief à deux tables)
 
 Distribuer des post-its aux participants. Commencencez par leur demander de saisir un fait marquant sur les impacts écologiques et un autre sur les impacts sociétaux.
 Demandez-leur ensuite de réfléchir à une solution pour chaque.
