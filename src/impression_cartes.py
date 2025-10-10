@@ -80,7 +80,7 @@ CARD_WIDTH = PAGE_WIDTH / 2
 CARD_HEIGHT = PAGE_HEIGHT / 2
 CARD_MARGIN_X = 0
 CARD_MARGIN_Y = 0
-IMAGE_HEIGHT = CARD_HEIGHT * 0.5  # Hauteur uniforme pour les images
+IMAGE_HEIGHT = CARD_HEIGHT * 0.65  # Hauteur uniforme pour les images (65% de la hauteur de carte)
 
 
 # Enregistrement des polices locales

@@ -51,7 +51,7 @@ Chaque carte possède un attribut `type` :
 
 #### Recto (pages impaires)
 - En haut et centré : le **titre** (gras, police Roboto, couleur selon le groupe).
-- Au centre : l’image (centrée, retaillée pour une hauteur uniforme, aspect ratio conservé, rognage latéral possible).
+- Au centre : l'image (centrée, retaillée pour une hauteur uniforme de 65% de la hauteur de la carte, aspect ratio conservé, rognage latéral possible).
 - En bas et centré : le **groupe** (gras, police Roboto, couleur selon le groupe).
 
 #### Verso (pages paires)
