@@ -7,7 +7,7 @@ Ce document s'adresse aux animateurs et animatrices du jeu.
 L'atelier se déroule en 4 étapes, pour une durée totale de 2h :
 
 - Une étape d'introduction, où le jeu est présenté par un.e ou plusieurs animateurs.trices
-- 8 personnes max par table
+- 8 personnes max par table. Prévoir une autre table pour la matrice actions.
 - Plusieurs phases de jeu avec des cartes
 - Une phase action, portée sur ce que nous pouvons faire
 - Un debriefing
@@ -38,36 +38,38 @@ Concluez cette phase en proposant aux participant.e.s de poser les questions qu'
 ## Étape 2 : Jeu de cartes (1h10)
 
 Il existe des cartes jeu, des cartes questions et des cartes réponses. Un marquage permet de reconnaître ces cartes.
+Séparer dès le départ la table en deux.
 
 ### Tour de jeu 1 : Cycle de vie du téléphone (30mn - 10mn jeu + 5mn correction, 10mn jeu + 5mn correction)
 
   1. Distribuez les cartes de la phase 1
   2. Demandez aux participants de les classer. Ils doivent normalement les classer par ordre chronologique. Si jamais le thème est différent, expliquer pourquoi on attendait autre chose.
   3. Demandez quel est le thème (de la fabrication à l'usage) et ce qui manque (la fin de vie)
-  4. Donnez les 3 rubriques fin de vie (Qu'est-ce qui amène la fin de vie du téléphone ? Comment prolonger la vie du téléphone ? Qu'est-ce qui se passe en fin vie du téléphone ?)
-  5. Distribuez les cartes réponses et demandez de les classer
-  6. Corriger
-
+  4. Posez les questions fin de vie (Qu'est-ce qui amène la fin de vie du téléphone ? Comment prolonger la vie du téléphone ? Qu'est-ce qui se passe en fin vie du téléphone ?)
+  5. Faire deviner les réponses
+     
 ### Tour de jeu 2 : conséquences écologiques (20mn - 15mn jeu + 5mn débat)
 
-  1. Faire 3 colonnes : impacts avant la fabrication, pendant et après. Les cartes peuvent correspondre à plusieurs colonnes.
+  1. Faire apparaître les 3 colonnes de la phase 1 : impacts avant la fabrication, pendant l'usage et lors de la fin de vie. Les cartes peuvent correspondre à plusieurs colonnes.
   2. Distribuez toutes les cartes
   3. Le but est de classer chaque carte dans les colonnes
   4. Corriger
+  5. Distribuez toutes les cartes questions et réponses
 
 ### Tour de jeu 3 : Conséquences sociales (20mn - 15mn jeu + 5mn correction)
 
-  1. Donnez les 4 thèmes (impacts professionnels, géopolitiques / politiques, accessibilité, et psychologiques / humains)
-  2. Distribuez toutes les cartes
-  3. Le but est de classer chaque carte dans les thèmes énoncés
-  4. Corriger
+  1. Faire aparaître une nouvelle cellule dans la dernière colonne
+  2. Donnez les 4 thèmes (impacts professionnels, géopolitiques / politiques, accessibilité, et psychologiques / humains)
+  3. Distribuez toutes les cartes
+  4. Le but est de classer chaque carte dans les thèmes énoncés
+  5. Corriger
      
 ## Étape 3 : Actions (30 minutes - 10mn pour faits et solution + 20mn de debrief en plénière)
 
 Distribuer des post-its aux participants. Commencencez par leur demander de saisir un fait marquant sur les impacts écologiques et un autre sur les impacts sociétaux.
 Demandez-leur ensuite de réfléchir à une solution pour chaque.
 
-Demandez enfin à placer ces deux actions dans une matrice impact / difficulté :
+Demandez enfin à placer ces deux actions dans une matrice impact / difficulté sur la matrice commune :
 
 - En haut à gauche : peu d'impact et facile
 - En haut à droite : beaucoup d'impact et facile
