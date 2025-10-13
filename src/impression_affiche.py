@@ -311,21 +311,26 @@ def draw_qr_codes(c, y_start):
     """
     qr_codes_data = [
         {
+            # Partager vos retours d'expérience sur l'atelier
             'url': 'https://openfeedback.io/devfestnantes2025/2025-10-16/mobilesenperspectivequelsimpactssociauxetenvironnementauxontnoss',
             'label': 'Donnez-nous votre feedback !',
             'color': COLOR_BLUE
         },
         {
+            # Accéder au dépôt GitHub du projet pour consulter le code, les cartes et la documentation
             'url': 'https://github.com/Mobiles-en-Perspective/mobiles-en-perspective-jeu-de-cartes',
             'label': 'Consulter le code source',
             'color': COLOR_GREEN
         },
         {
+            # Ce formulaire permet de proposer de nouvelles cartes, partager des ordres de grandeur,
+            # signaler des erreurs, suggérer des améliorations et signaler des sources qui ne fonctionnent plus
             'url': 'https://framaforms.org/contribuer-au-jeu-de-cartes-mobiles-en-perspective-1757966394',
-            'label': 'Contribuer au projet',
+            'label': 'Contribuer simplement avec le formulaire',
             'color': COLOR_ORANGE
         },
         {
+            # Télécharger la dernière version du jeu et des ressources associées
             'url': 'https://github.com/Mobiles-en-Perspective/mobiles-en-perspective-jeu-de-cartes/releases/latest',
             'label': 'Télécharger le jeu',
             'color': COLOR_PURPLE
