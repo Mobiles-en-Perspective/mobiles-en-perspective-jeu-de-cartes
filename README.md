@@ -1,5 +1,7 @@
 # Mobiles en Perspective: quels impacts sociaux et environnementaux ont nos smartphones ? - Jeu de cartes
 
+![Logo - Mobiles en perspective](https://avatars.githubusercontent.com/u/228016686?s=200&v=4)
+
 ## Présentation du jeu
 
 Il était une fois, en 2007, une révolution qui a changé nos vies : l'arrivée du smartphone. Mais comme dans tous les contes, cette innovation cache des faces moins reluisantes...
