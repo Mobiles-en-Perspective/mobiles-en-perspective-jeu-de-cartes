@@ -101,13 +101,28 @@ def process_image(image_path, carte_titre):
     try:
         img = Image.open(image_path)
         w, h = img.size
-        scale = IMAGE_HEIGHT / h
+        
+        # Convertir les dimensions ReportLab en pixels à 300 DPI pour une qualité d'impression optimale
+        # 1 point ReportLab = 1/72 pouce, donc on multiplie par 300/72 pour obtenir des pixels à 300 DPI
+        DPI = 300
+        POINTS_TO_PIXELS = DPI / 72.0
+        
+        target_height_pixels = int(IMAGE_HEIGHT * POINTS_TO_PIXELS)
+        target_width_pixels = int((CARD_WIDTH - 20) * POINTS_TO_PIXELS)
+        
+        # Calculer le ratio de redimensionnement basé sur la hauteur cible
+        scale = target_height_pixels / h
         new_w = int(w * scale)
-        img = img.resize((new_w, int(IMAGE_HEIGHT)), Image.LANCZOS)
+        new_h = target_height_pixels
+        
+        # Redimensionner l'image avec une haute résolution
+        img = img.resize((new_w, new_h), Image.LANCZOS)
+        
         # Rogner les côtés si trop large
-        if new_w > CARD_WIDTH - 20:
-            left = (new_w - (CARD_WIDTH - 20)) // 2
-            img = img.crop((left, 0, left + int(CARD_WIDTH - 20), int(IMAGE_HEIGHT)))
+        if new_w > target_width_pixels:
+            left = (new_w - target_width_pixels) // 2
+            img = img.crop((left, 0, left + target_width_pixels, new_h))
+        
         return ImageReader(img)
     except Exception as e:
         print(f"[ERREUR IMAGE] Carte '{carte_titre}' : {image_path} -- {e}")
