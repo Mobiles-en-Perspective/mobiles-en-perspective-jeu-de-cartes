@@ -2,3 +2,4 @@ reportlab
 PyYAML
 Pillow
 requests
+qrcode[pil]>=7.4.0

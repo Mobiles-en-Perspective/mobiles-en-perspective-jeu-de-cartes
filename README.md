@@ -26,25 +26,17 @@ Les règles du jeu sont détaillées dans le fichier [regles.md](regles.md)
 
 Les donneés des cartes sont dans le fichier [cartes.yml](cartes.yml)
 
-## Script d'impression
+## Scripts d'impression
 
-### Spécifications
-
-Les spécifications sont dans le fichier [specs-impression.md](specs-impression.md)
-
-### Exemple d'utilisation
-
-Pour générer le PDF d'impression des cartes :
-
-#### Installation des dépendances
+### Installation des dépendances
 
 ```sh
 pip install -r src/requirements.txt
 ```
 
-#### (Optionnel) Utilisation d'un environnement virtuel Python
+### (Optionnel) Utilisation d'un environnement virtuel Python
 
-Pour isoler les dépendances du projet, vous pouvez utiliser un environnement virtuel :
+Pour isoler les dépendances du projet, vous pouvez utiliser un environnement virtuel :
 
 ```sh
 python3 -m venv .venv
@@ -52,13 +44,17 @@ source .venv/bin/activate
 pip install -r src/requirements.txt
 ```
 
-Pour quitter l'environnement virtuel :
+Pour quitter l'environnement virtuel :
 
 ```sh
 deactivate
 ```
 
-#### Génération du PDF
+### Impression des cartes
+
+**Spécifications** : [specs-impression.md](specs-impression.md)
+
+Pour générer le PDF d'impression des cartes :
 
 ```sh
 python src/impression_cartes.py -o cartes-impression.pdf
@@ -67,6 +63,20 @@ python src/impression_cartes.py -o cartes-impression.pdf
 - Le PDF sera généré dans le fichier indiqué (par défaut `cartes-impression.pdf`).
 - Les cartes sont disposées pour une impression recto-verso et un découpage manuel.
 - Les polices et couleurs sont gérées automatiquement.
+
+### Affiche de présentation
+
+**Spécifications** : [specs-affiche.md](specs-affiche.md)
+
+Pour générer l'affiche A3 de présentation du jeu avec QR codes :
+
+```sh
+python src/impression_affiche.py -o affiche-presentation.pdf
+```
+
+- L'affiche est au format A3 portrait.
+- Elle contient le titre, la présentation du jeu, le logo et 4 QR codes (feedback, code source, contribution, téléchargement).
+- Idéale pour affichage lors des ateliers.
 
 ## Contribuer au projet
 
